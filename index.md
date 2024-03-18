@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: 집
 nav_order: 1
-description: "Home"
+description: "집"
 permalink: /
 ---
 

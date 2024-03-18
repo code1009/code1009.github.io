@@ -1,7 +1,7 @@
 ---
 layout: default
 title: krc
-parent: codes
+parent: 코드
 nav_order: 5
 ---
 

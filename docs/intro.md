@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Intro
+title: 소개
 nav_order: 3
 ---
 

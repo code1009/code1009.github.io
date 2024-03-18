@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Start
+title: 시작
 nav_order: 2
 ---
 
