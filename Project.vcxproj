@@ -20,7 +20,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
+    <None Include="docs\codes\index.md" />
+    <None Include="docs\codes\krc.md" />
+    <None Include="docs\intro.md" />
+    <None Include="docs\start.md" />
+    <None Include="index.md" />
     <None Include="_config.yml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="docs\codes\hangul.jpg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

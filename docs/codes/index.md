@@ -17,4 +17,3 @@ permalink: /docs/codes
 
 ---
 
-## code list

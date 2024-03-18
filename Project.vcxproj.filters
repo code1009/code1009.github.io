@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="_config.yml">
+      <Filter>conf</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>conf</Filter>
+    </None>
+    <None Include="index.md">
+      <Filter>root</Filter>
+    </None>
+    <None Include="docs\codes\index.md">
+      <Filter>root\docs\codes</Filter>
+    </None>
+    <None Include="docs\codes\krc.md">
+      <Filter>root\docs\codes</Filter>
+    </None>
+    <None Include="docs\intro.md">
+      <Filter>root\docs</Filter>
+    </None>
+    <None Include="docs\start.md">
+      <Filter>root\docs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="conf">
+      <UniqueIdentifier>{0fe2d7ba-155d-4455-9d06-a69da5fa50f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="root">
+      <UniqueIdentifier>{d507ecb8-f895-4841-a0fa-1e6321b53987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="root\docs">
+      <UniqueIdentifier>{cad943dd-0510-4494-b0f3-e19bb1795435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="root\docs\codes">
+      <UniqueIdentifier>{31cb0fc2-dd70-4875-b2e3-36b2058996cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="docs\codes\hangul.jpg">
+      <Filter>root\docs\codes</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
