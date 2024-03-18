@@ -12,10 +12,7 @@ permalink: /
 GitHub Pages.
 {: .fs-6 .fw-300 }
 
-
 ---
-
-[github](https://github.com/code1009/krc){: .btn }
 
 ## 집
 1234
