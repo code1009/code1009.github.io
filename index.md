@@ -9,13 +9,12 @@ permalink: /
 # 집
 {: .fs-9 }
 
-GitHub Pages.
+셈말짓기 깃허브 페이지.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 집
-1234
+## url
+https://code1009.github.io/
 
-## 방
-1234
+
