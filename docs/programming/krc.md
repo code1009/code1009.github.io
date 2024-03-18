@@ -2,7 +2,7 @@
 layout: default
 title: 한글 코드 라이브러리(krc)
 parent: 셈말짓기
-nav_order: 5
+nav_order: 101
 ---
 
 # 한글 코드 라이브러리(krc)
