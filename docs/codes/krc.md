@@ -27,6 +27,7 @@ unicode(ucs2)
 utf8  
 
 ### 위치
-[github](https://github.com/code1009/krc){: .btn .btn-purple }https://github.com/code1009/krc   
+https://github.com/code1009/krc  
+[github](https://github.com/code1009/krc){: .btn .btn-purple }
 
 
