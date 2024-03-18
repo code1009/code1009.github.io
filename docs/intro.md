@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Start
-nav_order: 2
+title: Intro
+nav_order: 4
 ---
 
-# 시작
+# 소개
 {: .no_toc }
 
-시작하자.
+소개하자.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -18,4 +18,4 @@ nav_order: 2
 
 ---
 
-aa
+aa bb
