@@ -28,6 +28,12 @@
     <None Include="docs\3000-code1009-lib\krc.md" />
     <None Include="docs\intro.md" />
     <None Include="index.md" />
+    <None Include="release\v1\base-table.css" />
+    <None Include="release\v1\base.css" />
+    <None Include="release\v1\body-h-auto_no.css" />
+    <None Include="release\v1\entry-h.css" />
+    <None Include="release\v1\entry_content-h-auto_no.css" />
+    <None Include="release\v1\page.html" />
     <None Include="_config.yml" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

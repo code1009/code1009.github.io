@@ -21,6 +21,7 @@
 }
 
 
+
 .entry_content h2::before {
   counter-increment: h2counter;
   content: counter(h2counter) ". ";
