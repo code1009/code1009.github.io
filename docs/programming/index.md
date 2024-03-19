@@ -9,6 +9,6 @@ permalink: /docs/programming
 # 셈말짓기
 {: .no_toc }
 
-프로그래밍.
+프로그래밍 정보를 소개 합니다.
 {: .fs-6 .fw-300 }
 
