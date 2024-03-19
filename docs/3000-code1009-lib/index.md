@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 셈말짓기(lib)
+title: 셈말짓기 도서관
 nav_order: 3000
 has_children: true
 permalink: /docs/3000-code1009-lib
