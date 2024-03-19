@@ -19,17 +19,17 @@
     <None Include="docs\1000-tip\just_the_docs.md">
       <Filter>root\docs\1000-tip</Filter>
     </None>
-    <None Include="docs\2000-code1009-tech\index.md">
-      <Filter>root\docs\2000-code1009-tech</Filter>
-    </None>
-    <None Include="docs\2000-code1009-tech\한글코드.md">
-      <Filter>root\docs\2000-code1009-tech</Filter>
-    </None>
     <None Include="docs\3000-code1009-lib\index.md">
       <Filter>root\docs\3000-code1009-lib</Filter>
     </None>
     <None Include="docs\3000-code1009-lib\krc.md">
       <Filter>root\docs\3000-code1009-lib</Filter>
+    </None>
+    <None Include="docs\2000-code1009\한글코드.md">
+      <Filter>root\docs\2000-code1009</Filter>
+    </None>
+    <None Include="docs\2000-code1009\index.md">
+      <Filter>root\docs\2000-code1009</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -45,11 +45,11 @@
     <Filter Include="root\docs\3000-code1009-lib">
       <UniqueIdentifier>{f20ad5a1-f3e2-476a-9dad-2aadf2559bd4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="root\docs\2000-code1009-tech">
-      <UniqueIdentifier>{5c10978f-8bae-43df-bec6-989d393fd7a2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="root\docs\1000-tip">
       <UniqueIdentifier>{0dc8c5ca-2ec5-46bc-8501-2d00e8b8b0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="root\docs\2000-code1009">
+      <UniqueIdentifier>{5c10978f-8bae-43df-bec6-989d393fd7a2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
