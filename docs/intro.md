@@ -18,7 +18,7 @@ nav_order: 3
 
 ---
 
-![](./intro-hellonogadaworld.gif)
+![](./intro-hello_no_ga_da_world.gif)
 
 
 ## 셈말짓기 
@@ -59,5 +59,5 @@ C++용 클래스 라이브러리를 만들었던 것의 코드명입니다.
 중학교때 한창 만화 그리는 것을 좋아해서 어떻게 하다보니 만들게 된 나의 마스코드.  
 소프트웨어가 한글로 무른모라는 말이 있는데, 거기서 생각해서 부드럽다라는 의미로 무르라고 지었습니다.  
 
-![](./intro-mooroo.jpg)
+![](./intro-moo_roo.jpg)
 

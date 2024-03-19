@@ -14,6 +14,4 @@ permalink: /
 ---
 
 ## url
-https://code1009.github.io/
-
-
+[https://code1009.github.io/](https://code1009.github.io/)

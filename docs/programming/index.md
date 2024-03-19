@@ -1,9 +1,9 @@
 ---
 layout: default
 title: 셈말짓기
-nav_order: 100
+nav_order: 200
 has_children: true
-permalink: /docs/codes
+permalink: /docs/programming
 ---
 
 # 셈말짓기

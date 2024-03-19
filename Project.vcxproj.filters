@@ -19,6 +19,12 @@
     <None Include="docs\programming\krc.md">
       <Filter>root\docs\programming</Filter>
     </None>
+    <None Include="docs\tip\index.md">
+      <Filter>root\docs\tip</Filter>
+    </None>
+    <None Include="docs\tip\just_the_docs.md">
+      <Filter>root\docs\tip</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="conf">
@@ -32,6 +38,9 @@
     </Filter>
     <Filter Include="root\docs\programming">
       <UniqueIdentifier>{4712d557-9bcb-41fd-8a06-a7dc32cf4abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="root\docs\tip">
+      <UniqueIdentifier>{23b2bbf0-bfee-4a56-9d1c-53f41d71b532}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
