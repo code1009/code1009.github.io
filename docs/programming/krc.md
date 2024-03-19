@@ -28,8 +28,5 @@ utf8
 
 
 
-## 위치
-https://github.com/code1009/krc  
-[github](https://github.com/code1009/krc){: .btn .btn-purple }
-
-
+## url
+[https://github.com/code1009/krc/](https://github.com/code1009/krc/)  
