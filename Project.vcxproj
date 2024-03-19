@@ -20,6 +20,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
+    <None Include="docs\1000-tip\index.md" />
+    <None Include="docs\1000-tip\just_the_docs.md" />
+    <None Include="docs\2000-code1009-tech\index.md" />
+    <None Include="docs\2000-code1009-tech\한글코드.md" />
+    <None Include="docs\3000-code1009-lib\index.md" />
+    <None Include="docs\3000-code1009-lib\krc.md" />
     <None Include="docs\intro.md" />
     <None Include="index.md" />
     <None Include="_config.yml" />
