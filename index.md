@@ -19,5 +19,6 @@ permalink: /
 
 
 
-{: .highlight }
+---
 수정: 2024년 03월 19일  
+  
