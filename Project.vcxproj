@@ -34,6 +34,8 @@
     <None Include="release\v1\entry-h.css" />
     <None Include="release\v1\entry_content-h-auto_no.css" />
     <None Include="release\v1\page.html" />
+    <None Include="release\v1\sidebar.css" />
+    <None Include="release\v1\sidebar.js" />
     <None Include="_config.yml" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

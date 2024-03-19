@@ -49,6 +49,12 @@
     <None Include="release\v1\page.html">
       <Filter>root\NewFilter1</Filter>
     </None>
+    <None Include="release\v1\sidebar.css">
+      <Filter>root\NewFilter1</Filter>
+    </None>
+    <None Include="release\v1\sidebar.js">
+      <Filter>root\NewFilter1</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="conf">

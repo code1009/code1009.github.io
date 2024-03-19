@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible_content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.active {
+    background-color: #555;
+}
+
+.collapsible:hover {
+    background-color: #555;
+}
+
+
+
+
+
+.sidebar {
+    width          : 320px;
+    position       : fixed;
+    z-index        : 1;
+    top            : 20px;
+    left           : 10px;
+    background     : #eee;
+    overflow-x     : hidden;
+    padding        : 8px 0;
+}
+
+.sidebar a {
+    padding        : 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size      : 25px;
+    color          : #2196F3;
+    display        : block;
+}
+
+.sidebar a:hover {
+    color          : #064579;
+}
+
+.main {
+    margin-left: 320px; /* Same width as the sidebar + left position in px */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {
+    padding-top: 15px;
+}
+
+.sidenav a {
+    font-size: 18px;
+}
+
+}
