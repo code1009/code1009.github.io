@@ -30,3 +30,8 @@ utf8
 
 ## url
 [https://github.com/code1009/krc/](https://github.com/code1009/krc/)  
+
+
+---
+  
+마지막 업데이트: 2024년 03월 19일  
