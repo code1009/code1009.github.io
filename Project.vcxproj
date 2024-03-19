@@ -21,10 +21,6 @@
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="docs\intro.md" />
-    <None Include="docs\programming\index.md" />
-    <None Include="docs\programming\krc.md" />
-    <None Include="docs\tip\index.md" />
-    <None Include="docs\tip\just_the_docs.md" />
     <None Include="index.md" />
     <None Include="_config.yml" />
   </ItemGroup>

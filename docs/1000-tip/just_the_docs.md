@@ -2,7 +2,7 @@
 layout: default
 title: Just the Docs
 parent: 유용한 정보
-nav_order: 101
+nav_order: 1001
 ---
 
 # Just the Docs

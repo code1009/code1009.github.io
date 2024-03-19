@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 한글 코드 라이브러리(krc)
-parent: 셈말짓기
-nav_order: 201
+parent: 셈말짓기(lib)
+nav_order: 3001
 ---
 
 # 한글 코드 라이브러리(krc)

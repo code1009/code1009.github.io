@@ -1,9 +1,9 @@
 ---
 layout: default
 title: 유용한 정보
-nav_order: 100
+nav_order: 1000
 has_children: true
-permalink: /docs/tip
+permalink: /docs/1000-tip
 ---
 
 # 유용한 정보
