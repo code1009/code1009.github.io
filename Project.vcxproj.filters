@@ -10,17 +10,14 @@
     <None Include="index.md">
       <Filter>root</Filter>
     </None>
-    <None Include="docs\codes\index.md">
-      <Filter>root\docs\codes</Filter>
-    </None>
-    <None Include="docs\codes\krc.md">
-      <Filter>root\docs\codes</Filter>
-    </None>
     <None Include="docs\intro.md">
       <Filter>root\docs</Filter>
     </None>
-    <None Include="docs\start.md">
-      <Filter>root\docs</Filter>
+    <None Include="docs\programming\index.md">
+      <Filter>root\docs\programming</Filter>
+    </None>
+    <None Include="docs\programming\krc.md">
+      <Filter>root\docs\programming</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -33,13 +30,8 @@
     <Filter Include="root\docs">
       <UniqueIdentifier>{cad943dd-0510-4494-b0f3-e19bb1795435}</UniqueIdentifier>
     </Filter>
-    <Filter Include="root\docs\codes">
-      <UniqueIdentifier>{31cb0fc2-dd70-4875-b2e3-36b2058996cd}</UniqueIdentifier>
+    <Filter Include="root\docs\programming">
+      <UniqueIdentifier>{4712d557-9bcb-41fd-8a06-a7dc32cf4abc}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="docs\codes\hangul.jpg">
-      <Filter>root\docs\codes</Filter>
-    </Image>
   </ItemGroup>
 </Project>

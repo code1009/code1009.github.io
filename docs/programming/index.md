@@ -12,5 +12,3 @@ permalink: /docs/codes
 프로그래밍.
 {: .fs-6 .fw-300 }
 
----
-
