@@ -18,8 +18,8 @@ nav_order: 1003
 
 ## vcpkg 설치하기
 - ref  
-https://vcpkg.io/en/index.html  
-https://vcpkg.io/en/packages
+[https://vcpkg.io/en/index.html](https://vcpkg.io/en/index.html)  
+[https://vcpkg.io/en/packages](https://vcpkg.io/en/packages)  
 
 
 ### 1. {vs2022/메뉴/도구/명령줄/개발자 명령 프롬프트} 실행
