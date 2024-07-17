@@ -53,6 +53,7 @@ C:\vcpkg\vcpkg>
 ### 3. vcpkg 빌드  
 - bootstrap-vcpkg.bat  
 - vcpkg.exe 만들기  
+
 ```
 
 C:\vcpkg\vcpkg>dir
@@ -86,7 +87,7 @@ C:\vcpkg\vcpkg>dir
 2024-07-04  오후 10:36    <DIR>          versions
               14개 파일              29,892 바이트
                9개 디렉터리  691,301,515,264 바이트 남음
-			   
+
 ```
 
 ```
