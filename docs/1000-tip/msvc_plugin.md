@@ -1,6 +1,6 @@
 ---
 layout: default
-title: visual studio 기본 설정
+title: Visual Studio Plugin
 parent: 유용한 정보
 nav_order: 1002
 ---

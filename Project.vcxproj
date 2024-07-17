@@ -22,7 +22,7 @@
     <None Include=".gitignore" />
     <None Include="docs\1000-tip\index.md" />
     <None Include="docs\1000-tip\just_the_docs.md" />
-    <None Include="docs\1000-tip\msvc_basic_setting.md" />
+    <None Include="docs\1000-tip\msvc_plugin.md" />
     <None Include="docs\1000-tip\vcpkg.md" />
     <None Include="docs\2000-code1009\index.md" />
     <None Include="docs\2000-code1009\한글코드.md" />
