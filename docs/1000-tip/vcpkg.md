@@ -16,13 +16,14 @@ nav_order: 1003
 
 ---
 
-## vcpkg 설치하기
+
+## vcpkg 설치하기  
 - ref  
 [https://vcpkg.io/en/index.html](https://vcpkg.io/en/index.html)  
 [https://vcpkg.io/en/packages](https://vcpkg.io/en/packages)  
 
 
-### 1. {vs2022/메뉴/도구/명령줄/개발자 명령 프롬프트} 실행
+### 1. {vs2022/메뉴/도구/명령줄/개발자 명령 프롬프트} 실행  
 ```
 
 **********************************************************************
@@ -34,7 +35,7 @@ E:\>
 ```
 
 
-### 2. github에서 git으로 vcpkg clone
+### 2. github에서 git으로 vcpkg clone  
 ```
 
 E:\>c:
@@ -49,10 +50,9 @@ C:\vcpkg\vcpkg>
 ```
 
 
-### 3. vcpkg 빌드
+### 3. vcpkg 빌드  
 - bootstrap-vcpkg.bat  
 - vcpkg.exe 만들기  
-
 ```
 
 C:\vcpkg\vcpkg>dir
@@ -153,7 +153,7 @@ C:\vcpkg\vcpkg>dir
 ```
 
 
-### 4. vcpkg와 Visual Studio 연동
+### 4. vcpkg와 Visual Studio 연동  
 - vcpkg integrate install  
 ```
 
@@ -170,9 +170,9 @@ C:\vcpkg\vcpkg>
 ```
 
 
-### 5. vcpkg와 .vcxproj연동
-- .vcxproj 파일과 같은 위치에 vcpkg.json 파일 작성.
-- vcpkg.json  내용
+### 5. vcpkg와 .vcxproj연동  
+- .vcxproj 파일과 같은 위치에 vcpkg.json 파일 작성  
+- vcpkg.json  내용  
 ```
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
@@ -188,7 +188,7 @@ C:\vcpkg\vcpkg>
 ```
 
 
-- 프로젝트 속성 페이지/구성 속성/vcpkg
+- 프로젝트 속성 페이지/구성 속성/vcpkg  
 ```
 +-------------------------------------------------------------------+
 |v General                                                          |
@@ -216,7 +216,7 @@ C:\vcpkg\vcpkg>
 ```
 
 
-- 위와 같이 설정시 아래 내용이 .vcxproj 파일에 추가 됨
+- 위와 같이 설정시 아래 내용이 .vcxproj 파일에 추가 됨  
 ```
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Label="Vcpkg">
