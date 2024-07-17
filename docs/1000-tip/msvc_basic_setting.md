@@ -31,11 +31,11 @@ nav_order: 1002
 
 	https://learn.microsoft.com/en-us/windows/apps/design/globalizing/use-utf8-code-page
 
-	<application xmlns = "urn:schemas-microsoft-com:asm.v3">
+	<application xmlns="urn:schemas-microsoft-com:asm.v3">
 		<windowsSettings>
-		<activeCodePage xmlns = "http://schemas.microsoft.com/SMI/2019/WindowsSettings">UTF - 8 < / activeCodePage >
-		<dpiAware xmlns = "http://schemas.microsoft.com/SMI/2005/WindowsSettings">true< / dpiAware>
-		<dpiAwareness xmlns = "http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2, PerMonitor< / dpiAwareness>
+		<activeCodePage xmlns="http://schemas.microsoft.com/SMI/2019/WindowsSettings">UTF - 8 </activeCodePage>
+		<dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
+		<dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2, PerMonitor</dpiAwareness>
 		</windowsSettings>
 	</application>
 	*/
