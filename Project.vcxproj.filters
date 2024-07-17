@@ -55,7 +55,7 @@
     <None Include="release\v1\sidebar.js">
       <Filter>root\v1</Filter>
     </None>
-    <None Include="docs\1000-tip\msvc_plugin.md">
+    <None Include="docs\1000-tip\msvc_basic_setting.md">
       <Filter>root\docs\1000-tip</Filter>
     </None>
     <None Include="docs\1000-tip\vcpkg.md">

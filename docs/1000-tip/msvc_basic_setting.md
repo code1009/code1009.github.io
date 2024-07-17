@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Visual Studio Plugin
+title: Visual Studio 기본 설정
 parent: 유용한 정보
 nav_order: 1002
 ---
 
-# Visual Studio Plugin
+# Visual Studio 기본 설정
 {: .no_toc }
 
 ## Table of contents
@@ -15,6 +15,42 @@ nav_order: 1002
 {:toc}
 
 ---
+
+## Visual Studio 빌드 옵션
+
+### 소스 파일 경로에 따라서 obj 파일 생성 하기
+```
+구성 속성/
+	C/C++/
+		출력 파일/
+			개체 파일 이름: $(IntDir)
+			에서
+			개체 파일 이름: $(IntDir)%(RelativeDir)
+			으로
+```
+---
+
+## Visual Studio 필수 오픈 소스 라이브러리
+
+### Visual Leak Detector
+[https://kinddragon.github.io/vld/](https://kinddragon.github.io/vld/)  
+[https://github.com/oneiric/vld](https://github.com/oneiric/vld)  
+[https://github.com/dmoulding/vld](https://github.com/dmoulding/vld)  
+
+```
+#if 0
+#ifdef _DEBUG
+
+#include "../vld/include/vld.h"
+
+// 추가 라이브러리 디렉토리:
+// $(ProjectDir)\vld\lib\Win64;%(AdditionalLibraryDirectories)
+
+#endif // _DEBUG
+#endif
+```
+
+----------------------------------------------------------------------------
 
 ## Visual Studio Plugin 
 
