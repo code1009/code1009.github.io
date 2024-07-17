@@ -173,7 +173,7 @@ C:\vcpkg\vcpkg>
 
 ### 5. vcpkg와 .vcxproj연동  
 - .vcxproj 파일과 같은 위치에 vcpkg.json 파일 작성  
-- vcpkg.json  내용  
+- vcpkg.json 내용  
 ```
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
