@@ -32,28 +32,34 @@
       <Filter>root\docs\2000-code1009</Filter>
     </None>
     <None Include="release\v1\base.css">
-      <Filter>root\NewFilter1</Filter>
+      <Filter>root\v1</Filter>
     </None>
     <None Include="release\v1\base-table.css">
-      <Filter>root\NewFilter1</Filter>
+      <Filter>root\v1</Filter>
     </None>
     <None Include="release\v1\body-h-auto_no.css">
-      <Filter>root\NewFilter1</Filter>
+      <Filter>root\v1</Filter>
     </None>
     <None Include="release\v1\entry_content-h-auto_no.css">
-      <Filter>root\NewFilter1</Filter>
+      <Filter>root\v1</Filter>
     </None>
     <None Include="release\v1\entry-h.css">
-      <Filter>root\NewFilter1</Filter>
+      <Filter>root\v1</Filter>
     </None>
     <None Include="release\v1\page.html">
-      <Filter>root\NewFilter1</Filter>
+      <Filter>root\v1</Filter>
     </None>
     <None Include="release\v1\sidebar.css">
-      <Filter>root\NewFilter1</Filter>
+      <Filter>root\v1</Filter>
     </None>
     <None Include="release\v1\sidebar.js">
-      <Filter>root\NewFilter1</Filter>
+      <Filter>root\v1</Filter>
+    </None>
+    <None Include="docs\1000-tip\msvc_basic_setting.md">
+      <Filter>root\docs\1000-tip</Filter>
+    </None>
+    <None Include="docs\1000-tip\vcpkg.md">
+      <Filter>root\docs\1000-tip</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -75,7 +81,7 @@
     <Filter Include="root\docs\2000-code1009">
       <UniqueIdentifier>{5c10978f-8bae-43df-bec6-989d393fd7a2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="root\NewFilter1">
+    <Filter Include="root\v1">
       <UniqueIdentifier>{6dae5098-a05c-4b55-9e4e-a4cb3679bfb3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
