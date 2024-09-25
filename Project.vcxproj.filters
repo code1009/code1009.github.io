@@ -61,6 +61,12 @@
     <None Include="docs\1000-tip\vcpkg.md">
       <Filter>root\docs\1000-tip</Filter>
     </None>
+    <None Include="Gemfile">
+      <Filter>gemfile</Filter>
+    </None>
+    <None Include="Gemfile.lock">
+      <Filter>gemfile</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="conf">
@@ -83,6 +89,9 @@
     </Filter>
     <Filter Include="root\v1">
       <UniqueIdentifier>{6dae5098-a05c-4b55-9e4e-a4cb3679bfb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gemfile">
+      <UniqueIdentifier>{27169612-1523-4947-a8df-a951393d41a2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
