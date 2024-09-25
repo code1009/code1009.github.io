@@ -26,8 +26,10 @@ nav_order: 1002
 #if 0
 	//-----------------------------------------------------------------------
 	MessageBoxA(nullptr, (LPCSTR)u8"가나다라", (LPCSTR)u8"제목", MB_OK);
+	
 	/*
-	아래 적용하면 vld에서 오류가 발생함.
+	일반 버전은 아래 적용하면 vld에서 오류가 발생함.
+	하지만, https://github.com/Azure/vld 에 있는 vld는 utf-8 버그 수정 됨.
 
 	https://learn.microsoft.com/en-us/windows/apps/design/globalizing/use-utf8-code-page
 
@@ -40,13 +42,6 @@ nav_order: 1002
 	</application>
 	*/
 #endif
-```
-
-
-- 추가
-```
-https://github.com/Azure/vld
-에 있는 vld는 utf8 버그 수정 됨.
 ```
 
 
