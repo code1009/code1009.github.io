@@ -43,6 +43,15 @@ nav_order: 1002
 ```
 
 
+- 추가
+```
+https://github.com/Azure/vld
+에 있는 vld는 utf8 버그 수정 됨.
+```
+
+
+
+
 ### 소스 파일 경로에 따라서 obj 파일 생성 하기  
 
 ```
