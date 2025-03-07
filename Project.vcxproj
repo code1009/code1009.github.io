@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClCompile Include="readme.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="config\_default\config.toml" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

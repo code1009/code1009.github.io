@@ -3,4 +3,17 @@
   <ItemGroup>
     <ClCompile Include="readme.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="config">
+      <UniqueIdentifier>{0de6c192-a1d0-492b-ab12-f82b290ef28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config\_default">
+      <UniqueIdentifier>{525c2567-9a15-473c-8772-2d629c8c3a33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\_default\config.toml">
+      <Filter>config\_default</Filter>
+    </None>
+  </ItemGroup>
 </Project>
