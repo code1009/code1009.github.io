@@ -11,16 +11,10 @@ weight: 1       # You can add weight to some posts to override the default sorti
 ---
 
 
-# 소개
 
+# 소개
 셈말짓기(code1009).
 
-## Table of contents
-
-1. TOC
-
-
-![](./intro-hello_no_ga_da_world.gif)
 
 
 ## 셈말짓기 
@@ -52,9 +46,6 @@ C++용 클래스 라이브러리를 만들었던 것의 코드명입니다.
 컴퓨터 언어를 만들어 보겠다는 생각을 했었습니다.  
 하지만, 능력은 안되서 쓸만한 라이브러리라도 만들어 보자라고 노력 중에 있습니다.  
 
-![](./intro-hangul.jpg)
-
-
 
 
 ## 무르
@@ -62,4 +53,3 @@ C++용 클래스 라이브러리를 만들었던 것의 코드명입니다.
 소프트웨어가 한글로 무른모라는 말이 있는데,  
 거기서 생각해서 부드럽다라는 의미로 무르라고 지었습니다.  
 
-![](./intro-moo_roo.jpg)
