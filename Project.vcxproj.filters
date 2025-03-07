@@ -31,11 +31,11 @@
     <Filter Include="content\post">
       <UniqueIdentifier>{866fd0b9-a3d6-42f9-9ce5-6fcaae1b7c07}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\NewFilter1">
-      <UniqueIdentifier>{23ecbb9e-27a8-4fc0-8b78-91e469f36764}</UniqueIdentifier>
-    </Filter>
     <Filter Include="content\categories\code1009">
       <UniqueIdentifier>{f13ab9f6-d54d-41d9-a774-f76241b2e2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\code1009">
+      <UniqueIdentifier>{23ecbb9e-27a8-4fc0-8b78-91e469f36764}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -54,25 +54,5 @@
     <None Include="content\_index.md">
       <Filter>content\page</Filter>
     </None>
-    <None Include="content\post\code1009-001\index.md">
-      <Filter>content\post\NewFilter1</Filter>
-    </None>
-    <None Include="content\categories\code1009\_index.md">
-      <Filter>content\categories\code1009</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="content\post\code1009-001\intro-hangul.jpg">
-      <Filter>content\post\NewFilter1</Filter>
-    </Image>
-    <Image Include="content\post\code1009-001\intro-hello_no_ga_da_world.gif">
-      <Filter>content\post\NewFilter1</Filter>
-    </Image>
-    <Image Include="content\post\code1009-001\intro-moo_roo.jpg">
-      <Filter>content\post\NewFilter1</Filter>
-    </Image>
-    <Image Include="content\post\code1009-001\intro-moo_roo-s.jpg">
-      <Filter>content\post\NewFilter1</Filter>
-    </Image>
   </ItemGroup>
 </Project>
