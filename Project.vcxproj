@@ -23,6 +23,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="config\_default\config.toml" />
+    <None Include="content\categories\example-category\_index.md" />
+    <None Include="content\page\archives\index.md" />
+    <None Include="content\page\links\index.md" />
+    <None Include="content\page\search\index.md" />
+    <None Include="content\post\hello-world\index.md" />
+    <None Include="content\post\image-gallery\index.md" />
+    <None Include="content\post\markdown-syntax\index.md" />
+    <None Include="content\post\math-typesetting\index.md" />
+    <None Include="content\post\shortcodes\index.md" />
+    <None Include="content\_index.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="content\post\hello-world\cover.jpg" />
+    <Image Include="content\post\image-gallery\1.jpg" />
+    <Image Include="content\post\image-gallery\2.jpg" />
+    <Image Include="content\post\shortcodes\cover.jpg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

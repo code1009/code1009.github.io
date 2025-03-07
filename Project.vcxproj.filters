@@ -10,10 +10,93 @@
     <Filter Include="config\_default">
       <UniqueIdentifier>{525c2567-9a15-473c-8772-2d629c8c3a33}</UniqueIdentifier>
     </Filter>
+    <Filter Include="content">
+      <UniqueIdentifier>{0ad36182-89b9-45c5-b83c-87be8e76c92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\categories">
+      <UniqueIdentifier>{752c7c3b-3160-4055-98ca-501c6c85471f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\categories\example-category">
+      <UniqueIdentifier>{b3129331-8242-4fc2-bd4c-19efe6ceebab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\page">
+      <UniqueIdentifier>{7b3119bf-0738-415e-889e-e091749320a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\page\archives">
+      <UniqueIdentifier>{78235c5d-668a-47fb-ae76-819f66ebbef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\page\links">
+      <UniqueIdentifier>{31f013cd-ac0a-4231-9fbd-a680f970cc10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\page\search">
+      <UniqueIdentifier>{713706de-d036-4348-98e7-de7b2560bec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post">
+      <UniqueIdentifier>{866fd0b9-a3d6-42f9-9ce5-6fcaae1b7c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\hello-world">
+      <UniqueIdentifier>{bff8abc7-9f82-4ef5-a395-7739e47d30e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\image-gallery">
+      <UniqueIdentifier>{c1be8aac-c0bc-4b61-93bf-8fc1eb261ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\markdown-syntax">
+      <UniqueIdentifier>{d3173c29-4266-4037-8935-cf835e974dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\math-typesetting">
+      <UniqueIdentifier>{2b07e3b7-9abd-45f3-9fc7-0a6df29cabf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\shortcodes">
+      <UniqueIdentifier>{3806796c-65e1-44ff-83d1-9e2305f5beb0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="config\_default\config.toml">
       <Filter>config\_default</Filter>
     </None>
+    <None Include="content\categories\example-category\_index.md">
+      <Filter>content\categories\example-category</Filter>
+    </None>
+    <None Include="content\page\archives\index.md">
+      <Filter>content\page\archives</Filter>
+    </None>
+    <None Include="content\page\links\index.md">
+      <Filter>content\page\links</Filter>
+    </None>
+    <None Include="content\page\search\index.md">
+      <Filter>content\page\search</Filter>
+    </None>
+    <None Include="content\_index.md">
+      <Filter>content\page</Filter>
+    </None>
+    <None Include="content\post\hello-world\index.md">
+      <Filter>content\post\hello-world</Filter>
+    </None>
+    <None Include="content\post\image-gallery\index.md">
+      <Filter>content\post\image-gallery</Filter>
+    </None>
+    <None Include="content\post\markdown-syntax\index.md">
+      <Filter>content\post\markdown-syntax</Filter>
+    </None>
+    <None Include="content\post\math-typesetting\index.md">
+      <Filter>content\post\math-typesetting</Filter>
+    </None>
+    <None Include="content\post\shortcodes\index.md">
+      <Filter>content\post\shortcodes</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="content\post\hello-world\cover.jpg">
+      <Filter>content\post\hello-world</Filter>
+    </Image>
+    <Image Include="content\post\image-gallery\1.jpg">
+      <Filter>content\post\image-gallery</Filter>
+    </Image>
+    <Image Include="content\post\image-gallery\2.jpg">
+      <Filter>content\post\image-gallery</Filter>
+    </Image>
+    <Image Include="content\post\shortcodes\cover.jpg">
+      <Filter>content\post\shortcodes</Filter>
+    </Image>
   </ItemGroup>
 </Project>
