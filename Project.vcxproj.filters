@@ -31,11 +31,23 @@
     <Filter Include="content\post">
       <UniqueIdentifier>{866fd0b9-a3d6-42f9-9ce5-6fcaae1b7c07}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\code1009">
+    <Filter Include="content\categories\code1009">
+      <UniqueIdentifier>{f13ab9f6-d54d-41d9-a774-f76241b2e2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\categories\코드">
+      <UniqueIdentifier>{6e86f66f-a151-4c54-b5d7-62ed319f6e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\categories\프로그래밍팁">
+      <UniqueIdentifier>{a1311ffd-caef-451c-ad63-5464cd697b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\categories\프로그래밍">
+      <UniqueIdentifier>{6559fb9c-eecd-4c4f-b710-cb9974ee8893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\셈말짓기">
       <UniqueIdentifier>{23ecbb9e-27a8-4fc0-8b78-91e469f36764}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\categories\code1009-category">
-      <UniqueIdentifier>{f13ab9f6-d54d-41d9-a774-f76241b2e2cb}</UniqueIdentifier>
+    <Filter Include="content\post\한글날">
+      <UniqueIdentifier>{45c20121-dcc7-4483-931a-3ea32e99b7a4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -54,11 +66,23 @@
     <None Include="content\_index.md">
       <Filter>content\page</Filter>
     </None>
-    <None Include="content\post\code1009\index.md">
-      <Filter>content\post\code1009</Filter>
+    <None Include="content\categories\code1009\_index.md">
+      <Filter>content\categories\code1009</Filter>
     </None>
-    <None Include="content\categories\code1009-category\_index.md">
-      <Filter>content\categories\code1009-category</Filter>
+    <None Include="content\categories\코드\_index.md">
+      <Filter>content\categories\코드</Filter>
+    </None>
+    <None Include="content\categories\프로그래밍\_index.md">
+      <Filter>content\categories\프로그래밍</Filter>
+    </None>
+    <None Include="content\categories\프로그래밍팁\_index.md">
+      <Filter>content\categories\프로그래밍팁</Filter>
+    </None>
+    <None Include="content\post\셈말짓기\index.md">
+      <Filter>content\post\셈말짓기</Filter>
+    </None>
+    <None Include="content\post\한글날\index.md">
+      <Filter>content\post\한글날</Filter>
     </None>
   </ItemGroup>
 </Project>

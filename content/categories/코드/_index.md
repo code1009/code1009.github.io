@@ -1,6 +1,5 @@
 ---
-title: code1009 category
-description: about code1009(셈말짓기)
+title: 코드
 image:
 
 # Badge style

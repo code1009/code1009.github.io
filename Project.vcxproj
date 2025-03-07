@@ -23,11 +23,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="config\_default\config.toml" />
-    <None Include="content\categories\code1009-category\_index.md" />
+    <None Include="content\categories\code1009\_index.md" />
+    <None Include="content\categories\코드\_index.md" />
+    <None Include="content\categories\프로그래밍\_index.md" />
+    <None Include="content\categories\프로그래밍팁\_index.md" />
     <None Include="content\page\archives\index.md" />
     <None Include="content\page\links\index.md" />
     <None Include="content\page\search\index.md" />
-    <None Include="content\post\code1009\index.md" />
+    <None Include="content\post\셈말짓기\index.md" />
+    <None Include="content\post\한글날\index.md" />
     <None Include="content\_index.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
