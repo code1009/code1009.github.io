@@ -1,4 +1,4 @@
----
+﻿---
 title: vcpkg
 date: 2025-03-07 00:00:00+0000
 categories:
@@ -9,7 +9,6 @@ categories:
 
 
 # vcpkg 설치하기  
-## ref  
 [https://vcpkg.io/en/index.html](https://vcpkg.io/en/index.html)  
 [https://vcpkg.io/en/packages](https://vcpkg.io/en/packages)  
 
