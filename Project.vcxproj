@@ -23,9 +23,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="config\_default\config.toml" />
+    <None Include="content\categories\code1009-category\_index.md" />
     <None Include="content\page\archives\index.md" />
     <None Include="content\page\links\index.md" />
     <None Include="content\page\search\index.md" />
+    <None Include="content\post\code1009\index.md" />
     <None Include="content\_index.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
