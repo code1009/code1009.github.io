@@ -19,7 +19,6 @@ weight: 1       # You can add weight to some posts to override the default sorti
 
 1. TOC
 
----
 
 ![](./intro-hello_no_ga_da_world.gif)
 
