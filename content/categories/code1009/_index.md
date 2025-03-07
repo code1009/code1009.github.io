@@ -1,6 +1,6 @@
 ---
 title: code1009 Category
-description: code1009¿¡ ´ëÇØ¼­
+description: code1009ì— ëŒ€í•´ì„œ
 image:
 
 # Badge style
