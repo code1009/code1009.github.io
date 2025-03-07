@@ -1,13 +1,8 @@
 ---
 title: code1009
-description: code1009
-slug: code1009
 date: 2025-03-08 00:00:00+0000
-categories:
-    - code1009 Category
-tags:
-    - code1009 Tag
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+tags: ["code1009"]
+draft: false
 ---
 
 

@@ -49,6 +49,9 @@
     <Filter Include="content\post\shortcodes">
       <UniqueIdentifier>{3806796c-65e1-44ff-83d1-9e2305f5beb0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="content\post\NewFilter1">
+      <UniqueIdentifier>{23ecbb9e-27a8-4fc0-8b78-91e469f36764}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="config\_default\config.toml">
@@ -84,6 +87,9 @@
     <None Include="content\post\shortcodes\index.md">
       <Filter>content\post\shortcodes</Filter>
     </None>
+    <None Include="content\post\code1009-001\index.md">
+      <Filter>content\post\NewFilter1</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="content\post\hello-world\cover.jpg">
@@ -97,6 +103,18 @@
     </Image>
     <Image Include="content\post\shortcodes\cover.jpg">
       <Filter>content\post\shortcodes</Filter>
+    </Image>
+    <Image Include="content\post\code1009-001\intro-hangul.jpg">
+      <Filter>content\post\NewFilter1</Filter>
+    </Image>
+    <Image Include="content\post\code1009-001\intro-hello_no_ga_da_world.gif">
+      <Filter>content\post\NewFilter1</Filter>
+    </Image>
+    <Image Include="content\post\code1009-001\intro-moo_roo.jpg">
+      <Filter>content\post\NewFilter1</Filter>
+    </Image>
+    <Image Include="content\post\code1009-001\intro-moo_roo-s.jpg">
+      <Filter>content\post\NewFilter1</Filter>
     </Image>
   </ItemGroup>
 </Project>
