@@ -49,6 +49,9 @@
     <Filter Include="content\post\한글날">
       <UniqueIdentifier>{45c20121-dcc7-4483-931a-3ea32e99b7a4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="content\post\vcpkg">
+      <UniqueIdentifier>{ae6a55f1-6836-4d2c-8c49-3777b0381573}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="config\_default\config.toml">
@@ -83,6 +86,9 @@
     </None>
     <None Include="content\post\한글날\index.md">
       <Filter>content\post\한글날</Filter>
+    </None>
+    <None Include="content\post\vcpkg\index.md">
+      <Filter>content\post\vcpkg</Filter>
     </None>
   </ItemGroup>
 </Project>
