@@ -2,6 +2,8 @@
 title: 'code1009'
 date: 2025-03-08 00:00:00+0000
 weight: 1
+categories:
+    - code1009 category
 ---
 
 
