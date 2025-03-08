@@ -55,20 +55,23 @@
     <Filter Include="content\post\002.vcpkg">
       <UniqueIdentifier>{ae6a55f1-6836-4d2c-8c49-3777b0381573}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\003.vsplugin">
-      <UniqueIdentifier>{7a3cfaee-a5fc-4863-8b03-9cc04eacd2b7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="content\post\004.vsbuild1">
-      <UniqueIdentifier>{5781ab21-02e2-4cea-a27d-d35a801c1631}</UniqueIdentifier>
-    </Filter>
     <Filter Include="content\post\005.vld">
       <UniqueIdentifier>{25a64cd3-afc0-4551-84f4-6a2fe78d7595}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\006.윈도우 어플리케이션 utf8 설정">
-      <UniqueIdentifier>{651fd450-873e-4888-92e9-a0b4c6a2fdf1}</UniqueIdentifier>
+    <Filter Include="content\post\008.Visual Studio 자동으로 소스코드를 자동으로 utf8로 저장">
+      <UniqueIdentifier>{c7890650-d4e2-4bc6-a300-205267788862}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\007.깃허브액션">
+    <Filter Include="content\post\007.Github Action 테스트">
       <UniqueIdentifier>{61bb448c-d1c8-4bf0-955b-cab32e406cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\004.Visual Studio C++ 소스 파일 경로에 따라서 obj 파일 생성 하기">
+      <UniqueIdentifier>{5781ab21-02e2-4cea-a27d-d35a801c1631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\003.Visual Studio Plugin">
+      <UniqueIdentifier>{7a3cfaee-a5fc-4863-8b03-9cc04eacd2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\윈도우 API utf8 설정">
+      <UniqueIdentifier>{651fd450-873e-4888-92e9-a0b4c6a2fdf1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -105,26 +108,34 @@
     <None Include="content\post\vcpkg\index.md">
       <Filter>content\post\002.vcpkg</Filter>
     </None>
-    <None Include="content\post\vsplugin\index.md">
-      <Filter>content\post\003.vsplugin</Filter>
-    </None>
     <None Include="content\categories\티끌모아글\_index.md">
       <Filter>content\categories\티끌모아글</Filter>
     </None>
     <None Include="content\categories\개발자노트\_index.md">
       <Filter>content\categories\개발자노트</Filter>
     </None>
-    <None Include="content\post\vsbuild1\index.md">
-      <Filter>content\post\004.vsbuild1</Filter>
-    </None>
     <None Include="content\post\vld\index.md">
       <Filter>content\post\005.vld</Filter>
     </None>
-    <None Include="content\post\윈도우 어플리케이션 utf8 설정\index.md">
-      <Filter>content\post\006.윈도우 어플리케이션 utf8 설정</Filter>
+    <None Include="content\post\Visual Studio 자동으로 소스코드를 자동으로 utf8로 저장\index.md">
+      <Filter>content\post\008.Visual Studio 자동으로 소스코드를 자동으로 utf8로 저장</Filter>
     </None>
-    <None Include="content\post\깃허브액션\index.md">
-      <Filter>content\post\007.깃허브액션</Filter>
+    <None Include="content\post\Github Action 테스트\index.md">
+      <Filter>content\post\007.Github Action 테스트</Filter>
     </None>
+    <None Include="content\post\Visual Studio C++ 소스 파일 경로에 따라서 obj 파일 생성 하기\index.md">
+      <Filter>content\post\004.Visual Studio C++ 소스 파일 경로에 따라서 obj 파일 생성 하기</Filter>
+    </None>
+    <None Include="content\post\Visual Studio Plugin\index.md">
+      <Filter>content\post\003.Visual Studio Plugin</Filter>
+    </None>
+    <None Include="content\post\윈도우 API utf8 설정\index.md">
+      <Filter>content\post\윈도우 API utf8 설정</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="content\post\Visual Studio 자동으로 소스코드를 자동으로 utf8로 저장\img.png">
+      <Filter>content\post\008.Visual Studio 자동으로 소스코드를 자동으로 utf8로 저장</Filter>
+    </Image>
   </ItemGroup>
 </Project>

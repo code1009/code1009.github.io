@@ -1,5 +1,5 @@
 ﻿---
-title: 윈도우 어플리케이션 utf8 설정
+title: 윈도우 API utf8 설정
 date: 2025-03-07 00:06:00+0000
 categories:
     - 프로그래밍
@@ -8,10 +8,11 @@ tags:
 ---
 
 
-# 윈도우프로그래밍  
+# 윈도우 API utf8 설정  
 
 
-## winapi xxxxxA()함수들 utf8로 설정하기  
+## winapi xxxxxA()함수들을 utf8로 문자열로 사용  
+
 - manifest 파일을 추가해서 적용 할 수 있습니다.
 
 ```

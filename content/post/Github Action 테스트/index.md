@@ -1,5 +1,5 @@
-﻿---
-title: 깃허브액션
+﻿--
+title: Github Action 테스트
 date: 2025-03-07 00:07:00+0000
 categories:
     - 티끌모아글

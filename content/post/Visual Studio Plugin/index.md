@@ -1,12 +1,12 @@
 ﻿---
-title: vsplugin
+title: Visual Studio Plugin
 date: 2025-03-07 00:03:00+0000
 categories:
     - 개발자노트
 ---
 
 
-# 유용한 Visual Studio Plugin 
+# Visual Studio Plugin 
 
 
 ## vcpkg  
