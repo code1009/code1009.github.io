@@ -1,5 +1,5 @@
----
-title: 프로그래밍팁
+﻿---
+title: 개발자노트
 image:
 
 # Badge style
