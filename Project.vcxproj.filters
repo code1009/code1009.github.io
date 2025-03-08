@@ -37,20 +37,35 @@
     <Filter Include="content\categories\코드">
       <UniqueIdentifier>{6e86f66f-a151-4c54-b5d7-62ed319f6e61}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\categories\프로그래밍팁">
-      <UniqueIdentifier>{a1311ffd-caef-451c-ad63-5464cd697b27}</UniqueIdentifier>
-    </Filter>
     <Filter Include="content\categories\프로그래밍">
       <UniqueIdentifier>{6559fb9c-eecd-4c4f-b710-cb9974ee8893}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\셈말짓기">
-      <UniqueIdentifier>{23ecbb9e-27a8-4fc0-8b78-91e469f36764}</UniqueIdentifier>
+    <Filter Include="content\categories\티끌모아글">
+      <UniqueIdentifier>{50788107-22d2-4bc9-9a4c-49f335f4981f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\한글날">
+    <Filter Include="content\categories\개발자노트">
+      <UniqueIdentifier>{a1311ffd-caef-451c-ad63-5464cd697b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\001.한글날">
       <UniqueIdentifier>{45c20121-dcc7-4483-931a-3ea32e99b7a4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\vcpkg">
+    <Filter Include="content\post\000.셈말짓기">
+      <UniqueIdentifier>{23ecbb9e-27a8-4fc0-8b78-91e469f36764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\002.vcpkg">
       <UniqueIdentifier>{ae6a55f1-6836-4d2c-8c49-3777b0381573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\003.vsplugin">
+      <UniqueIdentifier>{7a3cfaee-a5fc-4863-8b03-9cc04eacd2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\004.vsbuild1">
+      <UniqueIdentifier>{5781ab21-02e2-4cea-a27d-d35a801c1631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\005.vld">
+      <UniqueIdentifier>{25a64cd3-afc0-4551-84f4-6a2fe78d7595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="content\post\006.윈도우프로그래밍1">
+      <UniqueIdentifier>{651fd450-873e-4888-92e9-a0b4c6a2fdf1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -78,17 +93,32 @@
     <None Include="content\categories\프로그래밍\_index.md">
       <Filter>content\categories\프로그래밍</Filter>
     </None>
-    <None Include="content\categories\프로그래밍팁\_index.md">
-      <Filter>content\categories\프로그래밍팁</Filter>
-    </None>
     <None Include="content\post\셈말짓기\index.md">
-      <Filter>content\post\셈말짓기</Filter>
+      <Filter>content\post\000.셈말짓기</Filter>
     </None>
     <None Include="content\post\한글날\index.md">
-      <Filter>content\post\한글날</Filter>
+      <Filter>content\post\001.한글날</Filter>
     </None>
     <None Include="content\post\vcpkg\index.md">
-      <Filter>content\post\vcpkg</Filter>
+      <Filter>content\post\002.vcpkg</Filter>
+    </None>
+    <None Include="content\post\vsplugin\index.md">
+      <Filter>content\post\003.vsplugin</Filter>
+    </None>
+    <None Include="content\categories\티끌모아글\_index.md">
+      <Filter>content\categories\티끌모아글</Filter>
+    </None>
+    <None Include="content\categories\개발자노트\_index.md">
+      <Filter>content\categories\개발자노트</Filter>
+    </None>
+    <None Include="content\post\vsbuild1\index.md">
+      <Filter>content\post\004.vsbuild1</Filter>
+    </None>
+    <None Include="content\post\vld\index.md">
+      <Filter>content\post\005.vld</Filter>
+    </None>
+    <None Include="content\post\윈도우프로그래밍1\index.md">
+      <Filter>content\post\006.윈도우프로그래밍1</Filter>
     </None>
   </ItemGroup>
 </Project>
