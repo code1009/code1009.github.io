@@ -67,6 +67,9 @@
     <Filter Include="content\post\006.윈도우 어플리케이션 utf8 설정">
       <UniqueIdentifier>{651fd450-873e-4888-92e9-a0b4c6a2fdf1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="content\post\007.깃허브액션">
+      <UniqueIdentifier>{61bb448c-d1c8-4bf0-955b-cab32e406cb3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="config\_default\config.toml">
@@ -119,6 +122,9 @@
     </None>
     <None Include="content\post\윈도우 어플리케이션 utf8 설정\index.md">
       <Filter>content\post\006.윈도우 어플리케이션 utf8 설정</Filter>
+    </None>
+    <None Include="content\post\깃허브액션\index.md">
+      <Filter>content\post\007.깃허브액션</Filter>
     </None>
   </ItemGroup>
 </Project>

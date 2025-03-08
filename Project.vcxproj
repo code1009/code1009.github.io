@@ -35,6 +35,7 @@
     <None Include="content\post\vld\index.md" />
     <None Include="content\post\vsbuild1\index.md" />
     <None Include="content\post\vsplugin\index.md" />
+    <None Include="content\post\깃허브액션\index.md" />
     <None Include="content\post\셈말짓기\index.md" />
     <None Include="content\post\윈도우 어플리케이션 utf8 설정\index.md" />
     <None Include="content\post\한글날\index.md" />
