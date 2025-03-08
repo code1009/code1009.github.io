@@ -1,5 +1,6 @@
 ﻿---
 title: 셈말짓기
+description: 셈말짓기의 블로그에 대한 소개입니다.
 date: 2025-03-07 00:00:00+0000
 weight: 1
 image: intro-hangul.jpg
