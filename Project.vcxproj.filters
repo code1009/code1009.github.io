@@ -70,7 +70,7 @@
     <Filter Include="content\post\003.Visual Studio Plugin">
       <UniqueIdentifier>{7a3cfaee-a5fc-4863-8b03-9cc04eacd2b7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\윈도우 API utf8 설정">
+    <Filter Include="content\post\009.윈도우 API utf8 설정">
       <UniqueIdentifier>{651fd450-873e-4888-92e9-a0b4c6a2fdf1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -130,7 +130,7 @@
       <Filter>content\post\003.Visual Studio Plugin</Filter>
     </None>
     <None Include="content\post\윈도우 API utf8 설정\index.md">
-      <Filter>content\post\윈도우 API utf8 설정</Filter>
+      <Filter>content\post\009.윈도우 API utf8 설정</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
