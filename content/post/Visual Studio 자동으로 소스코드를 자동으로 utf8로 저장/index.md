@@ -15,6 +15,6 @@ categories:
 
 
 
-# 이클립스
+# CCS(Eclipse)
 
 ![](img2.png)
