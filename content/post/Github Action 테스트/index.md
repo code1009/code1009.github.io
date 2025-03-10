@@ -10,7 +10,6 @@ categories:
 사용법을 잘 몰라서 연습용으로
 작성한 글입니다.
 
-테스트용으로 이 페이지로 인해
 자동으로 깃허브 액션이 동작되는지 테스트할겁니다.
 
 https://github.com/ad-m/github-push-action/issues/96
