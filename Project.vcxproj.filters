@@ -67,10 +67,10 @@
     <Filter Include="content\post\009.윈도우 API utf8 설정">
       <UniqueIdentifier>{651fd450-873e-4888-92e9-a0b4c6a2fdf1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\Visual Studio C++ 빌드설정">
+    <Filter Include="content\post\004.Visual Studio C++ 빌드설정">
       <UniqueIdentifier>{5781ab21-02e2-4cea-a27d-d35a801c1631}</UniqueIdentifier>
     </Filter>
-    <Filter Include="content\post\Visual Studio 기본설정">
+    <Filter Include="content\post\008. Visual Studio 기본설정">
       <UniqueIdentifier>{c7890650-d4e2-4bc6-a300-205267788862}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -127,18 +127,18 @@
       <Filter>content\post\009.윈도우 API utf8 설정</Filter>
     </None>
     <None Include="content\post\Visual Studio C++ 빌드설정\index.md">
-      <Filter>content\post\Visual Studio C++ 빌드설정</Filter>
+      <Filter>content\post\004.Visual Studio C++ 빌드설정</Filter>
     </None>
     <None Include="content\post\Visual Studio 기본설정\index.md">
-      <Filter>content\post\Visual Studio 기본설정</Filter>
+      <Filter>content\post\008. Visual Studio 기본설정</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="content\post\Visual Studio 기본설정\img.png">
-      <Filter>content\post\Visual Studio 기본설정</Filter>
+      <Filter>content\post\008. Visual Studio 기본설정</Filter>
     </Image>
     <Image Include="content\post\Visual Studio 기본설정\img2.png">
-      <Filter>content\post\Visual Studio 기본설정</Filter>
+      <Filter>content\post\008. Visual Studio 기본설정</Filter>
     </Image>
   </ItemGroup>
 </Project>

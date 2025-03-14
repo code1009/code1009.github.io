@@ -25,4 +25,3 @@ Settings > Actions > General >
 설정하여야 합니다.
 
 
-
