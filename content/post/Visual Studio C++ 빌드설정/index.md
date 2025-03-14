@@ -1,12 +1,13 @@
 ﻿---
-title: Visual Studio C++ 소스 파일 경로에 따라서 obj 파일 생성 하기
+title: Visual Studio C++ 빌드설정
 date: 2025-03-07 00:04:00+0000
 categories:
     - 개발자노트
 ---
 
+# Visual Studio C++ 빌드설정
 
-# Visual Studio C++ 소스 파일 경로에 따라서 obj 파일 생성 하기  
+## Visual Studio C++ 소스 파일 경로에 따라서 obj 파일 생성 하기  
 
 ```
 구성 속성/

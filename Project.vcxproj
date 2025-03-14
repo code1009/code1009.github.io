@@ -33,9 +33,9 @@
     <None Include="content\page\search\index.md" />
     <None Include="content\post\Github Action 테스트\index.md" />
     <None Include="content\post\vcpkg\index.md" />
-    <None Include="content\post\Visual Studio C++ 소스 파일 경로에 따라서 obj 파일 생성 하기\index.md" />
+    <None Include="content\post\Visual Studio C++ 빌드설정\index.md" />
     <None Include="content\post\Visual Studio Plugin\index.md" />
-    <None Include="content\post\Visual Studio 자동으로 소스코드를 자동으로 utf8로 저장\index.md" />
+    <None Include="content\post\Visual Studio 기본설정\index.md" />
     <None Include="content\post\vld\index.md" />
     <None Include="content\post\셈말짓기\index.md" />
     <None Include="content\post\윈도우 API utf8 설정\index.md" />
@@ -43,7 +43,8 @@
     <None Include="content\_index.md" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="content\post\Visual Studio 자동으로 소스코드를 자동으로 utf8로 저장\img.png" />
+    <Image Include="content\post\Visual Studio 기본설정\img.png" />
+    <Image Include="content\post\Visual Studio 기본설정\img2.png" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
