@@ -23,6 +23,21 @@ categories:
   줄맞추는데 탁월합니다.  
 
 
+## File Differ
+- [https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileDiffer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileDiffer)
+
+
+## Indent Guides for Visual Studio
+- [https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides2022](https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides2022)
+
+
+## Rainbow Braces for Visual Studio
+- [https://marketplace.visualstudio.com/items?itemName=MadsKristensen.RainbowBraces](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.RainbowBraces)
+
+ 
+## Visual Studio Spell Checker (VS2022 and Later)
+- [https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2022andLater](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2022andLater)
+
 
 ## Markdown Editor v2  
 - [https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2)  
