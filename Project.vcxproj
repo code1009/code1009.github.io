@@ -32,6 +32,7 @@
     <None Include="content\page\links\index.md" />
     <None Include="content\page\search\index.md" />
     <None Include="content\post\Github Action 테스트\index.md" />
+    <None Include="content\post\nuget\index.md" />
     <None Include="content\post\vcpkg\index.md" />
     <None Include="content\post\Visual Studio C++ 빌드설정\index.md" />
     <None Include="content\post\Visual Studio Plugin\index.md" />
