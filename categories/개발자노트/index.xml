@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>개발자노트 on code1009</title><link>https://code1009.github.io/categories/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%85%B8%ED%8A%B8/</link><description>Recent content in 개발자노트 on code1009</description><generator>Hugo -- gohugo.io</generator><language>ko-kr</language><lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://code1009.github.io/categories/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%85%B8%ED%8A%B8/index.xml" rel="self" type="application/rss+xml"/><item><title>nuget</title><link>https://code1009.github.io/p/nuget/</link><pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate><guid>https://code1009.github.io/p/nuget/</guid><description>&lt;h1 id="nuget-설정">Nuget 설정
+&lt;/h1>&lt;h2 id="nuget-package-source-추가">Nuget Package Source 추가
+&lt;/h2>&lt;p>&lt;img src="https://code1009.github.io/p/nuget/img.png"
+width="938"
+height="661"
+srcset="https://code1009.github.io/p/nuget/img_hu_e88728029b7463.png 480w, https://code1009.github.io/p/nuget/img_hu_aeeb7bdfb7be2aa1.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="141"
+data-flex-basis="340px"
+>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>항목&lt;/th>
+&lt;th>설정&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Name&lt;/td>
+&lt;td>nuget.org&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Source&lt;/td>
+&lt;td>&lt;a class="link" href="https://api.nuget.org/v3/index.json" target="_blank" rel="noopener"
+>https://api.nuget.org/v3/index.json&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="솔루션-nuget-package-복원">솔루션 Nuget Package 복원
+&lt;/h2>&lt;p>&lt;img src="https://code1009.github.io/p/nuget/img2.png"
+width="624"
+height="889"
+srcset="https://code1009.github.io/p/nuget/img2_hu_6850e8b61ca8b519.png 480w, https://code1009.github.io/p/nuget/img2_hu_8cbd20ef365e7d7a.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="168px"
+>&lt;/p></description></item><item><title>Visual Studio 기본설정</title><link>https://code1009.github.io/p/visual-studio-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95/</link><pubDate>Fri, 07 Mar 2025 00:08:00 +0000</pubDate><guid>https://code1009.github.io/p/visual-studio-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95/</guid><description>&lt;h1 id="visual-studio-기본설정">Visual Studio 기본설정
+&lt;/h1>&lt;h2 id="코딩폰트">코딩폰트
+&lt;/h2>&lt;ul>
+&lt;li>D2Coding ligature 사용&lt;br>
+&lt;a class="link" href="https://github.com/naver/d2codingfont" target="_blank" rel="noopener"
+>https://github.com/naver/d2codingfont&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="visual-studio-자동으로-소스코드를-자동으로-utf8로-저장">Visual Studio 자동으로 소스코드를 자동으로 utf8로 저장
+&lt;/h2>&lt;p>&lt;img src="https://code1009.github.io/p/visual-studio-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95/img.png"
+width="950"
+height="572"
+srcset="https://code1009.github.io/p/visual-studio-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95/img_hu_9ac072766fe16380.png 480w, https://code1009.github.io/p/visual-studio-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95/img_hu_591c263e85bfc1e2.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="166"
+data-flex-basis="398px"
+>&lt;/p>
+&lt;h3 id="ccseclipse">CCS(Eclipse)
+&lt;/h3>&lt;p>&lt;img src="https://code1009.github.io/p/visual-studio-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95/img2.png"
+width="903"
+height="693"
+srcset="https://code1009.github.io/p/visual-studio-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95/img2_hu_7ff6d48bf50144d2.png 480w, https://code1009.github.io/p/visual-studio-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95/img2_hu_cba0f3140722ee06.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="130"
+data-flex-basis="312px"
+>&lt;/p></description></item><item><title>Github Action 테스트</title><link>https://code1009.github.io/p/github-action-%ED%85%8C%EC%8A%A4%ED%8A%B8/</link><pubDate>Fri, 07 Mar 2025 00:07:00 +0000</pubDate><guid>https://code1009.github.io/p/github-action-%ED%85%8C%EC%8A%A4%ED%8A%B8/</guid><description>&lt;p>깃허브액션을 잘 사용을 하면 좋을것 같안데,
+사용법을 잘 몰라서 연습용으로
+작성한 글입니다.&lt;/p>
+&lt;p>자동으로 깃허브 액션이 동작되는지 테스트할겁니다.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/ad-m/github-push-action/issues/96" target="_blank" rel="noopener"
+>https://github.com/ad-m/github-push-action/issues/96&lt;/a>&lt;/p>
+&lt;p>에 보면&lt;/p>
+&lt;p>리파지트에서&lt;br>
+Settings &amp;gt; Actions &amp;gt; General &amp;gt;&lt;br>
+에서&lt;/p>
+&lt;p>&lt;img src="https://code1009.github.io/p/github-action-%ED%85%8C%EC%8A%A4%ED%8A%B8/img.png"
+width="1217"
+height="424"
+srcset="https://code1009.github.io/p/github-action-%ED%85%8C%EC%8A%A4%ED%8A%B8/img_hu_fda435f3b2b599e9.png 480w, https://code1009.github.io/p/github-action-%ED%85%8C%EC%8A%A4%ED%8A%B8/img_hu_1a8647b41ac5189f.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="287"
+data-flex-basis="688px"
+>&lt;/p>
+&lt;p>설정하여야 합니다.&lt;/p></description></item><item><title>Visual Studio C++ 빌드설정</title><link>https://code1009.github.io/p/visual-studio-c-%EB%B9%8C%EB%93%9C%EC%84%A4%EC%A0%95/</link><pubDate>Fri, 07 Mar 2025 00:04:00 +0000</pubDate><guid>https://code1009.github.io/p/visual-studio-c-%EB%B9%8C%EB%93%9C%EC%84%A4%EC%A0%95/</guid><description>&lt;h1 id="visual-studio-c-빌드설정">Visual Studio C++ 빌드설정
+&lt;/h1>&lt;h2 id="visual-studio-c-소스-파일-경로에-따라서-obj-파일-생성-하기">Visual Studio C++ 소스 파일 경로에 따라서 obj 파일 생성 하기
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">구성 속성/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> C/C++/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 출력 파일/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 개체 파일 이름: $(IntDir)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 에서
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 개체 파일 이름: $(IntDir)%(RelativeDir)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 으로
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>C++ 소스코드 다른 디렉토리에서 파일명이 동일하여도 충돌이 발생하는 문제를 해결 할 수 있다.&lt;/p>&lt;/blockquote></description></item><item><title>Visual Studio Plugin</title><link>https://code1009.github.io/p/visual-studio-plugin/</link><pubDate>Fri, 07 Mar 2025 00:03:00 +0000</pubDate><guid>https://code1009.github.io/p/visual-studio-plugin/</guid><description>&lt;h1 id="visual-studio-plugin">Visual Studio Plugin
+&lt;/h1>&lt;h2 id="vcpkg">vcpkg
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://vcpkg.io/en/index.html" target="_blank" rel="noopener"
+>https://vcpkg.io/en/index.html&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://vcpkg.io/en/packages" target="_blank" rel="noopener"
+>https://vcpkg.io/en/packages&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://learn.microsoft.com/ko-kr/vcpkg/" target="_blank" rel="noopener"
+>https://learn.microsoft.com/ko-kr/vcpkg/&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/microsoft/vcpkg/blob/b759049a36728d18260963799a56e6b19cb4a2ef/README_ko_KR.md" target="_blank" rel="noopener"
+>https://github.com/microsoft/vcpkg/blob/b759049a36728d18260963799a56e6b19cb4a2ef/README_ko_KR.md&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="code-alignment-for-visual-studio">Code alignment for Visual Studio
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=cpmcgrath.Codealignment" target="_blank" rel="noopener"
+>https://marketplace.visualstudio.com/items?itemName=cpmcgrath.Codealignment&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>개인적으로 가장 잘쓰고 있는 플러그 인입니다.&lt;br>
+줄맞추는데 탁월합니다.&lt;/p>&lt;/blockquote>
+&lt;h2 id="file-differ">File Differ
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileDiffer" target="_blank" rel="noopener"
+>https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileDiffer&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="indent-guides-for-visual-studio">Indent Guides for Visual Studio
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides2022" target="_blank" rel="noopener"
+>https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides2022&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="rainbow-braces-for-visual-studio">Rainbow Braces for Visual Studio
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.RainbowBraces" target="_blank" rel="noopener"
+>https://marketplace.visualstudio.com/items?itemName=MadsKristensen.RainbowBraces&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="visual-studio-spell-checker-vs2022-and-later">Visual Studio Spell Checker (VS2022 and Later)
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2022andLater" target="_blank" rel="noopener"
+>https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2022andLater&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="markdown-editor-v2">Markdown Editor v2
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2" target="_blank" rel="noopener"
+>https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="opencppcoverage">OpenCppCoverage
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=OpenCppCoverage.OpenCppCoveragePlugin&amp;amp;ssr=false#review-details" target="_blank" rel="noopener"
+>https://marketplace.visualstudio.com/items?itemName=OpenCppCoverage.OpenCppCoveragePlugin&amp;amp;ssr=false#review-details&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/OpenCppCoverage/OpenCppCoveragePlugin/issues/48" target="_blank" rel="noopener"
+>https://github.com/OpenCppCoverage/OpenCppCoveragePlugin/issues/48&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/OpenCppCoverage/OpenCppCoveragePlugin/files/7818401/VSPackage.zip" target="_blank" rel="noopener"
+>https://github.com/OpenCppCoverage/OpenCppCoveragePlugin/files/7818401/VSPackage.zip&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="pvs---studio">PVS - Studio
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://marketplace.visualstudio.com/items?itemName=EvgeniyRyzhkov.PVS-Studio" target="_blank" rel="noopener"
+>https://marketplace.visualstudio.com/items?itemName=EvgeniyRyzhkov.PVS-Studio&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>vcpkg</title><link>https://code1009.github.io/p/vcpkg/</link><pubDate>Fri, 07 Mar 2025 00:02:00 +0000</pubDate><guid>https://code1009.github.io/p/vcpkg/</guid><description>&lt;h1 id="vcpkg-설치하기">vcpkg 설치하기
+&lt;/h1>&lt;p>&lt;a class="link" href="https://vcpkg.io/en/index.html" target="_blank" rel="noopener"
+>https://vcpkg.io/en/index.html&lt;/a>&lt;br>
+&lt;a class="link" href="https://vcpkg.io/en/packages" target="_blank" rel="noopener"
+>https://vcpkg.io/en/packages&lt;/a>&lt;/p>
+&lt;h2 id="vs2022메뉴도구명령줄개발자-명령-프롬프트-실행">{vs2022/메뉴/도구/명령줄/개발자 명령 프롬프트} 실행
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">**********************************************************************
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">** Visual Studio 2022 Developer Command Prompt v17.9.6
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">** Copyright (c) 2022 Microsoft Corporation
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">**********************************************************************
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">E:\&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="github에서-git으로-vcpkg-clone">github에서 git으로 vcpkg clone
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">E:\&amp;gt;c:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C:\Program Files (x86)\Microsoft Visual Studio\Installer&amp;gt;cd \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C:\&amp;gt;mkdir vcpkg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C:\&amp;gt;cd vcpkg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C:\vcpkg&amp;gt;git clone https://github.com/Microsoft/vcpkg.git
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C:\vcpkg&amp;gt;cd vcpkg
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C:\vcpkg\vcpkg&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="vcpkg-빌드">vcpkg 빌드
+&lt;/h2>&lt;h3 id="bootstrap-vcpkgbat">bootstrap-vcpkg.bat
+&lt;/h3>&lt;h3 id="vcpkgexe-만들기">vcpkg.exe 만들기
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">C&lt;/span>&lt;span class="p">:&lt;/span>\&lt;span class="n">vcpkg&lt;/span>\&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="n">dir&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">C&lt;/span> &lt;span class="err">드라이브의&lt;/span> &lt;span class="err">볼륨에는&lt;/span> &lt;span class="err">이름이&lt;/span> &lt;span class="err">없습니다&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">볼륨&lt;/span> &lt;span class="err">일련&lt;/span> &lt;span class="err">번호&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">907&lt;/span>&lt;span class="n">C&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">CE44&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">C&lt;/span>&lt;span class="p">:&lt;/span>\&lt;span class="n">vcpkg&lt;/span>\&lt;span class="n">vcpkg&lt;/span> &lt;span class="err">디렉터리&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="o">..&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">141&lt;/span> &lt;span class="o">.&lt;/span>&lt;span class="n">gitattributes&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="o">.&lt;/span>&lt;span class="n">github&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">590&lt;/span> &lt;span class="o">.&lt;/span>&lt;span class="n">gitignore&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="o">.&lt;/span>&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">root&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">102&lt;/span> &lt;span class="n">bootstrap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">bat&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">109&lt;/span> &lt;span class="n">bootstrap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">sh&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">432&lt;/span> &lt;span class="n">CONTRIBUTING&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">785&lt;/span> &lt;span class="n">CONTRIBUTING_pt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">186&lt;/span> &lt;span class="n">CONTRIBUTING_zh&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">docs&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">073&lt;/span> &lt;span class="n">LICENSE&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">txt&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">334&lt;/span> &lt;span class="n">NOTICE&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">txt&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">538&lt;/span> &lt;span class="n">NOTICE_pt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">txt&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">ports&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">6&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">922&lt;/span> &lt;span class="n">README&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">scripts&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">757&lt;/span> &lt;span class="n">SECURITY&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">923&lt;/span> &lt;span class="n">shell&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">nix&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">toolsrc&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">triplets&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">versions&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">14&lt;/span>&lt;span class="err">개&lt;/span> &lt;span class="err">파일&lt;/span> &lt;span class="mi">29&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">892&lt;/span> &lt;span class="err">바이트&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">9&lt;/span>&lt;span class="err">개&lt;/span> &lt;span class="err">디렉터리&lt;/span> &lt;span class="mi">691&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">301&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">515&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">264&lt;/span> &lt;span class="err">바이트&lt;/span> &lt;span class="err">남음&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">C&lt;/span>&lt;span class="p">:&lt;/span>\&lt;span class="n">vcpkg&lt;/span>\&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="n">bootstrap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">bat&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">~~~~~~~~~~~~~~~~~~~&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Downloading&lt;/span> &lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">//&lt;/span>&lt;span class="n">github&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">com&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">microsoft&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="k">tool&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">releases&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">download&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">06&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">exe&lt;/span> &lt;span class="o">-&amp;gt;&lt;/span> &lt;span class="n">C&lt;/span>&lt;span class="p">:&lt;/span>\&lt;span class="n">vcpkg&lt;/span>\&lt;span class="n">vcpkg&lt;/span>\&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">exe&lt;/span>&lt;span class="o">...&lt;/span> &lt;span class="n">done&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Validating&lt;/span> &lt;span class="n">signature&lt;/span>&lt;span class="o">...&lt;/span> &lt;span class="n">done&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">vcpkg&lt;/span> &lt;span class="err">패키지&lt;/span> &lt;span class="err">관리&lt;/span> &lt;span class="err">프로그램&lt;/span> &lt;span class="err">버전&lt;/span> &lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">06&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">02590&lt;/span>&lt;span class="n">c430e4ed9215d27870138c2e579cc338772&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">라이선스&lt;/span> &lt;span class="err">정보는&lt;/span> &lt;span class="n">LICENSE&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">txt를&lt;/span> &lt;span class="err">참조하세요&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Telemetry&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">---------&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">vcpkg&lt;/span> &lt;span class="n">collects&lt;/span> &lt;span class="n">usage&lt;/span> &lt;span class="n">data&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">order&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">help&lt;/span> &lt;span class="n">us&lt;/span> &lt;span class="n">improve&lt;/span> &lt;span class="n">your&lt;/span> &lt;span class="n">experience&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">The&lt;/span> &lt;span class="n">data&lt;/span> &lt;span class="n">collected&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">Microsoft&lt;/span> &lt;span class="n">is&lt;/span> &lt;span class="n">anonymous&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">You&lt;/span> &lt;span class="n">can&lt;/span> &lt;span class="n">opt&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">out&lt;/span> &lt;span class="n">of&lt;/span> &lt;span class="n">telemetry&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">re&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">running&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">bootstrap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">vcpkg&lt;/span> &lt;span class="n">script&lt;/span> &lt;span class="n">with&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">disableMetrics&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">passing&lt;/span> &lt;span class="o">--&lt;/span>&lt;span class="n">disable&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">metrics&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">vcpkg&lt;/span> &lt;span class="n">on&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">command&lt;/span> &lt;span class="n">line&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="ow">or&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">setting&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">VCPKG_DISABLE_METRICS&lt;/span> &lt;span class="n">environment&lt;/span> &lt;span class="n">variable&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Read&lt;/span> &lt;span class="n">more&lt;/span> &lt;span class="n">about&lt;/span> &lt;span class="n">vcpkg&lt;/span> &lt;span class="n">telemetry&lt;/span> &lt;span class="n">at&lt;/span> &lt;span class="n">docs&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">about&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">privacy&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">C&lt;/span>&lt;span class="p">:&lt;/span>\&lt;span class="n">vcpkg&lt;/span>\&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">C&lt;/span>&lt;span class="p">:&lt;/span>\&lt;span class="n">vcpkg&lt;/span>\&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="n">dir&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">C&lt;/span> &lt;span class="err">드라이브의&lt;/span> &lt;span class="err">볼륨에는&lt;/span> &lt;span class="err">이름이&lt;/span> &lt;span class="err">없습니다&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">볼륨&lt;/span> &lt;span class="err">일련&lt;/span> &lt;span class="err">번호&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">907&lt;/span>&lt;span class="n">C&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">CE44&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">C&lt;/span>&lt;span class="p">:&lt;/span>\&lt;span class="n">vcpkg&lt;/span>\&lt;span class="n">vcpkg&lt;/span> &lt;span class="err">디렉터리&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">39&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="o">..&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">141&lt;/span> &lt;span class="o">.&lt;/span>&lt;span class="n">gitattributes&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="o">.&lt;/span>&lt;span class="n">github&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">590&lt;/span> &lt;span class="o">.&lt;/span>&lt;span class="n">gitignore&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="o">.&lt;/span>&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">root&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">102&lt;/span> &lt;span class="n">bootstrap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">bat&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">109&lt;/span> &lt;span class="n">bootstrap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">vcpkg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">sh&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">432&lt;/span> &lt;span class="n">CONTRIBUTING&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">785&lt;/span> &lt;span class="n">CONTRIBUTING_pt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">186&lt;/span> &lt;span class="n">CONTRIBUTING_zh&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">docs&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">073&lt;/span> &lt;span class="n">LICENSE&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">txt&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">334&lt;/span> &lt;span class="n">NOTICE&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">txt&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">538&lt;/span> &lt;span class="n">NOTICE_pt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">txt&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">ports&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">6&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">922&lt;/span> &lt;span class="n">README&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">scripts&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">757&lt;/span> &lt;span class="n">SECURITY&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">md&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="mi">923&lt;/span> &lt;span class="n">shell&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">nix&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">toolsrc&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">triplets&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">39&lt;/span> &lt;span class="mi">8&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">066&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">496&lt;/span> &lt;span class="n">vcpkg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">exe&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">~~~~~~~~~&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mi">2024&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">07&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">04&lt;/span> &lt;span class="err">오후&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">36&lt;/span> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="n">DIR&lt;/span>&lt;span class="o">&amp;gt;&lt;/span> &lt;span class="n">versions&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">15&lt;/span>&lt;span class="err">개&lt;/span> &lt;span class="err">파일&lt;/span> &lt;span class="mi">8&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">096&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">388&lt;/span> &lt;span class="err">바이트&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">9&lt;/span>&lt;span class="err">개&lt;/span> &lt;span class="err">디렉터리&lt;/span> &lt;span class="mi">691&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">294&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">969&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">856&lt;/span> &lt;span class="err">바이트&lt;/span> &lt;span class="err">남음&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="vcpkg와-visual-studio-연동">vcpkg와 Visual Studio 연동
+&lt;/h2>&lt;h3 id="vcpkg-integrate-install">vcpkg integrate install
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C:\vcpkg\vcpkg&amp;gt;vcpkg integrate install
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ~~~~~~~~~~~~~~~~~~~~~~~
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">warning: vcpkg C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg\vcpkg.exe이(가) 검색된 vcpkg 루트 C:\vcpkg\vcpkg을(를) 사용하고 있으며 일치하지 않는 VCPKG_ROOT 환경 값 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg을(를) 무시합니다. 이 메시지를 표시하지 않도록 하려면 환경 변수를 설정 해제하거나 --vcpkg-root 명령줄 스위치를 사용하세요.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">이 vcpkg 루트에 대한 사용자 차원의 통합을 적용했습니다.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CMake 프로젝트는 &amp;#34;-DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake&amp;#34;를 사용해야 합니다.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">이제 모든 MSBuild C++ 프로젝트에 설치된 라이브러리를 #include할 수 있습니다. 연결은 자동으로 처리됩니다. 새 라이브러리를 설치하면 즉시 사용할 수 있습니다.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C:\vcpkg\vcpkg&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="vcpkg와-vcxproj연동">vcpkg와 .vcxproj연동
+&lt;/h2>&lt;h3 id="vcxproj-파일과-같은-위치에-vcpkgjson-파일-작성">.vcxproj 파일과 같은 위치에 vcpkg.json 파일 작성
+&lt;/h3>&lt;h3 id="vcpkgjson-내용">vcpkg.json 내용
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">{
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;$schema&amp;#34;: &amp;#34;https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;name&amp;#34;: &amp;#34;my-app&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;version&amp;#34;: &amp;#34;0.0.1&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;dependencies&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;fmt&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;pugixml&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;nlohmann-json&amp;#34;,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;#34;gtest&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="프로젝트-속성-페이지구성-속성vcpkg">프로젝트 속성 페이지/구성 속성/vcpkg
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">+-------------------------------------------------------------------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">|v General |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| +-----------------------------------------------------------------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Use Vcpkg : 예 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Use Vcpkg Manifest : 예 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | ~~ |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Install Vcpkg Dependencies : 예 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Use AutoLink : 예 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | App-locally depoy DLLs : 예 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Use Built-in app-local depolyment : 아니오 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Install Directory : |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Addtional Options : |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-+-----------------------------------------------------------------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">|v Target and Configuration Specific |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| +-----------------------------------------------------------------+
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Use Static Libraries : 예 |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | ~~ |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Use Dynamic CRT : |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Triplet : x64-windows |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | ~~~~~~~~~~~ |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Host Triplet : |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| | Vcpkg Configuration Debug : Debug |
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+-+-----------------------------------------------------------------+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="위와-같이-설정시-아래-내용이-vcxproj-파일에-추가-됨">위와 같이 설정시 아래 내용이 .vcxproj 파일에 추가 됨
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> &amp;lt;PropertyGroup Label=&amp;#34;UserMacros&amp;#34; /&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;PropertyGroup Label=&amp;#34;Vcpkg&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;VcpkgEnableManifest&amp;gt;true&amp;lt;/VcpkgEnableManifest&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;/PropertyGroup&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;PropertyGroup Label=&amp;#34;Vcpkg&amp;#34; Condition=&amp;#34;&amp;#39;$(Configuration)|$(Platform)&amp;#39;==&amp;#39;Debug|x64&amp;#39;&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;VcpkgUseStatic&amp;gt;true&amp;lt;/VcpkgUseStatic&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;VcpkgTriplet&amp;gt;x64-windows&amp;lt;/VcpkgTriplet&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;/PropertyGroup&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;PropertyGroup Label=&amp;#34;Vcpkg&amp;#34; Condition=&amp;#34;&amp;#39;$(Configuration)|$(Platform)&amp;#39;==&amp;#39;Release|x64&amp;#39;&amp;#34;&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;VcpkgUseStatic&amp;gt;true&amp;lt;/VcpkgUseStatic&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;VcpkgTriplet&amp;gt;x64-windows&amp;lt;/VcpkgTriplet&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;/PropertyGroup&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
