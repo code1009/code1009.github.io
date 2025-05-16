@@ -76,6 +76,9 @@
     <Filter Include="content\post\010.nuget">
       <UniqueIdentifier>{70cdb440-6e60-445e-ad73-1b51dfab8289}</UniqueIdentifier>
     </Filter>
+    <Filter Include="content\post\010.WinUI3 vcxprj 설정">
+      <UniqueIdentifier>{906a32c7-5882-4602-b802-089320d331e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="config\_default\config.toml">
@@ -137,6 +140,9 @@
     </None>
     <None Include="content\post\nuget\index.md">
       <Filter>content\post\010.nuget</Filter>
+    </None>
+    <None Include="content\post\WinUI3 vcxprj 설정\index.md">
+      <Filter>content\post\010.WinUI3 vcxprj 설정</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

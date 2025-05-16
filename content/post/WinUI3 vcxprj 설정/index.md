@@ -1,5 +1,5 @@
 ﻿---
-title: vld
+title: WinUI3 vcxprj 설정
 date: 2025-05-16 00:00:00+0000
 categories:
     - 프로그래밍
