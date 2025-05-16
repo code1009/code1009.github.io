@@ -15,28 +15,28 @@ tags:
 - https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app
 
 
-## 수동 설정1
+## 수정1
 ```
 <Project ...>
   ...
-  <PropertyGroup>
+  <PropertyGroup Label="Globals">
     ...
     <WindowsPackageType>None</WindowsPackageType>
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 추가
     ...
   </PropertyGroup> 
   ...
 </Project>
 ```
 
-## 수동 설정2
+## 수정2
 ```
 <Project ...>
   ...
   <PropertyGroup Label="Globals">
     ...
     <AppxPackage>false</AppxPackage>
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 수정
     ...
   </PropertyGroup> 
   ...
