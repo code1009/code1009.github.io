@@ -62,3 +62,6 @@ categories:
 - [https://marketplace.visualstudio.com/items?itemName=EvgeniyRyzhkov.PVS-Studio](https://marketplace.visualstudio.com/items?itemName=EvgeniyRyzhkov.PVS-Studio)  
 
 
+
+## Struct Layout 2022
+- [https://marketplace.visualstudio.com/items?itemName=RamonViladomat.StructLayout2022](https://marketplace.visualstudio.com/items?itemName=RamonViladomat.StructLayout2022)
