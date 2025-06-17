@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="web">
+      <UniqueIdentifier>{b5ecf75f-a25a-4d69-a15d-42758bfc4ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\0000.example">
+      <UniqueIdentifier>{8b6a6d7d-558d-4a76-b407-e3789e13e77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\0000.template">
+      <UniqueIdentifier>{5ee22c34-c599-435d-a521-8e1b8fd86829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="root">
+      <UniqueIdentifier>{f701cd44-52b0-45c6-8872-527368efe374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\셈말짓기">
+      <UniqueIdentifier>{d62651fa-6178-42e0-8f6c-af47d3959277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\Visual Studio 기본설정">
+      <UniqueIdentifier>{23c8bd36-888e-49c3-a559-23952e08e26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\Visual Studio C++ 빌드설정">
+      <UniqueIdentifier>{77acf20b-f2bd-41a4-82b3-f4b89b97aeaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\Visual Studio Plugin">
+      <UniqueIdentifier>{92c08b84-5b88-475a-92a3-2e725c3c50a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\nuget">
+      <UniqueIdentifier>{e040e310-5a7a-4f05-882f-2d03c195950e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\vcpkg">
+      <UniqueIdentifier>{f753e7bf-6a2a-4fac-a80b-2c18fc569cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\vld">
+      <UniqueIdentifier>{a156dfa1-8a86-4d9a-bcf1-e9495342d5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\WinUI3 vcxprj 설정">
+      <UniqueIdentifier>{0aea5913-5505-4d1b-b5b5-7f4a63b3b308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="web\윈도우 API utf8 설정">
+      <UniqueIdentifier>{ffe11a05-991d-49ca-8085-56d3c13cdbb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="index.html">
+      <Filter>web</Filter>
+    </None>
+    <None Include="core.css">
+      <Filter>web</Filter>
+    </None>
+    <None Include="menu.css">
+      <Filter>web</Filter>
+    </None>
+    <None Include="core.js">
+      <Filter>web</Filter>
+    </None>
+    <None Include="mainmenu.js">
+      <Filter>web</Filter>
+    </None>
+    <None Include="menu.js">
+      <Filter>web</Filter>
+    </None>
+    <None Include="0000.example\page.css">
+      <Filter>web\0000.example</Filter>
+    </None>
+    <None Include="0000.example\page.html">
+      <Filter>web\0000.example</Filter>
+    </None>
+    <None Include="0000.example\page.js">
+      <Filter>web\0000.example</Filter>
+    </None>
+    <None Include="0000.example\submenu.js">
+      <Filter>web\0000.example</Filter>
+    </None>
+    <None Include="0000.template\page.css">
+      <Filter>web\0000.template</Filter>
+    </None>
+    <None Include="0000.template\page.html">
+      <Filter>web\0000.template</Filter>
+    </None>
+    <None Include="0000.template\page.js">
+      <Filter>web\0000.template</Filter>
+    </None>
+    <None Include="..\index.html">
+      <Filter>root</Filter>
+    </None>
+    <None Include="셈말짓기\page.css">
+      <Filter>web\셈말짓기</Filter>
+    </None>
+    <None Include="셈말짓기\page.html">
+      <Filter>web\셈말짓기</Filter>
+    </None>
+    <None Include="셈말짓기\page.js">
+      <Filter>web\셈말짓기</Filter>
+    </None>
+    <None Include="Visual Studio 기본설정\page.css">
+      <Filter>web\Visual Studio 기본설정</Filter>
+    </None>
+    <None Include="Visual Studio 기본설정\page.html">
+      <Filter>web\Visual Studio 기본설정</Filter>
+    </None>
+    <None Include="Visual Studio 기본설정\page.js">
+      <Filter>web\Visual Studio 기본설정</Filter>
+    </None>
+    <None Include="Visual Studio C++ 빌드설정\page.css">
+      <Filter>web\Visual Studio C++ 빌드설정</Filter>
+    </None>
+    <None Include="Visual Studio C++ 빌드설정\page.html">
+      <Filter>web\Visual Studio C++ 빌드설정</Filter>
+    </None>
+    <None Include="Visual Studio C++ 빌드설정\page.js">
+      <Filter>web\Visual Studio C++ 빌드설정</Filter>
+    </None>
+    <None Include="Visual Studio Plugin\page.html">
+      <Filter>web\Visual Studio Plugin</Filter>
+    </None>
+    <None Include="Visual Studio Plugin\page.js">
+      <Filter>web\Visual Studio Plugin</Filter>
+    </None>
+    <None Include="Visual Studio Plugin\page.css">
+      <Filter>web\Visual Studio Plugin</Filter>
+    </None>
+    <None Include="nuget\page.css">
+      <Filter>web\nuget</Filter>
+    </None>
+    <None Include="nuget\page.html">
+      <Filter>web\nuget</Filter>
+    </None>
+    <None Include="nuget\page.js">
+      <Filter>web\nuget</Filter>
+    </None>
+    <None Include="vcpkg\index.md">
+      <Filter>web\vcpkg</Filter>
+    </None>
+    <None Include="vcpkg\page.css">
+      <Filter>web\vcpkg</Filter>
+    </None>
+    <None Include="vcpkg\page.html">
+      <Filter>web\vcpkg</Filter>
+    </None>
+    <None Include="vcpkg\page.js">
+      <Filter>web\vcpkg</Filter>
+    </None>
+    <None Include="vld\page.css">
+      <Filter>web\vld</Filter>
+    </None>
+    <None Include="vld\page.html">
+      <Filter>web\vld</Filter>
+    </None>
+    <None Include="vld\page.js">
+      <Filter>web\vld</Filter>
+    </None>
+    <None Include="WinUI3 vcxprj 설정\page.html">
+      <Filter>web\WinUI3 vcxprj 설정</Filter>
+    </None>
+    <None Include="WinUI3 vcxprj 설정\page.js">
+      <Filter>web\WinUI3 vcxprj 설정</Filter>
+    </None>
+    <None Include="WinUI3 vcxprj 설정\page.css">
+      <Filter>web\WinUI3 vcxprj 설정</Filter>
+    </None>
+    <None Include="윈도우 API utf8 설정\page.css">
+      <Filter>web\윈도우 API utf8 설정</Filter>
+    </None>
+    <None Include="윈도우 API utf8 설정\page.html">
+      <Filter>web\윈도우 API utf8 설정</Filter>
+    </None>
+    <None Include="윈도우 API utf8 설정\page.js">
+      <Filter>web\윈도우 API utf8 설정</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="logo.png">
+      <Filter>web</Filter>
+    </Image>
+    <Image Include="셈말짓기\mooroo.jpg">
+      <Filter>web\셈말짓기</Filter>
+    </Image>
+    <Image Include="Visual Studio 기본설정\img.png">
+      <Filter>web\Visual Studio 기본설정</Filter>
+    </Image>
+    <Image Include="Visual Studio 기본설정\img2.png">
+      <Filter>web\Visual Studio 기본설정</Filter>
+    </Image>
+    <Image Include="nuget\img.png">
+      <Filter>web\nuget</Filter>
+    </Image>
+    <Image Include="nuget\img2.png">
+      <Filter>web\nuget</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ref.txt">
+      <Filter>root</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

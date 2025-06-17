@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" />
+	<title>WinUI3 vcxprj 설정</title>
+	<link rel="stylesheet" type="text/css" href="../core.css" />
+	<link rel="stylesheet" type="text/css" href="../menu.css" />
+	<link rel="stylesheet" type="text/css" href="./page.css" />
+	<script type="text/javascript" src="../core.js"></script>
+	<script type="text/javascript" src="../menu.js"></script>
+	<script type="text/javascript" src="../mainmenu.js"></script>
+	<script type="text/javascript" src="./page.js"></script>
+
+</head>
+<body>
+
+	<div id="information">
+	</div>
+
+	<div id="contents">
+
+
+<!-- ******************************************************************** -->
+<h1>WinUI3 vcxprj 설정</h1>
+
+<h2>설명서</h2>
+
+<a href="https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app">https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app</a>
+
+
+<h2>수정1</h2>
+<!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;Project</span> <span style="border: 1px solid #FF0000">...</span><span style="color: #062873; font-weight: bold">&gt;</span>
+  ...
+  <span style="color: #062873; font-weight: bold">&lt;PropertyGroup</span> <span style="color: #4070a0">Label=&quot;Globals&quot;</span><span style="color: #062873; font-weight: bold">&gt;</span>
+    ...
+    <span style="color: #062873; font-weight: bold">&lt;WindowsPackageType&gt;</span>None<span style="color: #062873; font-weight: bold">&lt;/WindowsPackageType&gt;</span>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 추가
+    ...
+  <span style="color: #062873; font-weight: bold">&lt;/PropertyGroup&gt;</span> 
+  ...
+<span style="color: #062873; font-weight: bold">&lt;/Project&gt;</span>
+</pre></td></tr></table></div>
+
+
+<h2>수정2</h2>
+<!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #062873; font-weight: bold">&lt;Project</span> <span style="border: 1px solid #FF0000">...</span><span style="color: #062873; font-weight: bold">&gt;</span>
+  ...
+  <span style="color: #062873; font-weight: bold">&lt;PropertyGroup</span> <span style="color: #4070a0">Label=&quot;Globals&quot;</span><span style="color: #062873; font-weight: bold">&gt;</span>
+    ...
+    <span style="color: #062873; font-weight: bold">&lt;AppxPackage&gt;</span>false<span style="color: #062873; font-weight: bold">&lt;/AppxPackage&gt;</span>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 수정
+    ...
+  <span style="color: #062873; font-weight: bold">&lt;/PropertyGroup&gt;</span> 
+  ...
+<span style="color: #062873; font-weight: bold">&lt;/Project&gt;</span>
+</pre></td></tr></table></div>
+
+<!-- ******************************************************************** -->
+
+
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿@charset "utf-8";
+
+body {
+    margin-top     : 0.0em;
+    margin-bottom  : 0.0em;
+    margin-left    : 0.0em;
+    margin-right   : 0.0em;
+
+    border-collapse: collapse;
+    border-style   : solid;
+    border-color   : #fefefe;
+    border-width   : 0px;
+
+    padding-top    : 0px;
+    padding-bottom : 0px;
+    padding-left   : 0px;
+    padding-right  : 0px;
+
+    font-family    : 맑은 고딕;
+    font-size      : 1.0em;
+    font-weight    : normal;
+    font-style     : normal;
+
+    background     : #ffffff;
+    color          : #000000;
+
+    line-height    : 1.5em;
+    vertical-align : top;
+    text-align     : left;
+}
+
+#information {
+    float: left;
+    width: 420px;
+    min-height: max(100%, 100vh);
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    box-sizing: border-box;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    background: #fafafa;
+}
+
+#contents {
+    min-height: max(100%, 100vh);
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 420px;
+    margin-right: 0px;
+
+    box-sizing: border-box;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    background: white;
+}
