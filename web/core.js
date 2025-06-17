@@ -63,6 +63,8 @@ function coreInitialize() {
 
 		<a href="mailto:code1009@naver.com"><b>code1009@naver.com</b></a><br />
 		<a href="https://code1009.github.io/"><b>https://code1009.github.io/</b></a><br />
+		<a href="https://github.com/code1009"><b>https://github.com/code1009/</b></a><br />
+		
 `
 		;
 		
