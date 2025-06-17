@@ -33,10 +33,13 @@ class MainMenu {
 	
 	initializeMenu() {
 		this._Menu.makeTreeItems();
+
 		this._Menu.getRootItem().setExpanded(true);
+		/*
 		for (let child of this._Menu.getRootItem().getChildren()) {
 			child.setExpanded(true);
 		}
+		*/
 		
 		this._Menu.render("mainMenu");
 	}
