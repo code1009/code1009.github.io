@@ -23,47 +23,27 @@
 <p>manifest 파일을 추가해서 적용 할 수 있습니다.</p>
 
 <!-- ____________________________________________________________________ -->
-<!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #007020">#if 0</span><span style="color: #60a0b0; font-style: italic"></span>
-<span style="color: #60a0b0; font-style: italic">	//-----------------------------------------------------------------------</span>
-<span style="color: #60a0b0; font-style: italic">	MessageBoxA(nullptr, (LPCSTR)u8&quot;가나다라&quot;, (LPCSTR)u8&quot;제목&quot;, MB_OK);</span>
-<span style="color: #60a0b0; font-style: italic">	</span>
-<span style="color: #60a0b0; font-style: italic">	/*</span>
-<span style="color: #60a0b0; font-style: italic">	NOTE: VLD 관련</span>
-<span style="color: #60a0b0; font-style: italic">	- 일반 버전으로 utf-8 적용시 vld에서 오류가 발생함.</span>
-<span style="color: #60a0b0; font-style: italic">	- Azure/vld 버전은 버그수정(fixed) 됨.(https://github.com/Azure/vld).</span>
+<!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #60a0b0; font-style: italic">#if 0</span>
+	//-----------------------------------------------------------------------
+	MessageBoxA<span style="color: #666666">(</span>nullptr, <span style="color: #666666">(</span>LPCSTR<span style="color: #666666">)</span>u8<span style="color: #4070a0">&quot;가나다라&quot;</span>, <span style="color: #666666">(</span>LPCSTR<span style="color: #666666">)</span>u8<span style="color: #4070a0">&quot;제목&quot;</span>, MB_OK<span style="color: #666666">)</span>;
+	
+	/*
+	NOTE: VLD 관련
+	- 일반 버전으로 utf-8 적용시 vld에서 오류가 발생함.
+	- Azure/vld 버전은 버그수정<span style="color: #666666">(</span>fixed<span style="color: #666666">)</span> 됨.<span style="color: #666666">(</span>https://github.com/Azure/vld<span style="color: #666666">)</span>.
 
-<span style="color: #60a0b0; font-style: italic">	https://learn.microsoft.com/en-us/windows/apps/design/globalizing/use-utf8-code-page</span>
+	https://learn.microsoft.com/en-us/windows/apps/design/globalizing/use-utf8-code-page
 
-<span style="color: #60a0b0; font-style: italic">	&lt;application xmlns=&quot;urn:schemas-microsoft-com:asm.v3&quot;&gt;</span>
-<span style="color: #60a0b0; font-style: italic">		&lt;windowsSettings&gt;</span>
-<span style="color: #60a0b0; font-style: italic">		&lt;activeCodePage xmlns=&quot;http://schemas.microsoft.com/SMI/2019/WindowsSettings&quot;&gt;UTF - 8 &lt;/activeCodePage&gt;</span>
-<span style="color: #60a0b0; font-style: italic">		&lt;dpiAware xmlns=&quot;http://schemas.microsoft.com/SMI/2005/WindowsSettings&quot;&gt;true&lt;/dpiAware&gt;</span>
-<span style="color: #60a0b0; font-style: italic">		&lt;dpiAwareness xmlns=&quot;http://schemas.microsoft.com/SMI/2016/WindowsSettings&quot;&gt;PerMonitorV2, PerMonitor&lt;/dpiAwareness&gt;</span>
-<span style="color: #60a0b0; font-style: italic">		&lt;/windowsSettings&gt;</span>
-<span style="color: #60a0b0; font-style: italic">	&lt;/application&gt;</span>
-<span style="color: #60a0b0; font-style: italic">	*/</span>
-<span style="color: #007020">#endif</span>
-</pre></td></tr></table></div>
-<!-- ******************************************************************** -->
+	&lt;application <span style="color: #bb60d5">xmlns</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;urn:schemas-microsoft-com:asm.v3&quot;</span>&gt;
+		&lt;windowsSettings&gt;
+		&lt;activeCodePage <span style="color: #bb60d5">xmlns</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;http://schemas.microsoft.com/SMI/2019/WindowsSettings&quot;</span>&gt;UTF - 8 &lt;/activeCodePage&gt;
+		&lt;dpiAware <span style="color: #bb60d5">xmlns</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;http://schemas.microsoft.com/SMI/2005/WindowsSettings&quot;</span>&gt;true&lt;/dpiAware&gt;
+		&lt;dpiAwareness <span style="color: #bb60d5">xmlns</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;http://schemas.microsoft.com/SMI/2016/WindowsSettings&quot;</span>&gt;PerMonitorV2, PerMonitor&lt;/dpiAwareness&gt;
+		&lt;/windowsSettings&gt;
+	&lt;/application&gt;
+	*/
+<span style="color: #60a0b0; font-style: italic">#endif</span>
+</pre></div>
 <!-- ____________________________________________________________________ -->
 
 
