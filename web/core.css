@@ -70,3 +70,61 @@ body {
 
     background: white;
 }
+
+table {
+    width: 100%;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+
+}
+
+th {
+    min-width: 100px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+td {
+    min-width: 100px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 0px;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+}
