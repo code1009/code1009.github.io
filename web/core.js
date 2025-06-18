@@ -38,10 +38,10 @@ var _Core = null;
 function coreInitialize() {
 	_Core = new Core();
 
-	let information = document.getElementById("information");
-	if (!information) {
-		return;
-	}
+	const information = document.createElement("div");
+	information.id = "information";
+	document.body.insertBefore(information, document.body.firstChild);
+
 
 	information.innerHTML =
 `
