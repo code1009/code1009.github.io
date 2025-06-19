@@ -58,7 +58,28 @@
 
 <!-- ____________________________________________________________________ -->
 
+<h2>배포관련</h2>
+<a href="https://johnnys.news/2024/03/Revisited-WinUI-publishing-a-single-exe">https://johnnys.news/2024/03/Revisited-WinUI-publishing-a-single-exe</a>
+<br/>
 
+<!-- ____________________________________________________________________ -->
+<!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">&lt;PropertyGroup&gt;
+    &lt;PublishSingleFile&gt;true&lt;/PublishSingleFile&gt;
+    &lt;SelfContained&gt;true&lt;/SelfContained&gt;
+    &lt;WindowsAppSDKSelfContained&gt;true&lt;/WindowsAppSDKSelfContained&gt;
+&lt;/PropertyGroup&gt;
+</pre></div>
+<!-- ____________________________________________________________________ -->
+
+<p>WindowsAppSDKSelfContained는 삭제 하고 빌드</p>
+
+<p>sdk가 설치되어 있는 상태에서 파일 3개만 있으면 </p>
+<ul>
+<li>resources.pri</li>
+<li>Microsoft.WindowsAppRuntime.Bootstrap.dll</li>
+<li>app.exe</li>
+</ul>
+<p>파일 3개만 있으면 동작 가능</p>
 
 
 </div>
