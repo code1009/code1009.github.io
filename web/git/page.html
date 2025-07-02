@@ -14,31 +14,61 @@
 
 </head>
 <body>
-<div id="contents">
+	<div id="contents">
 
 
-<!-- ******************************************************************** -->
-<h1>자주사용하는 git 명령</h1>
-		
-<p>덮어쓰기</p>
-<ul>
-	<li>git reset --hard origin</li>
-	<li>git reset --soft origin</li>
-	<li>git reset --soft HEAD~{커밋갯수숫자}</li>
-	<li>git reset --hard origin/{브렌치이름}</li>
-</ul>
+		<!-- ******************************************************************** -->
+		<h1>자주사용하는 git 명령</h1>
 
-<p>커밋합치기</p>
-<ul>
-	<li>git rebase -i HEAD~{커밋갯수숫자}</li>
-</ul>
+		<p>
+			덮어쓰기
+		</p>
+		<ul>
+			<li>
+				git reset --hard origin
+			</li>
+			<li>
+				git reset --soft origin
+			</li>
+			<li>
+				git reset --soft HEAD~{커밋수}
+			</li>
+			<li>
+				git reset --hard origin/{브렌치-이름}
+			</li>
+		</ul>
 
-<p>로컬에서 브렌치전환</p>
-<ul>
-	<li>git checkout {브렌치이름}</li>
-</ul>
+
+		<p>
+			커밋합치기
+		</p>
+		<ul>
+			<li>
+				git rebase -i HEAD~{커밋수}
+			</li>
+		</ul>
 
 
-</div>
+		<p>
+			로컬에서 브렌치전환
+		</p>
+		<ul>
+			<li>
+				git checkout {브렌치-이름}
+			</li>
+		</ul>
+
+
+		<p>
+			새 저장소의 초기 커밋을 기존 저장소와 병합
+		</p>
+		<ul>
+			<li>
+				git pull origin {브렌치-이름} --allow-unrelated-histories
+			</li>
+		</ul>
+
+
+	</div>
 </body>
 </html>
