@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" />
+	<title>자주사용하는 git 명령</title>
+	<link rel="stylesheet" type="text/css" href="../core.css" />
+	<link rel="stylesheet" type="text/css" href="../menu.css" />
+	<link rel="stylesheet" type="text/css" href="./page.css" />
+	<script type="text/javascript" src="../core.js"></script>
+	<script type="text/javascript" src="../menu.js"></script>
+	<script type="text/javascript" src="../mainmenu.js"></script>
+	<script type="text/javascript" src="./page.js"></script>
+
+</head>
+<body>
+<div id="contents">
+
+
+<!-- ******************************************************************** -->
+<h1>자주사용하는 git 명령</h1>
+		
+덮어쓰기
+git reset --hard origin
+git reset --soft origin
+git reset --soft HEAD~{커밋갯수숫자}
+
+브렌치덮어쓰기
+git reset --hard origin/{브렌치이름}
+
+커밋합치기
+git rebase -i HEAD~{커밋갯수숫자}
+
+로컬에서 브렌치전환
+git checkout {브렌치이름}
+<!-- ____________________________________________________________________ -->
+
+
+</div>
+</body>
+</html>

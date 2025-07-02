@@ -40,6 +40,9 @@
     <Filter Include="web\윈도우 API utf8 설정">
       <UniqueIdentifier>{ffe11a05-991d-49ca-8085-56d3c13cdbb2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="web\git">
+      <UniqueIdentifier>{24ac4ee1-e795-46fe-b8fd-6b7fcbd56599}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="index.html">
@@ -167,6 +170,15 @@
     </None>
     <None Include="윈도우 API utf8 설정\page.js">
       <Filter>web\윈도우 API utf8 설정</Filter>
+    </None>
+    <None Include="git\page.css">
+      <Filter>web\git</Filter>
+    </None>
+    <None Include="git\page.html">
+      <Filter>web\git</Filter>
+    </None>
+    <None Include="git\page.js">
+      <Filter>web\git</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

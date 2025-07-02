@@ -29,6 +29,7 @@ class MainMenu {
 		this._Menu.addDataItem("/윈도우개발/Visual Studio Plugin"              , "../Visual Studio Plugin/page.html");         
 		this._Menu.addDataItem("/윈도우개발/Visual Studio C++ 빌드설정"        , "../Visual Studio C++ 빌드설정/page.html");
 		this._Menu.addDataItem("/윈도우개발/Visual Studio 기본설정"            , "../Visual Studio 기본설정/page.html");
+		this._Menu.addDataItem("/개발/자주사용하는 git 명령"            , "../git/page.html");
 	}
 	
 	initializeMenu() {

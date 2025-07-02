@@ -29,6 +29,9 @@
     <None Include="0000.template\page.js" />
     <None Include="core.css" />
     <None Include="core.js" />
+    <None Include="git\page.css" />
+    <None Include="git\page.html" />
+    <None Include="git\page.js" />
     <None Include="index.html" />
     <None Include="mainmenu.js" />
     <None Include="menu.css" />
