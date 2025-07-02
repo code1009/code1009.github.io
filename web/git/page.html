@@ -20,20 +20,23 @@
 <!-- ******************************************************************** -->
 <h1>자주사용하는 git 명령</h1>
 		
-덮어쓰기
-git reset --hard origin
-git reset --soft origin
-git reset --soft HEAD~{커밋갯수숫자}
+<p>덮어쓰기</p>
+<ul>
+	<li>git reset --hard origin</li>
+	<li>git reset --soft origin</li>
+	<li>git reset --soft HEAD~{커밋갯수숫자}</li>
+	<li>git reset --hard origin/{브렌치이름}</li>
+</ul>
 
-브렌치덮어쓰기
-git reset --hard origin/{브렌치이름}
+<p>커밋합치기</p>
+<ul>
+	<li>git rebase -i HEAD~{커밋갯수숫자}</li>
+</ul>
 
-커밋합치기
-git rebase -i HEAD~{커밋갯수숫자}
-
-로컬에서 브렌치전환
-git checkout {브렌치이름}
-<!-- ____________________________________________________________________ -->
+<p>로컬에서 브렌치전환</p>
+<ul>
+	<li>git checkout {브렌치이름}</li>
+</ul>
 
 
 </div>
