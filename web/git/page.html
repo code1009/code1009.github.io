@@ -3,7 +3,7 @@
 <head>
 
 	<meta charset="utf-8" />
-	<title>자주사용하는 git 명령</title>
+	<title>git 명령</title>
 	<link rel="stylesheet" type="text/css" href="../core.css" />
 	<link rel="stylesheet" type="text/css" href="../menu.css" />
 	<link rel="stylesheet" type="text/css" href="./page.css" />
@@ -18,11 +18,11 @@
 
 
 		<!-- ******************************************************************** -->
-		<h1>자주사용하는 git 명령</h1>
+		<h1>git 명령</h1>
 
-		<p>
+		<h2>
 			덮어쓰기
-		</p>
+		</h2>
 		<ul>
 			<li>
 				git reset --hard origin
@@ -39,22 +39,20 @@
 		</ul>
 
 
-		<p>
+		<h2>
 			커밋합치기
-		</p>
+		</h2>
 		<ul>
 			<li>
 				git rebase -i HEAD~{커밋수}
 			</li>
-		</ul>
-		<p>
 			<i>브렌치에서 머지한경우 rebase 사용금지</i>
-		</p>
+		</ul>
 
 
-		<p>
+		<h2>
 			로컬에서 브렌치전환
-		</p>
+		</h2>
 		<ul>
 			<li>
 				git checkout {브렌치-이름}
@@ -62,9 +60,9 @@
 		</ul>
 
 
-		<p>
+		<h2>
 			새 저장소의 초기 커밋을 기존 저장소와 병합
-		</p>
+		</h2>
 		<ul>
 			<li>
 				git pull origin {브렌치-이름} --allow-unrelated-histories
@@ -72,9 +70,9 @@
 		</ul>
 
 
-		<p>
+		<h2>
 			저장소의 초기화
-		</p>
+		</h2>
 		<ul>
 			<li>
 				.git 폴더 삭제
