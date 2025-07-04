@@ -12,8 +12,14 @@
 	<script type="text/javascript" src="../mainmenu.js"></script>
 	<script type="text/javascript" src="./page.js"></script>
 
-	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-	
+	<!-- marked -->
+	<!--
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	-->
+
+	<!-- showdown -->
+	<script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+
 </head>
 <body>
 	<div id="contents">
@@ -25,13 +31,21 @@
 		<script>
 
 			function renderMarkdwon(markdown_view_id, markdown_url) {
-			var xmlhttp = new XMLHttpRequest();
-			xmlhttp.onreadystatechange =
-			function () {
-			if (this.readyState == 4 && this.status == 200) {
-			const html = marked.parse(this.responseText);
-			document.getElementById(markdown_view_id).innerHTML = html;
-			}
+				var xmlhttp = new XMLHttpRequest();
+				xmlhttp.onreadystatechange =
+					function () {
+						if (this.readyState == 4 && this.status == 200) {
+						
+						//marked
+						//const html = marked.parse(this.responseText); // marked
+
+						 // showdown
+						const converter = new showdown.Converter();
+						const html = converter.makeHtml(markdown);
+
+						document.getElementById(markdown_view_id).innerHTML = html;
+
+					}
 			};
 
 			xmlhttp.open("GET", markdown_url, true);
