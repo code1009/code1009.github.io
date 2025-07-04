@@ -31,6 +31,7 @@ class MainMenu {
 		this._Menu.addDataItem("/윈도우개발/Visual Studio C++ 빌드설정"        , "../Visual Studio C++ 빌드설정/page.html");
 		this._Menu.addDataItem("/윈도우개발/Visual Studio 기본설정"            , "../Visual Studio 기본설정/page.html");
 		this._Menu.addDataItem("/개발/git"                                     , "../git/page.html");
+		this._Menu.addDataItem("/개발/markdown"                                     , "../markdown/page.html");
 	}
 	
 	initializeMenu() {
