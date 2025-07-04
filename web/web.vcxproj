@@ -38,6 +38,10 @@
     <None Include="git\page.js" />
     <None Include="index.html" />
     <None Include="mainmenu.js" />
+    <None Include="markdown\page.css" />
+    <None Include="markdown\page.html" />
+    <None Include="markdown\page.js" />
+    <None Include="markdown\page.md" />
     <None Include="menu.css" />
     <None Include="menu.js" />
     <None Include="nuget\page.css" />

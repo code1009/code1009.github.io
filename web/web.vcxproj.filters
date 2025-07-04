@@ -46,6 +46,9 @@
     <Filter Include="web\0000.template_markdown">
       <UniqueIdentifier>{b3c40881-f0f4-480f-8bec-6e691c9e8d5d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="web\markdown">
+      <UniqueIdentifier>{df271006-d4c2-44b5-9491-e9016225f500}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="index.html">
@@ -194,6 +197,18 @@
     </None>
     <None Include="0000.template_markdown\page.md">
       <Filter>web\0000.template_markdown</Filter>
+    </None>
+    <None Include="markdown\page.css">
+      <Filter>web\markdown</Filter>
+    </None>
+    <None Include="markdown\page.html">
+      <Filter>web\markdown</Filter>
+    </None>
+    <None Include="markdown\page.js">
+      <Filter>web\markdown</Filter>
+    </None>
+    <None Include="markdown\page.md">
+      <Filter>web\markdown</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
