@@ -3,7 +3,7 @@
 <head>
 
 	<meta charset="utf-8" />
-	<title>git</title>
+	<title>code1009</title>
 	<link rel="stylesheet" type="text/css" href="../core.css" />
 	<link rel="stylesheet" type="text/css" href="../menu.css" />
 	<link rel="stylesheet" type="text/css" href="./page.css" />
@@ -26,7 +26,7 @@
 
 		<script>
 
-			function renderMarkdwon(markdown_url, markdown_view_id) {
+			function renderMarkdwon(markdown_view_id, markdown_url) {
 				var xmlhttp = new XMLHttpRequest();
 				xmlhttp.onreadystatechange =
 					function () {
@@ -40,8 +40,8 @@
 				xmlhttp.send();
 			}
 
-			renderMarkdwon("./page.md", "markdown_view");
-			renderMarkdwon("https://code1009.github.io/web/md_file/page.md", "markdown_view2");
+			renderMarkdwon("markdown_view", "./page.md");
+			renderMarkdwon("markdown_view2", "https://code1009.github.io/web/md_file/page.md");
 
 		</script>
 	</div>
