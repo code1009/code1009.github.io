@@ -31,7 +31,7 @@
 				xmlhttp.onreadystatechange =
 					function () {
 						if (this.readyState == 4 && this.status == 200) {
-							const html = marked.parse(markdown);
+							const html = marked.parse(this.responseText);
 							document.getElementById(markdown_view_id).innerHTML = html;
 						}
 					};
