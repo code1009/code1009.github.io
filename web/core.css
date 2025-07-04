@@ -38,7 +38,7 @@ body {
     padding-right  : 0px;
 
     /*font-family    : 맑은 고딕;*/
-    font-family: "Chiron Hei HK", sans-serif;
+    font-family: "Chiron Hei HK", Consolas;
     font-size      : 1.0em;
     font-weight    : normal;
     font-style     : normal;
@@ -94,17 +94,17 @@ body {
 }
 
 pre {
-    background-color: #f7ece9;
-    padding: 2px 4px;
-    border-radius: 4px;
+    background-color: #fafbf1;
+    padding: 4px 8px;
+    border-radius: 8px;
     font-size: 1.0em;
-    font-family: 맑은 고딕;
+    font-family: "Chiron Hei HK", Consolas;
 }
 
 code {
-    background-color: #f7ece9;
+    background-color: #fafbf1;
     font-size: 1.0em;
-    font-family: 맑은 고딕;
+    font-family: "Chiron Hei HK", Consolas;
 }
 
 /*
