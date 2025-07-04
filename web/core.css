@@ -72,9 +72,10 @@ body {
 }
 
 pre {
-    background-color: #f0f0f0;
+    background-color: #f0f0ff;
     padding: 2px 4px;
     border-radius: 4px;
+    font-size: 1.0em;
 }
 
 /*
