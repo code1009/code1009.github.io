@@ -43,6 +43,9 @@
     <Filter Include="web\git">
       <UniqueIdentifier>{24ac4ee1-e795-46fe-b8fd-6b7fcbd56599}</UniqueIdentifier>
     </Filter>
+    <Filter Include="web\0000.template_markdown">
+      <UniqueIdentifier>{b3c40881-f0f4-480f-8bec-6e691c9e8d5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="index.html">
@@ -179,6 +182,18 @@
     </None>
     <None Include="git\page.js">
       <Filter>web\git</Filter>
+    </None>
+    <None Include="0000.template_markdown\page.css">
+      <Filter>web\0000.template_markdown</Filter>
+    </None>
+    <None Include="0000.template_markdown\page.html">
+      <Filter>web\0000.template_markdown</Filter>
+    </None>
+    <None Include="0000.template_markdown\page.js">
+      <Filter>web\0000.template_markdown</Filter>
+    </None>
+    <None Include="0000.template_markdown\page.md">
+      <Filter>web\0000.template_markdown</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

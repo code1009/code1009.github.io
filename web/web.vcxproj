@@ -27,6 +27,10 @@
     <None Include="0000.template\page.css" />
     <None Include="0000.template\page.html" />
     <None Include="0000.template\page.js" />
+    <None Include="0000.template_markdown\page.css" />
+    <None Include="0000.template_markdown\page.html" />
+    <None Include="0000.template_markdown\page.js" />
+    <None Include="0000.template_markdown\page.md" />
     <None Include="core.css" />
     <None Include="core.js" />
     <None Include="git\page.css" />
