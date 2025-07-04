@@ -38,8 +38,9 @@
 							const markdown = this.responseText;
 							//marked
 							//const html = marked.parse(markdown); // marked
-							//showdown
+							//showdown			
 							const converter = new showdown.Converter();
+							converter.setFlavor('github');
 							const html = converter.makeHtml(markdown);
 							document.getElementById(markdown_view_id).innerHTML = html;
 						}
