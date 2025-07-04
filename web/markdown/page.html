@@ -18,23 +18,24 @@
 <body>
 	<div id="contents">
 
+		출처:<a href="https://gist.github.com/ihoneymon/652be052a0727ad59601">https://gist.github.com/ihoneymon/652be052a0727ad59601</a>
 		<div id="markdown_view">
 		</div>
 
 		<script>
 
 			function renderMarkdwon(markdown_view_id, markdown_url) {
-				var xmlhttp = new XMLHttpRequest();
-				xmlhttp.onreadystatechange =
-					function () {
-						if (this.readyState == 4 && this.status == 200) {
-							const html = marked.parse(this.responseText);
-							document.getElementById(markdown_view_id).innerHTML = html;
-						}
-					};
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange =
+			function () {
+			if (this.readyState == 4 && this.status == 200) {
+			const html = marked.parse(this.responseText);
+			document.getElementById(markdown_view_id).innerHTML = html;
+			}
+			};
 
-				xmlhttp.open("GET", markdown_url, true);
-				xmlhttp.send();
+			xmlhttp.open("GET", markdown_url, true);
+			xmlhttp.send();
 			}
 
 			renderMarkdwon("markdown_view", "./page.md");
