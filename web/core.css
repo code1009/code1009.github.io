@@ -1,5 +1,26 @@
 ﻿@charset "utf-8";
 
+/*
+<weight > : Use a value from 200 to 900
+<uniquifier > : Use a unique and descriptive class name
+.chiron-hei-hk-<uniquifier > {
+    font-family: "Chiron Hei HK", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&display=swap');
+
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'SDSamliphopangche_Outline';
+}
+
 body {
     margin-top     : 0.0em;
     margin-bottom  : 0.0em;
@@ -16,7 +37,8 @@ body {
     padding-left   : 0px;
     padding-right  : 0px;
 
-    font-family    : 맑은 고딕;
+    /*font-family    : 맑은 고딕;*/
+    font-family: "Chiron Hei HK", sans-serif;
     font-size      : 1.0em;
     font-weight    : normal;
     font-style     : normal;
@@ -69,14 +91,6 @@ body {
     padding-right: 16px;
 
     background: white;
-}
-
-@font-face {
-    font-family: 'SDSamliphopangche_Outline';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-family: 'SDSamliphopangche_Outline';
 }
 
 pre {
