@@ -33,10 +33,10 @@
 	</div>
 
 	<script>
-        function getMarkDownFileURL() {
-            const params = new URLSearchParams(window.location.search);
-            const page = params.get("page");
-            return page ? `./${page}.md` : "./plugin.md";
+		function getMarkDownFileURL() {
+			const params = new URLSearchParams(window.location.search);
+			const page = params.get("page");
+			return page ? `./${page}.md` : "./plugin.md";
 		}
 
 		function initializeMarkdwonView() {
@@ -45,14 +45,15 @@
 				return;
 			}
 
-            const markdownFileURL = getMarkDownFileURL();
+			const markdownFileURL = getMarkDownFileURL();
 
 			loadMarkDownScript(
 				function () {
-                    renderMarkdwon("page-markdown-view", markdownFileURL);
+					renderMarkdwon("page-markdown-view", markdownFileURL);
 				}
 			);
 		}
+		
 		initializeMarkdwonView();
 	</script>
 </body>
