@@ -19,6 +19,12 @@
     <Filter Include="home\home-셈말짓기">
       <UniqueIdentifier>{dcb24f01-5f18-4b42-9f76-e397f1986e9f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="page">
+      <UniqueIdentifier>{eead8b18-a051-4c97-8e35-55477e7ae0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="page\page-git">
+      <UniqueIdentifier>{18db6fdc-af07-4455-9aa4-7de79e6d028a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitattributes">
@@ -92,6 +98,45 @@
     </None>
     <None Include="template\page.js">
       <Filter>template</Filter>
+    </None>
+    <None Include="page-git\index.html">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\page.css">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\page.html">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\page.js">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\page.md">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\page1.html">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\page1.md">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\page2.html">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\page2.md">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\page3.html">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\page3.md">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\pageN.js">
+      <Filter>page\page-git</Filter>
+    </None>
+    <None Include="page-git\submenu.js">
+      <Filter>page\page-git</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
