@@ -36,7 +36,7 @@ class SubMenu {
 			child.setExpanded(true);
 		}
 
-		this._Menu.render("mainMenu");
+		this._Menu.render("subMenu");
 	}
 }
 
