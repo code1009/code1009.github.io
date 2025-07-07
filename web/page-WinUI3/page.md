@@ -54,4 +54,4 @@ https://johnnys.news/2024/03/Revisited-WinUI-publishing-a-single-exe
 
 ## App.xml 설정
 
-![](App.xaml.png)
+![](winui3-App.xaml.png)

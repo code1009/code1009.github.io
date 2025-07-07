@@ -7,9 +7,9 @@
 
 ## Visual Studio 자동으로 소스코드를 자동으로 utf8로 저장
 
-![](img1.png)
+![](vs-utf8.png)
 
 
 ### CCS(Eclipse)
 
-![](img2.png)
+![](ccs-utf8.png)

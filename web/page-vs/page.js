@@ -11,7 +11,7 @@
 class Page {
 
 	#Context = null;
-
+	
 	constructor() {
 		this.#Context = null;
 	}
@@ -50,7 +50,7 @@ window.onload = function () {
 
 	initializeMainMenu();
 
-	initializeMarkdwonView();
+	initializeSubMenu();
 }
 
 

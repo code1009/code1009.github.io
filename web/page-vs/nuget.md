@@ -1,7 +1,7 @@
 ﻿# Nuget 설정
 
 ## Nuget Package Source 추가
-![](img1.png)
+![](nuget-1.png)
   
 
 
@@ -14,4 +14,4 @@
 
 ## 솔루션 Nuget Package 복원
 
-![](img2.png)
+![](nuget-2.png)

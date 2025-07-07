@@ -8,7 +8,7 @@
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
-class MainMenu {
+class SubMenu {
 
 	_Menu = new Menu();
 
@@ -16,30 +16,30 @@ class MainMenu {
 		this.registerMenuDataItem();
 		this.initializeMenu();
 	}
-	
-	registerMenuDataItem() {
-		//this._Menu.addDataItem("/예시" , "../example/page.html");
-		//this._Menu.addDataItem("/틀"   , "../template/page.html");
 
-		this._Menu.addDataItem("/셈말짓기"             , "../home-셈말짓기/page.html");
-		this._Menu.addDataItem("/개발노트/VisualStudio", "../page-vs/page.html");
-		this._Menu.addDataItem("/개발노트/vld"         , "../page-vld/page.html");
-		this._Menu.addDataItem("/개발노트/WinUI3"      , "../page-WinUI3/page.html");
-		this._Menu.addDataItem("/개발노트/ccs"         , "../page-ccs/page.html");
-		this._Menu.addDataItem("/개발노트/git"         , "../page-git/page.html");
-		this._Menu.addDataItem("/개발노트/markdown"    , "../page-markdown/page.html");
+	registerMenuDataItem() {
+		this._Menu.addDataItem("/VisualStudio"         , "./page.html?page=plugin");
+		this._Menu.addDataItem("/VisualStudio/plugin"  , "./page.html?page=plugin");
+		this._Menu.addDataItem("/VisualStudio/nuget"  , "./page.html?page=nuget");
+		this._Menu.addDataItem("/VisualStudio/vcpkg"  , "./page.html?page=vcpkg");
+		this._Menu.addDataItem("/VisualStudio/기본설정"  , "./page.html?page=base-config");
+		this._Menu.addDataItem("/VisualStudio/cpp빌드설정"  , "./page.html?page=cpp-build-config");
+
+		this._Menu.getRootItem().setExpanded(true);
+		this._Menu.makeTreeItems();
+		this._Menu.render("subMenu");
 	}
-	
+
 	initializeMenu() {
 		this._Menu.makeTreeItems();
 
 		this._Menu.getRootItem().setExpanded(true);
-		
+
 		for (let child of this._Menu.getRootItem().getChildren()) {
 			child.setExpanded(true);
 		}
-		
-		this._Menu.render("mainMenu");
+
+		this._Menu.render("subMenu");
 	}
 }
 
@@ -49,7 +49,7 @@ class MainMenu {
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
-var _MainMenu = null;
+var _SubMenu = null;
 
 
 
@@ -57,6 +57,6 @@ var _MainMenu = null;
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
-function initializeMainMenu() {
-	_MainMenu = new MainMenu();
+function initializeSubMenu() {
+	_SubMenu = new SubMenu();
 }
