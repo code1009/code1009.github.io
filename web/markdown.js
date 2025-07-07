@@ -47,7 +47,7 @@ function initializeMarkdwonView() {
 
 	loadMarkDownScript(
 		function () {
-			renderMarkdwon("markdown-view", "./page.md");
+			renderMarkdwon("page-markdown-view", "./page.md");
 		}
 	);
 }
