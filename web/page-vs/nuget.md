@@ -1,4 +1,4 @@
-﻿# Nuget 설정
+﻿# Nuget
 
 ## Nuget Package Source 추가
 ![](nuget-1.png)

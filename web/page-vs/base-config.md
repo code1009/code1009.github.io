@@ -1,4 +1,4 @@
-﻿# Visual Studio 기본설정
+﻿# 기본설정
 
 ## 코딩폰트
 - D2Coding ligature 사용  
