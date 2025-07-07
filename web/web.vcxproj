@@ -40,18 +40,6 @@
     <None Include="markdownview.js" />
     <None Include="menu.css" />
     <None Include="menu.js" />
-    <None Include="page-git\page.css" />
-    <None Include="page-git\page.html" />
-    <None Include="page-git\page1.md" />
-    <None Include="page-git\page2.md" />
-    <None Include="page-git\page3.md" />
-    <None Include="page-git\page.js" />
-    <None Include="page-git\submenu.js" />
-    <None Include="page-markdown\page.css" />
-    <None Include="page-markdown\page.html" />
-    <None Include="page-markdown\page.js" />
-    <None Include="page-markdown\page.md" />
-    <None Include="page-markdown\submenu.js" />
     <None Include="template\page.css" />
     <None Include="template\page.html" />
     <None Include="template\page.js" />
@@ -66,7 +54,6 @@
     <Image Include="home-셈말짓기\intro-moo_roo.jpg" />
     <Image Include="home-셈말짓기\훈민정음.jpg" />
     <Image Include="logo.png" />
-    <Image Include="page-markdown\훈민정음.jpg" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
