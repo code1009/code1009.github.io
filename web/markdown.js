@@ -10,7 +10,7 @@
 //===========================================================================
 function loadMarkDownScript(callback) {
 	var script = document.createElement('script');
-	//script.src = "https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js";
+	//script.src = "https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"; // 구림
 	//script.src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js";
 	script.src = "https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js";
 	script.type = "text/javascript";
