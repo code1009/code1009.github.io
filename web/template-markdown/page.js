@@ -45,6 +45,7 @@ window.onload = function () {
 	coreInitialize();
 	mainMenuInitialize();
 	pageInitialize();
+
 }
 
 

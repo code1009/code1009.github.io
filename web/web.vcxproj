@@ -65,6 +65,8 @@
     <None Include="template-example\page.html" />
     <None Include="template-example\page.js" />
     <None Include="template-example\submenu.js" />
+    <None Include="template-markdown\core.css" />
+    <None Include="template-markdown\core.js" />
     <None Include="template-markdown\page.css" />
     <None Include="template-markdown\page.html" />
     <None Include="template-markdown\page.js" />
