@@ -1,14 +1,4 @@
-﻿---
-title: 윈도우 API utf8 설정
-date: 2025-03-07 00:06:00+0000
-categories:
-    - 프로그래밍
-tags: 
-    - 윈도우프로그래밍
----
-
-
-# 윈도우 API utf8 설정  
+﻿# 윈도우 API utf8 설정  
 
 
 ## winapi xxxxxA()함수들을 utf8로 문자열로 사용  
