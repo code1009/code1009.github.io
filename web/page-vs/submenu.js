@@ -22,8 +22,8 @@ class SubMenu {
 		this._Menu.addDataItem("/VisualStudio/plugin"  , "./page.html?page=plugin");
 		this._Menu.addDataItem("/VisualStudio/nuget"  , "./page.html?page=nuget");
 		this._Menu.addDataItem("/VisualStudio/vcpkg"  , "./page.html?page=vcpkg");
-		this._Menu.addDataItem("/VisualStudio/기본설정"  , "./page.html?page=base-config");
-		this._Menu.addDataItem("/VisualStudio/cpp빌드설정"  , "./page.html?page=cpp-build-config");
+		this._Menu.addDataItem("/VisualStudio/기본 설정"  , "./page.html?page=base-config");
+		this._Menu.addDataItem("/VisualStudio/cpp 빌드 설정"  , "./page.html?page=cpp-build-config");
 
 		this._Menu.getRootItem().setExpanded(true);
 		this._Menu.makeTreeItems();

@@ -19,8 +19,8 @@ class SubMenu {
 
 	registerMenuDataItem() {
 		this._Menu.addDataItem("/WinUI3"              , "./page.html");
-		this._Menu.addDataItem("/WinUI3/vcxprj설정"   , "./page.html?page=vcxprj");
-		this._Menu.addDataItem("/WinUI3/app.xml설정"  , "./page.html?page=app_xml");
+		this._Menu.addDataItem("/WinUI3/vcxprj 설정"   , "./page.html?page=vcxprj");
+		this._Menu.addDataItem("/WinUI3/app.xml 설정"  , "./page.html?page=app_xml");
 
 		this._Menu.getRootItem().setExpanded(true);
 		this._Menu.makeTreeItems();
