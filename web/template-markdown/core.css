@@ -36,24 +36,70 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-}
 
-#information {
-    width: 300px; /* 초기값 */
-    min-width: 100px;
-    max-width: 80vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #resizer {
-    width: 5px;
-    background: red;
+    width: 2px;
+    height: 100%;
+    background: #bdbdbd;
     cursor: ew-resize;
+    transition: background 0.2s;
+}
+
+#resizer:hover {
+    background: #0d0deb;
+}
+
+#information {
+    width: 400px; /* 초기값 */
+    min-width: 100px;
+    max-width: 80vw;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    box-sizing: border-box;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    background: #fafafa;
 }
 
 #contents {
     flex: 1;
 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    box-sizing: border-box;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    background: white;
 }
 
 pre {

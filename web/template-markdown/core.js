@@ -35,12 +35,61 @@ var _Core = null;
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
-function coreInitialize() {
-	_Core = new Core();
+function resizerInitialize() {
+	const resizer = document.getElementById("resizer");
+	const left = document.getElementById("information");
 
+	if (!resizer) {
+		return;
+	}
+	if (!left) {
+		return;
+	}
+
+
+	let isResizing = false;
+
+
+	resizer.addEventListener('mousedown',
+		function (e) {
+			isResizing = true;
+			document.body.style.cursor = 'ew-resize';
+
+			document.body.style.userSelect = 'none'; // 텍스트 선택 방지
+		}
+	);
+
+	document.addEventListener('mousemove',
+		function (e) {
+			if (!isResizing) return;
+			const newWidth = e.clientX - left.getBoundingClientRect().left;
+			if (newWidth > 400 && newWidth < window.innerWidth * 0.8) {
+				left.style.width = newWidth + 'px';
+			}
+		}
+	);
+
+	document.addEventListener('mouseup',
+		function () {
+			if (isResizing) {
+				document.body.style.cursor = '';
+
+				document.body.style.userSelect = ''; // 텍스트 선택 방지 원래대로 복원
+			}
+
+			isResizing = false;
+		}
+	);
+}
+
+function informationInitialize() {
 	const information = document.getElementById("information");
+	if (!information) {
+		return;
+	}
+
 	information.innerHTML =
-`
+		`
 		<p style="text-align: center;"><img src="../logo.png" style="border:2px solid #bdbdbd; border-radius:120px;" /></p>
 		<br />
 
@@ -73,9 +122,11 @@ function coreInitialize() {
 		</svg>
 		<a href="https://github.com/code1009"><b>https://github.com/code1009/</b></a><br />
 		
-`
+		`
 		;
-		
+}
+
+function information_setHeight() {
 	const documentHeight = Math.max(
 		document.body.scrollHeight,
 		document.documentElement.scrollHeight,
@@ -83,7 +134,61 @@ function coreInitialize() {
 		document.documentElement.offsetHeight,
 		document.body.clientHeight,
 		document.documentElement.clientHeight
-		);
+	);
 
 	information.style.minHeight = documentHeight + 'px';
+}
+
+function loadShowdownScript(callback) {
+	var script = document.createElement('script');
+	script.src = "https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js";
+	script.type = "text/javascript";
+	script.onload = callback; 
+	document.head.appendChild(script);
+}
+
+function renderMarkdwon(markdown_view_id, markdown_url) {
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange =
+		function () {
+			if (this.readyState == 4 && this.status == 200) {
+				const markdown = this.responseText;
+				//marked
+				//const html = marked.parse(markdown); // marked
+				//showdown
+				const converter = new showdown.Converter();
+				const html = converter.makeHtml(markdown);
+				document.getElementById(markdown_view_id).innerHTML = html;
+			}
+		}
+		;
+	xmlhttp.open("GET", markdown_url, true);
+	xmlhttp.send();
+}
+
+function page_renderMarkdwon() {
+	const markdown_view = document.getElementById("markdown_view");
+	if (!markdown_view) {
+		return;
+	}
+
+	loadShowdownScript(
+		function () {
+			renderMarkdwon("markdown_view", "./page.md");
+		}
+	);
+}
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//===========================================================================
+function coreInitialize() {
+	_Core = new Core();
+
+	informationInitialize();
+		
+	resizerInitialize();
 }
