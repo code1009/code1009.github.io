@@ -18,7 +18,7 @@ class SubMenu {
 	}
 
 	registerMenuDataItem() {
-		this._Menu.addDataItem("/ccs"         , , "./page.html");
+		this._Menu.addDataItem("/ccs"           , "./page.html");
 		this._Menu.addDataItem("/ccs/기본설정"  , "./page.html?page=base-config");
 
 		this._Menu.getRootItem().setExpanded(true);
