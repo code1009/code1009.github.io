@@ -11,9 +11,8 @@
 	<script type="text/javascript" src="../menu.js"></script>
 	<script type="text/javascript" src="../mainmenu.js"></script>
 	<script type="text/javascript" src="../markdown.js"></script>
-	<script type="text/javascript" src="../markdownview.js"></script>
 	<script type="text/javascript" src="./submenu.js"></script>
-	<script type="text/javascript" src="./page.js"></script>
+	<script type="text/javascript" src="./pageN.js"></script>
 
 </head>
 <body>
@@ -33,5 +32,20 @@
 
 	</div>
 
+	<script>
+		function initializeMarkdwonView() {
+			const view = document.getElementById("page-markdown-view");
+			if (!view) {
+				return;
+			}
+
+			loadMarkDownScript(
+				function () {
+					renderMarkdwon("page-markdown-view", "./page3.md");
+				}
+			);
+		}
+		initializeMarkdwonView();
+	</script>
 </body>
 </html>

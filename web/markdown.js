@@ -38,19 +38,3 @@ function renderMarkdwon(markdown_view_id, markdown_url) {
 	xmlhttp.open("GET", markdown_url, true);
 	xmlhttp.send();
 }
-
-function initializeMarkdwonView() {
-	const view = document.getElementById("page-markdown-view");
-	if (!view) {
-		return;
-	}
-
-	loadMarkDownScript(
-		function () {
-			renderMarkdwon("page-markdown-view", "./page.md");
-		}
-	);
-}
-
-
-
