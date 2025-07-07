@@ -21,13 +21,13 @@ class MainMenu {
 		//this._Menu.addDataItem("/예시" , "../example/page.html");
 		//this._Menu.addDataItem("/틀"   , "../template/page.html");
 
-		this._Menu.addDataItem("/셈말짓기"             , "../home-셈말짓기/page.html");
-		this._Menu.addDataItem("/개발노트/VisualStudio", "../page-vs/page.html");
-		this._Menu.addDataItem("/개발노트/vld"         , "../page-vld/page.html");
-		this._Menu.addDataItem("/개발노트/WinUI3"      , "../page-WinUI3/page.html");
-		this._Menu.addDataItem("/개발노트/ccs"         , "../page-ccs/page.html");
-		this._Menu.addDataItem("/개발노트/git"         , "../page-git/page.html");
-		this._Menu.addDataItem("/개발노트/markdown"    , "../page-markdown/page.html");
+		this._Menu.addDataItem("/셈말짓기"              , "../home-셈말짓기/page.html");
+		this._Menu.addDataItem("/개발노트/Visual Studio", "../page-vs/page.html");
+		this._Menu.addDataItem("/개발노트/vld"          , "../page-vld/page.html");
+		this._Menu.addDataItem("/개발노트/WinUI3"       , "../page-WinUI3/page.html");
+		this._Menu.addDataItem("/개발노트/ccs"          , "../page-ccs/page.html");
+		this._Menu.addDataItem("/개발노트/git"          , "../page-git/page.html");
+		this._Menu.addDataItem("/개발노트/markdown"     , "../page-markdown/page.html");
 	}
 	
 	initializeMenu() {
