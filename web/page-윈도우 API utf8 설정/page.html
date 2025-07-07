@@ -3,50 +3,31 @@
 <head>
 
 	<meta charset="utf-8" />
-	<title>윈도우 API utf8 설정</title>
+	<title>code1009</title>
 	<link rel="stylesheet" type="text/css" href="../core.css" />
 	<link rel="stylesheet" type="text/css" href="../menu.css" />
 	<link rel="stylesheet" type="text/css" href="./page.css" />
 	<script type="text/javascript" src="../core.js"></script>
 	<script type="text/javascript" src="../menu.js"></script>
 	<script type="text/javascript" src="../mainmenu.js"></script>
+	<script type="text/javascript" src="../markdown.js"></script>
 	<script type="text/javascript" src="./page.js"></script>
 
 </head>
 <body>
-<div id="contents">
 
+	<div id="page-container">
 
-<!-- ******************************************************************** -->
-<h1>윈도우 API utf8 설정</h1>
-		
-<p>manifest 파일을 추가해서 적용 할 수 있습니다.</p>
+		<div id="page-information"></div>
 
-<!-- ____________________________________________________________________ -->
-<!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #60a0b0; font-style: italic">#if 0</span>
-	//-----------------------------------------------------------------------
-	MessageBoxA<span style="color: #666666">(</span>nullptr, <span style="color: #666666">(</span>LPCSTR<span style="color: #666666">)</span>u8<span style="color: #4070a0">&quot;가나다라&quot;</span>, <span style="color: #666666">(</span>LPCSTR<span style="color: #666666">)</span>u8<span style="color: #4070a0">&quot;제목&quot;</span>, MB_OK<span style="color: #666666">)</span>;
-	
-	/*
-	NOTE: VLD 관련
-	- 일반 버전으로 utf-8 적용시 vld에서 오류가 발생함.
-	- Azure/vld 버전은 버그수정<span style="color: #666666">(</span>fixed<span style="color: #666666">)</span> 됨.<span style="color: #666666">(</span>https://github.com/Azure/vld<span style="color: #666666">)</span>.
+		<div id="page-resizer"></div>
 
-	https://learn.microsoft.com/en-us/windows/apps/design/globalizing/use-utf8-code-page
+		<div id="page-contents">
+			<div id="page-markdown-view">
+			</div>
+		</div>
 
-	&lt;application <span style="color: #bb60d5">xmlns</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;urn:schemas-microsoft-com:asm.v3&quot;</span>&gt;
-		&lt;windowsSettings&gt;
-		&lt;activeCodePage <span style="color: #bb60d5">xmlns</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;http://schemas.microsoft.com/SMI/2019/WindowsSettings&quot;</span>&gt;UTF - 8 &lt;/activeCodePage&gt;
-		&lt;dpiAware <span style="color: #bb60d5">xmlns</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;http://schemas.microsoft.com/SMI/2005/WindowsSettings&quot;</span>&gt;true&lt;/dpiAware&gt;
-		&lt;dpiAwareness <span style="color: #bb60d5">xmlns</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;http://schemas.microsoft.com/SMI/2016/WindowsSettings&quot;</span>&gt;PerMonitorV2, PerMonitor&lt;/dpiAwareness&gt;
-		&lt;/windowsSettings&gt;
-	&lt;/application&gt;
-	*/
-<span style="color: #60a0b0; font-style: italic">#endif</span>
-</pre></div>
-<!-- ____________________________________________________________________ -->
+	</div>
 
-
-</div>
 </body>
 </html>

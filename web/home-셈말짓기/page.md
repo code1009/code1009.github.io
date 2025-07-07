@@ -1,10 +1,4 @@
-﻿셈말짓기  
-code1009  
-[https://github.com/code1009](https://github.com/code1009)  
-[https://code1009.github.io/](https://code1009.github.io/)  
-
-
-## 셈말짓기
+﻿## 셈말짓기
 안녕하세요, 저는 셈말짓기라는 한글 아이디를 사용하고 있습니다.  
 ‘셈말짓기’는 제가 만든 순우리말로, 컴퓨터 프로그래밍을 의미합니다.  
   

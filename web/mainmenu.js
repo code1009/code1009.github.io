@@ -62,6 +62,6 @@ var _MainMenu = null;
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
-function mainMenuInitialize() {
+function initializeMainMenu() {
 	_MainMenu = new MainMenu();
 }

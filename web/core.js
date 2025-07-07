@@ -33,18 +33,81 @@ var _Core = null;
 
 
 
+
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
-function coreInitialize() {
+function initializeCore() {
 	_Core = new Core();
+}
 
-	const information = document.createElement("div");
-	information.id = "information";
-	document.body.insertBefore(information, document.body.firstChild);
 
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//===========================================================================
+function initializePageResizer() {
+	const resizer = document.getElementById("page-resizer");
+	const left = document.getElementById("page-information");
+	if (!resizer) {
+		return;
+	}
+	if (!left) {
+		return;
+	}
+
+
+	let isResizing = false;
+
+
+	resizer.addEventListener('mousedown',
+		function (e) {
+			isResizing = true;
+			document.body.style.cursor = 'ew-resize';
+
+			document.body.style.userSelect = 'none'; // 텍스트 선택 방지
+		}
+	);
+
+	document.addEventListener('mousemove',
+		function (e) {
+            const leftMinSize = 400;
+
+			if (!isResizing) return;
+			const newWidth = e.clientX - left.getBoundingClientRect().left;
+			if (newWidth > leftMinSize && newWidth < window.innerWidth * 0.8) {
+				left.style.width = newWidth + 'px';
+			}
+		}
+	);
+
+	document.addEventListener('mouseup',
+		function () {
+			if (isResizing) {
+				document.body.style.cursor = '';
+
+				document.body.style.userSelect = ''; // 텍스트 선택 방지 원래대로 복원
+			}
+
+			isResizing = false;
+		}
+	);
+}
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//===========================================================================
+function setupPageInformationInnerHtml() {
+	const information = document.getElementById("page-information");
+	if (!information) {
+		return;
+	}
 
 	information.innerHTML =
-`
+		`
 		<p style="text-align: center;"><img src="../logo.png" style="border:2px solid #bdbdbd; border-radius:120px;" /></p>
 		<br />
 
@@ -77,9 +140,16 @@ function coreInitialize() {
 		</svg>
 		<a href="https://github.com/code1009"><b>https://github.com/code1009/</b></a><br />
 		
-`
+		`
 		;
-		
+}
+
+function setPageInformationHeight() {
+	const information = document.getElementById("page-information");
+	if (!information) {
+		return;
+	}
+
 	const documentHeight = Math.max(
 		document.body.scrollHeight,
 		document.documentElement.scrollHeight,
@@ -87,7 +157,19 @@ function coreInitialize() {
 		document.documentElement.offsetHeight,
 		document.body.clientHeight,
 		document.documentElement.clientHeight
-		);
+	);
 
 	information.style.minHeight = documentHeight + 'px';
 }
+
+function initializePageInformation() {
+	const information = document.getElementById("page-information");
+	if (!information) {
+		return;
+	}
+
+	setupPageInformationInnerHtml();
+	setPageInformationHeight();
+}
+
+

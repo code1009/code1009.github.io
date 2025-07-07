@@ -8,12 +8,18 @@
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
-class Page {
+class SubMenu {
 
-	#Context = null;
-	
+	_Menu = new Menu();
+
 	constructor() {
-		this.#Context = null;
+		this._Menu.addDataItem("/git"                    , "./page.html");
+		this._Menu.addDataItem("/git/자주사용하는 명령어", "./page1.html");
+		this._Menu.addDataItem("/git/git rebase"         , "./page2.html");
+
+		this._Menu.getRootItem().setExpanded(true);
+		this._Menu.makeTreeItems();
+		this._Menu.render("subMenu");
 	}
 }
 
@@ -23,7 +29,7 @@ class Page {
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
-var _Page = null;
+var _SubMenu = null;
 
 
 
@@ -31,21 +37,6 @@ var _Page = null;
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
-function pageInitialize() {
-	_Page = new Page();
+function initializeSubMenu() {
+	_SubMenu = new SubMenu();
 }
-
-
-
-
-
-/////////////////////////////////////////////////////////////////////////////
-//===========================================================================
-window.onload = function () {
-	coreInitialize();
-	mainMenuInitialize();
-	subMenuInitialize();
-	pageInitialize();
-}
-
-

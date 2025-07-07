@@ -3,42 +3,31 @@
 <head>
 
 	<meta charset="utf-8" />
-	<title>Visual Studio C++ 빌드설정</title>
+	<title>code1009</title>
 	<link rel="stylesheet" type="text/css" href="../core.css" />
 	<link rel="stylesheet" type="text/css" href="../menu.css" />
 	<link rel="stylesheet" type="text/css" href="./page.css" />
 	<script type="text/javascript" src="../core.js"></script>
 	<script type="text/javascript" src="../menu.js"></script>
 	<script type="text/javascript" src="../mainmenu.js"></script>
+	<script type="text/javascript" src="../markdown.js"></script>
 	<script type="text/javascript" src="./page.js"></script>
 
 </head>
 <body>
-<div id="contents">
 
+	<div id="page-container">
 
+		<div id="page-information"></div>
 
-<!-- ******************************************************************** -->
-<h1>Visual Studio C++ 빌드설정</h1>
+		<div id="page-resizer"></div>
 
-<p>Visual Studio C++ 소스 파일 경로에 따라서 obj 파일 생성 하기</p>
-<pre>
-구성 속성/
-	C/C++/
-		출력 파일/
-			개체 파일 이름: $(IntDir)
-			에서
-			개체 파일 이름: $(IntDir)%(RelativeDir)
-			으로
-</pre>
+		<div id="page-contents">
+			<div id="page-markdown-view">
+			</div>
+		</div>
 
-<blockquote>
-	C++ 소스코드 다른 디렉토리에서 파일명이 동일하여도 충돌이 발생하는 문제를 해결 할 수 있다.
-</blockquote>
-<!-- ******************************************************************** -->
+	</div>
 
-
-
-</div>
 </body>
 </html>

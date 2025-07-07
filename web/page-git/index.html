@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" />
+	<title>git</title>
+	<link rel="stylesheet" type="text/css" href="../core.css" />
+	<link rel="stylesheet" type="text/css" href="../menu.css" />
+	<link rel="stylesheet" type="text/css" href="./page.css" />
+	<script type="text/javascript" src="../core.js"></script>
+	<script type="text/javascript" src="../menu.js"></script>
+	<script type="text/javascript" src="../mainmenu.js"></script>
+	<script type="text/javascript" src="./page.js"></script>
+
+</head>
+<body>
+	<div id="contents">
+
+
+		<!-- ******************************************************************** -->
+		<h1>git</h1>
+
+		<h2>
+			덮어쓰기
+		</h2>
+		<ul>
+			<li>
+				git reset --hard origin
+			</li>
+			<li>
+				git reset --soft origin
+			</li>
+			<li>
+				git reset --soft HEAD~{커밋수}
+			</li>
+			<li>
+				git reset --hard origin/{브렌치-이름}
+			</li>
+		</ul>
+
+
+		<h2>
+			커밋합치기
+		</h2>
+		<ul>
+			<li>
+				git rebase -i HEAD~{커밋수}
+			</li>
+		</ul>
+
+
+		<h2>
+			로컬에서 브렌치전환
+		</h2>
+		<ul>
+			<li>
+				git checkout {브렌치-이름}
+			</li>
+		</ul>
+
+
+		<h2>
+			새 저장소의 초기 커밋을 기존 저장소와 병합
+		</h2>
+		<ul>
+			<li>
+				git pull origin {브렌치-이름} --allow-unrelated-histories
+			</li>
+		</ul>
+
+
+		<h2>
+			저장소의 초기화
+		</h2>
+		<ul>
+			<li>
+				.git 폴더 삭제
+			</li>
+			<li>
+				git init
+			</li>
+			<li>
+				git add --all
+			</li>
+			<li>
+				git commit -m "init"
+			</li>
+			<li>
+				git remote add origin https://github.com/code1009/{저장소이름}.git
+			</li>
+			<li>
+				git push -f origin master
+			</li>
+		</ul>
+
+		<h2>
+			git rebase
+		</h2>
+		설명
+		<ul>
+			<li>
+				Rebase는 브랜치의 base를 다른 브랜치로 옮기는 Git 명령어입니다.
+			</li>
+			<li>
+				현재 브랜치의 커밋들을 잠시 보류하고, 목표 브랜치(이 경우, main)의 최신 커밋을 가져온 후, 보류했던 커밋들을 목표 브랜치 위에 다시 적용합니다.
+			</li>
+			<li>
+				결과적으로 현재 브랜치의 커밋 히스토리가 main 브랜치 위에 쌓이게 됩니다.
+			</li>
+		</ul>
+		장점
+		<ul>
+			<li>
+				깔끔한 커밋 히스토리: main 브랜치와 현재 브랜치의 변경 사항을 선형적인 커밋 히스토리로 관리할 수 있습니다.
+			</li>
+			<li>
+				쉬운 병합: Rebase를 통해 main 브랜치와 현재 브랜치를 병합할 때 충돌 가능성을 줄일 수 있습니다.
+			</li>
+			<li>
+				의미 있는 커밋 기록 유지: Rebase를 통해 불필요한 병합 커밋 없이, 각 브랜치의 의미 있는 작업 내용을 명확하게 기록할 수 있습니다.
+			</li>
+		</ul>
+		주의사항
+		<ul>
+			<li>
+				Rebase는 로컬 저장소의 커밋 기록을 변경하므로,
+				<u><i><b>이미 원격 저장소에 push된 커밋에 대해서는 Rebase를 진행하지 않는 것이 좋습니다.</b></i></u>
+			</li>
+			<li>
+				만약 원격 저장소에 push된 커밋에 대해 Rebase를 진행해야 할 경우, git push --force 명령어를 사용하여 강제로 push해야 하지만, 이 경우 다른 협업 개발자들에게 문제가 발생할 수 있으므로 주의해야 합니다.
+			</li>
+			<li>
+				Rebase 도중 충돌이 발생하면, 충돌을 해결하고 git rebase --continue 명령어를 사용하여 Rebase를 계속 진행해야 합니다.
+			</li>
+		</ul>
+		예시
+		<ul>
+			<li>
+				git rebase branch main
+			</li>
+			<li>
+				git rebase branch main 명령어는 현재 작업 중인 브랜치를 main 브랜치의 최신 커밋 위에 다시 적용하는 명령어입니다. 
+				즉, main 브랜치의 변경 사항을 현재 브랜치에 반영하면서, 
+				마치 현재 브랜치가 main 브랜치에서 분기된 것처럼 커밋 기록을 정리하는 것입니다.
+			</li>
+			<li>
+				만약 feature 브랜치에서 작업 중이고, main 브랜치의 최신 변경 사항을 반영하고 싶다면, git rebase main 명령어를 사용합니다.
+				이렇게 하면 feature 브랜치의 커밋들은 <b>main 브랜치의 최신 커밋 뒤에 붙게 됩니다.</b>
+			</li>
+		</ul>
+
+	</div>
+</body>
+</html>

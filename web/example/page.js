@@ -11,7 +11,7 @@
 class Page {
 
 	#Context = null;
-	
+
 	constructor() {
 		this.#Context = null;
 	}
@@ -31,7 +31,7 @@ var _Page = null;
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
-function pageInitialize() {
+function initializePage() {
 	_Page = new Page();
 }
 
@@ -42,10 +42,17 @@ function pageInitialize() {
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
 window.onload = function () {
-	coreInitialize();
-	mainMenuInitialize();
-	pageInitialize();
+	initializeCore();
+	initializePage();
 
+	initializePageInformation();
+	initializePageResizer();
+
+	initializeMainMenu();
+
+	initializeMarkdwonView();
+
+	initializeSubMenu();
 }
 
 

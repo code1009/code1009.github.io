@@ -1,19 +1,4 @@
-﻿---
-title: 셈말짓기
-date: 2025-03-07 00:00:00+0000
-weight: 1
-categories:
-    - code1009
----
-
-
-셈말짓기  
-code1009  
-[https://github.com/code1009](https://github.com/code1009)  
-[https://code1009.github.io/](https://code1009.github.io/)  
-
-
-## 셈말짓기
+﻿## 셈말짓기
 셈말짓기라는 것은 컴퓨터 프로그래밍이라는 뜻을 가진 순수한 우리말입니다.  
 어떻게 “셈말짓기”가 컴퓨터 프로그래밍이라는 뜻을 가질 수 있냐 하면,  
 “셈”은 우리말로 계산을 하다라는 뜻이지요,  

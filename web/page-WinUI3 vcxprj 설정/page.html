@@ -3,90 +3,31 @@
 <head>
 
 	<meta charset="utf-8" />
-	<title>WinUI3 vcxprj 설정</title>
+	<title>code1009</title>
 	<link rel="stylesheet" type="text/css" href="../core.css" />
 	<link rel="stylesheet" type="text/css" href="../menu.css" />
 	<link rel="stylesheet" type="text/css" href="./page.css" />
 	<script type="text/javascript" src="../core.js"></script>
 	<script type="text/javascript" src="../menu.js"></script>
 	<script type="text/javascript" src="../mainmenu.js"></script>
+	<script type="text/javascript" src="../markdown.js"></script>
 	<script type="text/javascript" src="./page.js"></script>
 
 </head>
 <body>
-<div id="contents">
 
+	<div id="page-container">
 
+		<div id="page-information"></div>
 
-<!-- ******************************************************************** -->
-<h1>WinUI3 vcxprj 설정</h1>
+		<div id="page-resizer"></div>
 
-<h2>설명서</h2>
+		<div id="page-contents">
+			<div id="page-markdown-view">
+			</div>
+		</div>
 
-<a href="https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app">https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app</a>
+	</div>
 
-
-<h2>수정1</h2>
-<!-- ____________________________________________________________________ -->
-<!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">&lt;Project ...&gt;
-  ...
-  &lt;PropertyGroup <span style="color: #bb60d5">Label</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;Globals&quot;</span>&gt;
-    ...
-    &lt;WindowsPackageType&gt;None&lt;/WindowsPackageType&gt;
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 추가
-    ...
-  &lt;/PropertyGroup&gt; 
-  ...
-&lt;/Project&gt;
-</pre></div>
-
-<!-- ____________________________________________________________________ -->
-
-<h2>수정2</h2>
-<!-- ____________________________________________________________________ -->
-<!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">&lt;Project ...&gt;
-  ...
-  &lt;PropertyGroup <span style="color: #bb60d5">Label</span><span style="color: #666666">=</span><span style="color: #4070a0">&quot;Globals&quot;</span>&gt;
-    ...
-    &lt;AppxPackage&gt;false&lt;/AppxPackage&gt;
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 수정
-    ...
-  &lt;/PropertyGroup&gt; 
-  ...
-&lt;/Project&gt;
-</pre></div>
-
-<!-- ____________________________________________________________________ -->
-
-<h2>배포관련</h2>
-<a href="https://johnnys.news/2024/03/Revisited-WinUI-publishing-a-single-exe">https://johnnys.news/2024/03/Revisited-WinUI-publishing-a-single-exe</a>
-<br/>
-
-<!-- ____________________________________________________________________ -->
-<!-- HTML generated using hilite.me --><div style="background: #f0f0f0; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">&lt;PropertyGroup&gt;
-    &lt;PublishSingleFile&gt;true&lt;/PublishSingleFile&gt;
-    &lt;SelfContained&gt;true&lt;/SelfContained&gt;
-    &lt;WindowsAppSDKSelfContained&gt;true&lt;/WindowsAppSDKSelfContained&gt;
-&lt;/PropertyGroup&gt;
-</pre></div>
-<!-- ____________________________________________________________________ -->
-
-<p>WindowsAppSDKSelfContained는 삭제 하고 빌드</p>
-
-<p>sdk가 설치되어 있는 상태에서 파일 3개만 있으면 </p>
-<ul>
-<li>resources.pri</li>
-<li>Microsoft.WindowsAppRuntime.Bootstrap.dll</li>
-<li>app.exe</li>
-</ul>
-<p>파일 3개만 있으면 동작 가능</p>
-
-
-<h2>App.xml</h2>
-<img src="App.xaml.png" /><br/>
-App.xml은 설정에 반드시 &quot;XAML 애플리케이션 정의&quot; 라고 항목형식에 정의 되어 있어야 함.
-
-
-</div>
 </body>
 </html>

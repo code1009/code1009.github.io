@@ -10,49 +10,24 @@
 	<script type="text/javascript" src="../core.js"></script>
 	<script type="text/javascript" src="../menu.js"></script>
 	<script type="text/javascript" src="../mainmenu.js"></script>
+	<script type="text/javascript" src="../markdown.js"></script>
 	<script type="text/javascript" src="./page.js"></script>
-
-	<!-- marked -->
-	<!--
-		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-	-->
-
-	<!-- showdown -->
-	<script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
 
 </head>
 <body>
-	<div id="contents">
 
-		출처:<a href="https://gist.github.com/ihoneymon/652be052a0727ad59601">https://gist.github.com/ihoneymon/652be052a0727ad59601</a>
-		<div id="markdown_view">
+	<div id="page-container">
+
+		<div id="page-information"></div>
+
+		<div id="page-resizer"></div>
+
+		<div id="page-contents">
+			<div id="page-markdown-view">
+			</div>
 		</div>
 
-		<script>
-
-			function renderMarkdwon(markdown_view_id, markdown_url) {
-				var xmlhttp = new XMLHttpRequest();
-				xmlhttp.onreadystatechange =
-					function () {
-						if (this.readyState == 4 && this.status == 200) {
-							const markdown = this.responseText;
-							//marked
-							//const html = marked.parse(markdown); // marked
-							//showdown			
-							const converter = new showdown.Converter();
-							converter.setFlavor('github');
-							const html = converter.makeHtml(markdown);
-							document.getElementById(markdown_view_id).innerHTML = html;
-						}
-					}
-				;
-				xmlhttp.open("GET", markdown_url, true);
-				xmlhttp.send();
-			}
-
-			renderMarkdwon("markdown_view", "./page.md");
-
-		</script>
 	</div>
+
 </body>
 </html>

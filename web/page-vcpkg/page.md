@@ -1,12 +1,4 @@
-﻿---
-title: vcpkg
-date: 2025-03-07 00:02:00+0000
-categories:
-    - 개발자노트
----
-
-
-# vcpkg 설치하기  
+﻿# vcpkg 설치하기  
 [https://vcpkg.io/en/index.html](https://vcpkg.io/en/index.html)  
 [https://vcpkg.io/en/packages](https://vcpkg.io/en/packages)  
 

@@ -32,10 +32,38 @@ body {
     text-align     : left;
 }
 
-#information {
-    float: left;
-    width: 420px;
-    min-height: max(100%, 100vh);
+#page-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#page-resizer {
+    width: 2px;
+    height: 100%;
+    background: #bdbdbd;
+    cursor: ew-resize;
+    transition: background 0.2s;
+}
+
+#page-resizer:hover {
+    background: #0d0deb;
+}
+
+#page-information {
+    width: 400px; /* 초기값 */
+    min-width: 100px;
+    max-width: 80vw;
 
     margin-top: 0px;
     margin-bottom: 0px;
@@ -56,12 +84,12 @@ body {
     background: #fafafa;
 }
 
-#contents {
-    min-height: max(100%, 100vh);
+#page-contents {
+    flex: 1;
 
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 420px;
+    margin-left: 0px;
     margin-right: 0px;
 
     box-sizing: border-box;
