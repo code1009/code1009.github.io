@@ -191,4 +191,6 @@ function coreInitialize() {
 	informationInitialize();
 		
 	resizerInitialize();
+
+	page_renderMarkdwon();
 }
