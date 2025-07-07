@@ -99,16 +99,10 @@
     <None Include="template\page.js">
       <Filter>template</Filter>
     </None>
-    <None Include="page-git\index.html">
-      <Filter>page\page-git</Filter>
-    </None>
     <None Include="page-git\page.css">
       <Filter>page\page-git</Filter>
     </None>
     <None Include="page-git\page.html">
-      <Filter>page\page-git</Filter>
-    </None>
-    <None Include="page-git\page.js">
       <Filter>page\page-git</Filter>
     </None>
     <None Include="page-git\page1.md">
@@ -120,7 +114,7 @@
     <None Include="page-git\page3.md">
       <Filter>page\page-git</Filter>
     </None>
-    <None Include="page-git\pageN.js">
+    <None Include="page-git\page.js">
       <Filter>page\page-git</Filter>
     </None>
     <None Include="page-git\submenu.js">

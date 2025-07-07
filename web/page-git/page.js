@@ -49,9 +49,8 @@ window.onload = function () {
 	initializePageResizer();
 
 	initializeMainMenu();
-	initializeSubMenu();
 
-	initializeMarkdwonView();
+	initializeSubMenu();
 }
 
 
