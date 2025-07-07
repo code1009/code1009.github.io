@@ -20,7 +20,8 @@ class SubMenu {
 	registerMenuDataItem() {
 		this._Menu.addDataItem("/git"                    , "./page.html");
 		this._Menu.addDataItem("/git/자주사용하는 명령어", "./page1.html");
-		this._Menu.addDataItem("/git/git rebase"         , "./page2.html");
+		this._Menu.addDataItem("/git/rebase", "./page2.html");
+		this._Menu.addDataItem("/git/branch 이름 규칙", "./page3.html");
 
 		this._Menu.getRootItem().setExpanded(true);
 		this._Menu.makeTreeItems();

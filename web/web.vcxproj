@@ -34,6 +34,7 @@
     <None Include="index.html" />
     <None Include="mainmenu.js" />
     <None Include="markdown.js" />
+    <None Include="markdownview.js" />
     <None Include="menu.css" />
     <None Include="menu.js" />
     <None Include="page-git\page.css" />
@@ -44,6 +45,8 @@
     <None Include="page-git\page1.md" />
     <None Include="page-git\page2.html" />
     <None Include="page-git\page2.md" />
+    <None Include="page-git\page3.html" />
+    <None Include="page-git\page3.md" />
     <None Include="page-git\pageN.js" />
     <None Include="page-git\submenu.js" />
     <None Include="page-markdown\page.css" />
