@@ -164,7 +164,7 @@ C:\vcpkg\vcpkg>
 
 #### .vcxproj 파일과 같은 위치에 vcpkg.json 파일 작성  
 
-#### vcpkg.json 내용  
+* vcpkg.json 내용  
 
 ```
 {

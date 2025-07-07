@@ -1,4 +1,4 @@
-﻿# 유용한 Visual Studio 오픈 소스 라이브러리  
+﻿# 오픈 소스 라이브러리  
 
 
 ## Visual Leak Detector  
