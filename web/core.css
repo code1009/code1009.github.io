@@ -1,24 +1,12 @@
 ﻿@charset "utf-8";
 
-/*
-<weight > : Use a value from 200 to 900
-<uniquifier > : Use a unique and descriptive class name
-.chiron-hei-hk-<uniquifier > {
-    font-family: "Chiron Hei HK", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-*/
 
-@import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 
-@font-face {
-    font-family: 'SDSamliphopangche_Outline';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
-    font-weight: normal;
+.gowun-batang-regular {
+    font-family: "Gowun Batang", Consolas;
+    font-weight: 400;
     font-style: normal;
-    font-family: 'SDSamliphopangche_Outline';
 }
 
 body {
@@ -38,7 +26,7 @@ body {
     padding-right  : 0px;
 
     /*font-family    : 맑은 고딕;*/
-    font-family: "Chiron Hei HK", Consolas;
+    font-family: "Gowun Batang", Consolas;
     font-size      : 1.0em;
     font-weight    : normal;
     font-style     : normal;
@@ -98,13 +86,13 @@ pre {
     padding: 4px 8px;
     border-radius: 8px;
     font-size: 1.0em;
-    font-family: "Chiron Hei HK", Consolas;
+    font-family: "Gowun Batang", Consolas;
 }
 
 code {
     background-color: #fafbf1;
     font-size: 1.0em;
-    font-family: "Chiron Hei HK", Consolas;
+    font-family: "Gowun Batang", Consolas;
 }
 
 /*
