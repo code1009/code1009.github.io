@@ -169,7 +169,7 @@ function initializePageInformation() {
 	}
 
 	setupPageInformationInnerHtml();
-	setPageInformationHeight();
+	//setPageInformationHeight();
 }
 
 
