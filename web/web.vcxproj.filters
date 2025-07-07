@@ -111,22 +111,10 @@
     <None Include="page-git\page.js">
       <Filter>page\page-git</Filter>
     </None>
-    <None Include="page-git\page.md">
-      <Filter>page\page-git</Filter>
-    </None>
-    <None Include="page-git\page1.html">
-      <Filter>page\page-git</Filter>
-    </None>
     <None Include="page-git\page1.md">
       <Filter>page\page-git</Filter>
     </None>
-    <None Include="page-git\page2.html">
-      <Filter>page\page-git</Filter>
-    </None>
     <None Include="page-git\page2.md">
-      <Filter>page\page-git</Filter>
-    </None>
-    <None Include="page-git\page3.html">
       <Filter>page\page-git</Filter>
     </None>
     <None Include="page-git\page3.md">

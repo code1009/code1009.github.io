@@ -44,12 +44,8 @@
     <None Include="page-git\page.css" />
     <None Include="page-git\page.html" />
     <None Include="page-git\page.js" />
-    <None Include="page-git\page.md" />
-    <None Include="page-git\page1.html" />
     <None Include="page-git\page1.md" />
-    <None Include="page-git\page2.html" />
     <None Include="page-git\page2.md" />
-    <None Include="page-git\page3.html" />
     <None Include="page-git\page3.md" />
     <None Include="page-git\pageN.js" />
     <None Include="page-git\submenu.js" />
