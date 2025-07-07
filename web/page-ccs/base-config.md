@@ -1,4 +1,4 @@
-﻿# CCS
+﻿# Code Composer Studio
 
 ## 기본 설정
 
