@@ -1,11 +1,12 @@
-﻿# WinUI3 vcxprj 설정  
+﻿# WinUI3
 
+## vcxprj 설정  
 
-## 설명서
+### 설명서
 - https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app
 
 
-## 수정1
+### 수정1
 ```
 <Project ...>
   ...
@@ -19,7 +20,7 @@
 </Project>
 ```
 
-## 수정2
+### 수정2
 ```
 <Project ...>
   ...
@@ -33,7 +34,7 @@
 </Project>
 ```
 
-## 배포관련
+### 배포관련
 https://johnnys.news/2024/03/Revisited-WinUI-publishing-a-single-exe
 
 ```
@@ -52,6 +53,3 @@ https://johnnys.news/2024/03/Revisited-WinUI-publishing-a-single-exe
         - app.exe
     - 파일 3개만 있으면 동작 가능
 
-## App.xml 설정
-
-![](winui3-App.xaml.png)
