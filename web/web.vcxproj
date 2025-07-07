@@ -44,6 +44,7 @@
     <None Include="page-git\page1.md" />
     <None Include="page-git\page2.html" />
     <None Include="page-git\page2.md" />
+    <None Include="page-git\pageN.js" />
     <None Include="page-git\submenu.js" />
     <None Include="page-markdown\page.css" />
     <None Include="page-markdown\page.html" />
