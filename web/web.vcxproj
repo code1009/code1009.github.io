@@ -57,6 +57,7 @@
     <None Include="page-nuget\page.html" />
     <None Include="page-nuget\page.js" />
     <None Include="page-nuget\page.md" />
+    <None Include="page-vcpkg\index.html" />
     <None Include="page-vcpkg\page.css" />
     <None Include="page-vcpkg\page.html" />
     <None Include="page-vcpkg\page.js" />
