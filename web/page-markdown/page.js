@@ -50,7 +50,7 @@ window.onload = function () {
 
 	initializeMainMenu();
 
-	initializeMarkdwonView();
+	initializeSubMenu();
 }
 
 

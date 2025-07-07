@@ -25,6 +25,9 @@
     <Filter Include="page\page-git">
       <UniqueIdentifier>{18db6fdc-af07-4455-9aa4-7de79e6d028a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="page\page-markdown">
+      <UniqueIdentifier>{54d35520-40ea-45b2-9d24-dc61a6816a17}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitattributes">
@@ -120,6 +123,21 @@
     <None Include="page-git\submenu.js">
       <Filter>page\page-git</Filter>
     </None>
+    <None Include="page-markdown\page.css">
+      <Filter>page\page-markdown</Filter>
+    </None>
+    <None Include="page-markdown\page.html">
+      <Filter>page\page-markdown</Filter>
+    </None>
+    <None Include="page-markdown\page.js">
+      <Filter>page\page-markdown</Filter>
+    </None>
+    <None Include="page-markdown\page.md">
+      <Filter>page\page-markdown</Filter>
+    </None>
+    <None Include="page-markdown\submenu.js">
+      <Filter>page\page-git</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\ref.txt">
@@ -144,6 +162,9 @@
     </Image>
     <Image Include="home-셈말짓기\훈민정음.jpg">
       <Filter>home\home-셈말짓기</Filter>
+    </Image>
+    <Image Include="page-markdown\훈민정음.jpg">
+      <Filter>page\page-markdown</Filter>
     </Image>
   </ItemGroup>
 </Project>
