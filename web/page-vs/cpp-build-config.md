@@ -1,6 +1,6 @@
 ﻿# Visual Studio C++ 빌드 설정
 
-## Visual Studio C++ 소스 파일 경로에 따라서 obj 파일 생성 하기  
+## C++ 소스 파일 경로에 따라서 obj 파일 생성 하기  
 
 ```
 구성 속성/
