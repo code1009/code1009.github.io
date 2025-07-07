@@ -13,6 +13,11 @@ class SubMenu {
 	_Menu = new Menu();
 
 	constructor() {
+		this.registerMenuDataItem();
+		this.initializeMenu();
+	}
+
+	registerMenuDataItem() {
 		this._Menu.addDataItem("/git"                    , "./page.html");
 		this._Menu.addDataItem("/git/자주사용하는 명령어", "./page1.html");
 		this._Menu.addDataItem("/git/git rebase"         , "./page2.html");
@@ -20,6 +25,18 @@ class SubMenu {
 		this._Menu.getRootItem().setExpanded(true);
 		this._Menu.makeTreeItems();
 		this._Menu.render("subMenu");
+	}
+
+	initializeMenu() {
+		this._Menu.makeTreeItems();
+
+		this._Menu.getRootItem().setExpanded(true);
+
+		for (let child of this._Menu.getRootItem().getChildren()) {
+			child.setExpanded(true);
+		}
+
+		this._Menu.render("mainMenu");
 	}
 }
 
