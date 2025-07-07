@@ -1,5 +1,7 @@
-﻿# CCS(Eclipse) 기본설정
+﻿# CCS
 
-## 소스코드를 utf8로 저장
+## 기본 설정
+
+### 소스코드를 utf8로 저장
 
 ![](base-config-utf8.png)
