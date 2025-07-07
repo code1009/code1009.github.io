@@ -12,7 +12,7 @@ function loadMarkDownScript(callback) {
 	var script = document.createElement('script');
 	//script.src = "https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js";
 	//script.src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js";
-	script.src = https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js;
+	script.src = "https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js";
 	script.type = "text/javascript";
 	script.onload = callback; 
 	document.head.appendChild(script);
