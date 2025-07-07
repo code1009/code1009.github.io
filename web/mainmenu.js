@@ -22,7 +22,7 @@ class MainMenu {
 		//this._Menu.addDataItem("/틀"   , "../template/page.html");
 		//this._Menu.addDataItem("/틀"   , "../template-markdown/page.html");
 
-		this._Menu.addDataItem("/셈말짓기"                                     , "../page-셈말짓기/page.html");
+		this._Menu.addDataItem("/셈말짓기"                                     , "../home-셈말짓기/page.html");
 		this._Menu.addDataItem("/윈도우개발/윈도우 API utf8 설정"              , "../page-윈도우 API utf8 설정/page.html");      
 		this._Menu.addDataItem("/윈도우개발/WinUI3 vcxprj 설정"                , "../page-WinUI3 vcxprj 설정/page.html");
 		this._Menu.addDataItem("/윈도우개발/vld"                               , "../page-vld/page.html");
