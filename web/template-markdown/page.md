@@ -1,15 +1,4 @@
-﻿---
-title: 셈말짓기
-description: 셈말짓기에 대한 소개입니다.
-date: 2025-03-07 00:00:00+0000
-weight: 1
-image: 훈민정음.jpg
-categories:
-    - code1009
----
-
-
-셈말짓기  
+﻿셈말짓기  
 code1009  
 [https://github.com/code1009](https://github.com/code1009)  
 [https://code1009.github.io/](https://code1009.github.io/)  

@@ -1,13 +1,6 @@
 ﻿@charset "utf-8";
 
-
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
-
-.gowun-batang-regular {
-    font-family: "Gowun Batang", Consolas;
-    font-weight: 400;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@100..900&display=swap');
 
 body {
     margin-top     : 0.0em;
@@ -86,13 +79,19 @@ pre {
     padding: 4px 8px;
     border-radius: 8px;
     font-size: 1.0em;
-    font-family: "Gowun Batang", Consolas;
+    font-family: "Noto Sans KR", Consolas;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 code {
     background-color: #fafbf1;
     font-size: 1.0em;
-    font-family: "Gowun Batang", Consolas;
+    font-family: "Noto Sans KR", Consolas;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 table {
