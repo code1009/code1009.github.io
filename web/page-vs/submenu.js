@@ -18,12 +18,12 @@ class SubMenu {
 	}
 
 	registerMenuDataItem() {
-		this._Menu.addDataItem("/VisualStudio"         , "./page.html?page=plugin");
-		this._Menu.addDataItem("/VisualStudio/plugin"  , "./page.html?page=plugin");
-		this._Menu.addDataItem("/VisualStudio/nuget"  , "./page.html?page=nuget");
-		this._Menu.addDataItem("/VisualStudio/vcpkg"  , "./page.html?page=vcpkg");
-		this._Menu.addDataItem("/VisualStudio/기본 설정"  , "./page.html?page=base-config");
-		this._Menu.addDataItem("/VisualStudio/C++ 빌드 설정"  , "./page.html?page=cpp-build-config");
+		this._Menu.addDataItem("/Visual Studio"         , "./page.html?page=plugin");
+		this._Menu.addDataItem("/Visual Studio/plugin"  , "./page.html?page=plugin");
+		this._Menu.addDataItem("/Visual Studio/nuget"  , "./page.html?page=nuget");
+		this._Menu.addDataItem("/Visual Studio/vcpkg"  , "./page.html?page=vcpkg");
+		this._Menu.addDataItem("/Visual Studio/기본 설정"  , "./page.html?page=base-config");
+		this._Menu.addDataItem("/Visual Studio/C++ 빌드 설정"  , "./page.html?page=cpp-build-config");
 
 		this._Menu.getRootItem().setExpanded(true);
 		this._Menu.makeTreeItems();
