@@ -14,11 +14,9 @@
 - 공백, 특수문자(예: ?, !, @ 등)는 사용하지 않음
 
 ## 예시
-	> main
-	> feature/user-profile
-	> bugfix/payment-error
-	> release/2025-07
-
-
+- main
+- feature/user-profile
+- bugfix/payment-error
+- release/2025-07
 
 
