@@ -14,6 +14,8 @@
 
 ### 예시
 
+* 다운로드: <a href="./.github_ISSUE_TEMPLATE.zip">.github_ISSUE_TEMPLATE.zip</a>
+
 
 #### feature_request.md
 
