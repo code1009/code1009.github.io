@@ -18,7 +18,8 @@ class SubMenu {
 	}
 
 	registerMenuDataItem() {
-		this._Menu.addDataItem("/markdown"         , "./page.html?page=page1");
+		this._Menu.addDataItem("/markdown"          , "./page.html?page=page0");
+		this._Menu.addDataItem("/markdown/설명서"   , "./page.html?page=page0");
 		this._Menu.addDataItem("/markdown/01.제목"  , "./page.html?page=page1");
 		this._Menu.addDataItem("/markdown/02.인용"  , "./page.html?page=page2");
 		this._Menu.addDataItem("/markdown/03.목록"  , "./page.html?page=page3");

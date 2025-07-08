@@ -36,7 +36,7 @@
 		function getMarkDownFileURL() {
 			const params = new URLSearchParams(window.location.search);
 			const page = params.get("page");
-			return page ? `./${page}.md` : "./page1.md";
+			return page ? `./${page}.md` : "./page0.md";
 		}
 
 		function initializeMarkdwonView() {
