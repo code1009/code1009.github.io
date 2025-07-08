@@ -6,9 +6,10 @@
 
 * .git 이 있는 폴더에 .github\ISSUE_TEMPLATE 폴더 생성
 
-* md파일 생성
+* md 파일 생성
 
-* 주의사항 bom이 없어야 github에서 인식 함
+> [!CAUTION]
+> 주의사항 bom이 없어야 github에서 인식 함
 
 
 ### 예시
