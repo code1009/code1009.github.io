@@ -9,7 +9,7 @@
 * md 파일 생성
 
 > [!CAUTION]
-> 주의사항 bom이 없어야 github에서 인식 함
+> **주의사항**: bom이 없어야 github에서 인식 함
 
 
 ### 예시
