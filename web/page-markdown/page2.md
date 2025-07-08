@@ -47,5 +47,5 @@
 
 * 미리보기
 
-`keyword`
+> `keyword`
 
