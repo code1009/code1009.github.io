@@ -106,7 +106,7 @@ body {
 }
 
 pre {
-    background-color: #fafbf1;
+    background-color: rgb(169, 210, 250);
     padding: 4px 8px;
     border-radius: 8px;
     font-size: 1.0em;
@@ -116,7 +116,7 @@ pre {
 }
 
 code {
-    background-color: #fafbf1;
+    background-color: rgb(169, 210, 250);
     font-size: 1.0em;
     font-family: "Nanum Gothic Coding", monospace;
     font-weight: 400;
