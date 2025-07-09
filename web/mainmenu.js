@@ -26,7 +26,7 @@ class MainMenu {
 		this._Menu.addDataItem("/셈말짓기", "../home-셈말짓기/page.html");
 		
 		this._Menu.addDataItem("/개발 노트"                     , "../page-github/page.html");
-		this._Menu.addDataItem("/개발 노트/github"              , "../page-github/page.html");
+		this._Menu.addDataItem("/개발 노트/GitHub"              , "../page-github/page.html");
 		this._Menu.addDataItem("/개발 노트/git"                 , "../page-git/page.html");
 		this._Menu.addDataItem("/개발 노트/markdown"            , "../page-markdown/page.html");
 		this._Menu.addDataItem("/개발 노트/오픈소스 라이브러리" , "../page-open-source-lib/page.html");

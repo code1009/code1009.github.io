@@ -1,4 +1,4 @@
-﻿# github 
+﻿# GitHub 
 
 ## 설정
 

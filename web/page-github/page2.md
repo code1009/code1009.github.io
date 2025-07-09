@@ -1,4 +1,4 @@
-﻿# github 
+﻿# GitHub 
 
 ## 이슈 템플릿
 
