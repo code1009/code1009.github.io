@@ -46,7 +46,6 @@ window.onload = function () {
 	initializePage();
 
 	initializePageInformation();
-	initializePageResizer();
 
 	initializeMainMenu();
 

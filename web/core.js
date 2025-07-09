@@ -94,6 +94,23 @@ function initializePageResizer() {
 	);
 }
 
+function setPageResizerHeight() {
+	const resizer = document.getElementById("page-resizer");
+	if (!resizer) {
+		return;
+	}
+
+	const documentHeight = Math.max(
+		document.body.scrollHeight,
+		document.documentElement.scrollHeight,
+		document.body.offsetHeight,
+		document.documentElement.offsetHeight,
+		document.body.clientHeight,
+		document.documentElement.clientHeight
+	);
+
+	resizer.style.minHeight = documentHeight + 'px';
+}
 
 
 
@@ -169,11 +186,14 @@ function initializePageInformation() {
 	}
 
 	setupPageInformationInnerHtml();
+
+	initializePageResizer();
 	
 	window.addEventListener('resize', 
 		function(event) {
 			// console.log('윈도우 크기가 변경되었습니다:', window.innerWidth, window.innerHeight);
 			setPageInformationHeight();
+			setPageResizerHeight();
 		}
 	);
 }
