@@ -21,7 +21,7 @@ class SubMenu {
 		this._Menu.addDataItem("/github"            , "./page.html?page=page1");
 		this._Menu.addDataItem("/github/설정"       , "./page.html?page=page1");
 		this._Menu.addDataItem("/github/이슈 템플릿", "./page.html?page=page2");
-		this._Menu.addDataItem("/github-page/설정"  , "./page.html?page=page3");
+		this._Menu.addDataItem("/github-pages/설정" , "./page.html?page=page3");
 
 
 		this._Menu.getRootItem().setExpanded(true);

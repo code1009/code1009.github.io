@@ -1,4 +1,4 @@
-﻿# github-page 
+﻿# github-pages
 
 ## 설정
 
