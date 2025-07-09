@@ -71,7 +71,7 @@ function initializePageResizer() {
 
 	document.addEventListener('mousemove',
 		function (e) {
-            const leftMinSize = 400;
+            const leftMinSize = 300;
 
 			if (!isResizing) return;
 			const newWidth = e.clientX - left.getBoundingClientRect().left;

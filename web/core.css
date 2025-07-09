@@ -61,8 +61,8 @@ body {
 }
 
 #page-information {
-    width: 400px; /* 초기값 */
-    min-width: 400px;
+    width: 300px; /* 초기값 */
+    min-width: 300px;
     max-width: 80vw;
 
     height: 100%;

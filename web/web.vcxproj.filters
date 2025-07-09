@@ -7,23 +7,11 @@
     <Filter Include="root">
       <UniqueIdentifier>{f701cd44-52b0-45c6-8872-527368efe374}</UniqueIdentifier>
     </Filter>
-    <Filter Include="example">
-      <UniqueIdentifier>{bc78e45a-db54-4fdf-92c2-6e5ca7b975e0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="home">
       <UniqueIdentifier>{fa65461d-19b2-448c-a9b5-1b494ad7c2f6}</UniqueIdentifier>
     </Filter>
     <Filter Include="home\home-셈말짓기">
       <UniqueIdentifier>{dcb24f01-5f18-4b42-9f76-e397f1986e9f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="page">
-      <UniqueIdentifier>{eead8b18-a051-4c97-8e35-55477e7ae0a4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="template-m">
-      <UniqueIdentifier>{b893d21d-4fa2-4b38-8d83-924b8ac63255}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="template-s">
-      <UniqueIdentifier>{4639e103-c1b0-4895-a34e-94b88773bd10}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -77,48 +65,6 @@
     </None>
     <None Include="home-셈말짓기\page.md">
       <Filter>home\home-셈말짓기</Filter>
-    </None>
-    <None Include="example\page.css">
-      <Filter>example</Filter>
-    </None>
-    <None Include="example\page.html">
-      <Filter>example</Filter>
-    </None>
-    <None Include="example\page.js">
-      <Filter>example</Filter>
-    </None>
-    <None Include="example\submenu.js">
-      <Filter>example</Filter>
-    </None>
-    <None Include="template-m\page.css">
-      <Filter>template-m</Filter>
-    </None>
-    <None Include="template-m\page.html">
-      <Filter>template-m</Filter>
-    </None>
-    <None Include="template-m\page.js">
-      <Filter>template-m</Filter>
-    </None>
-    <None Include="template-m\page1.md">
-      <Filter>template-m</Filter>
-    </None>
-    <None Include="template-m\submenu.js">
-      <Filter>template-m</Filter>
-    </None>
-    <None Include="template-m\page2.md">
-      <Filter>template-m</Filter>
-    </None>
-    <None Include="template-s\page.css">
-      <Filter>template-s</Filter>
-    </None>
-    <None Include="template-s\page.html">
-      <Filter>template-s</Filter>
-    </None>
-    <None Include="template-s\page.js">
-      <Filter>template-s</Filter>
-    </None>
-    <None Include="template-s\page.md">
-      <Filter>template-s</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

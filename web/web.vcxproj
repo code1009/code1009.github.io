@@ -25,10 +25,6 @@
     <None Include="..\index.html" />
     <None Include="core.css" />
     <None Include="core.js" />
-    <None Include="example\page.css" />
-    <None Include="example\page.html" />
-    <None Include="example\page.js" />
-    <None Include="example\submenu.js" />
     <None Include="home-셈말짓기\page(20살 때 작성한 버전).md" />
     <None Include="home-셈말짓기\page.css" />
     <None Include="home-셈말짓기\page.html" />
@@ -40,16 +36,6 @@
     <None Include="markdownview.js" />
     <None Include="menu.css" />
     <None Include="menu.js" />
-    <None Include="template-m\page.css" />
-    <None Include="template-m\page.html" />
-    <None Include="template-m\page.js" />
-    <None Include="template-m\page1.md" />
-    <None Include="template-m\page2.md" />
-    <None Include="template-m\submenu.js" />
-    <None Include="template-s\page.css" />
-    <None Include="template-s\page.html" />
-    <None Include="template-s\page.js" />
-    <None Include="template-s\page.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\ref.txt" />
