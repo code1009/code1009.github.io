@@ -1,39 +1,177 @@
-﻿# git rebase
+﻿# git 명령어
 
-## `git rebase develop`
-- `git rebase develop` 명령어는 현재 작업 중인 브랜치를 develop 브랜치의 최신 커밋 위에 다시 적용하는 명령어입니다.  
-  즉, develop 브랜치의 변경 사항을 현재 브랜치에 반영하면서,  
-  마치 현재 브랜치가 develop 브랜치에서 분기된 것처럼 커밋 기록을 정리하는 것입니다.  
 
-- 예를 들어, feature/login 브랜치에서 작업 중이고,  
-  develop 브랜치의 최신 변경 사항을 반영하고 싶다면 아래와 같이 사용합니다.
+## 최초 git 설정
+
+* https://git-scm.com/ 설치
+* git bash 열기
 
 ```
-git checkout feature/login
-git rebase develop
+git config --global user.name "{사용자-이름}"
+git config --global user.email "{사용자-이메일}"
+git config --list
+```
+![gitbash](./page1-gitbash.png "git bash")
+
+
+
+
+## 새 저장소 만들기
+
+```
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/code1009/{저장소-이름}.git
+git push -u origin master
 ```
 
-이렇게 하면 feature/login 브랜치의 커밋들은 **develop 브랜치의 최신 커밋 뒤에 붙게 됩니다.**
 
-## 설명
-- Rebase는 브랜치의 base(기준점)를 다른 브랜치로 옮기는 Git 명령어입니다.  
-- 현재 브랜치의 커밋들을 잠시 보류하고,  
-  목표 브랜치(develop)의 최신 커밋을 가져온 후,  
-  보류했던 커밋들을 목표 브랜치 위에 다시 적용합니다.
-- 결과적으로 현재 브랜치의 커밋 히스토리가 목표 브랜치(develop) 브랜치 위에 쌓이게 됩니다.
+## 기존 저장소 푸시
 
-## 장점
-- 깔끔한 커밋 히스토리: develop 브랜치와 현재 브랜치의 변경 사항을 선형적인 커밋 히스토리로 관리할 수 있습니다.  
-- 쉬운 병합: Rebase를 통해 develop 브랜치와 현재 브랜치를 병합할 때 충돌 가능성을 줄일 수 있습니다.  
-- 의미 있는 커밋 기록 유지: Rebase를 통해 불필요한 병합 커밋 없이, 각 브랜치의 의미 있는 작업 내용을 명확하게 기록할 수 있습니다.  
+```
+git remote add origin https://github.com/code1009/{저장소-이름}.git
+git branch -M master
+git push -u origin master
+```
 
-## 주의사항
-- Rebase는 로컬 저장소의 커밋 기록을 변경하므로,  
-  이미 원격 저장소에 push된 커밋에 대해서는 Rebase를 진행하지 않는 것이 좋습니다.  
-- 만약 원격 저장소에 push된 커밋에 대해 Rebase를 진행해야 할 경우,  
-  `git push --force` 명령어를 사용하여 강제로 push해야 하지만,
-  이 경우 다른 협업 개발자들에게 문제가 발생할 수 있으므로 주의해야 합니다.  
-  **강제 푸시 전에는 반드시 팀원과 충분히 소통하세요.**
-- Rebase 도중 충돌이 발생하면,  
-  충돌을 해결하고 `git rebase --continue` 명령어를 사용하여 Rebase를 계속 진행해야 합니다.
+
+
+## 원격 연결 확인
+
+* 명령어
+```
+git remote -v
+```
+
+* 출력결과
+```
+origin  https://github.com/code1009/{저장소-이름}.git (fetch)
+origin  https://github.com/code1009/{저장소-이름}.git (push)
+```
+
+
+## 복제(clone)
+
+```
+git clone {저장소-주소} {로컬-폴더}
+```
+
+
+
+## 로컬에서 브랜치 생성 및 전환
+
+```
+git checkout -b {브랜치-이름}
+```
+> `-b` 생성 옵션
+
+
+## 로컬에서 브랜치 생성 및 전환 후 푸쉬
+
+```
+git push --set-upstream origin {브랜치-이름}
+```
+
+> 최초 푸시 시 필요함
+
+
+
+## 원격 동기화
+
+```
+git fetch origin
+```
+
+
+
+## 로컬에서 브랜치 전환
+
+```
+git checkout {브랜치-이름}
+```
+
+
+## 충돌(conflict) 이후 해결 예시
+
+* develop 브랜치 최신 내용 feature 브랜치에 병합
+
+```
+git checkout develop
+git pull origin develop
+git checkout feature
+git merge develop
+```
+
+* 충돌 해결 후 커밋 및 푸시
+
+```
+git add .
+git commit -m "resolve conflicts"
+git push
+```
+
+
+
+## 서로 다른 저장소 이력 병합
+
+```
+git pull origin {브랜치-이름} --allow-unrelated-histories
+```
+
+
+
+## 저장소 초기화
+
+```
+{.git 폴더 삭제(`rmdir /s /q .git`}
+git init
+git add --all
+git commit -m "init"
+git remote add origin https://github.com/code1009/{저장소-이름}.git
+git push -f origin master
+```
+
+
+
+## 커밋 이력 확인
+
+```
+git log
+```
+
+
+
+## 저장소 상태 확인
+
+```
+git status
+```
+
+
+
+## 덮어쓰기
+
+```
+git reset --hard origin
+git reset --soft origin
+git reset --soft HEAD~{커밋수}
+git reset --hard origin/{브랜치-이름}
+```
+
+
+
+## 커밋 합치기
+
+```
+git rebase -i HEAD~{커밋수}
+```
+> 가급적 금지
+>	> 협업 중인 브랜치에서 rebase는 충돌 및 이력 꼬임 위험
+
+
+
+
 
