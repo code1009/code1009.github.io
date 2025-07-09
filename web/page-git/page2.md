@@ -11,7 +11,7 @@ git config --global user.name "{사용자-이름}"
 git config --global user.email "{사용자-이메일}"
 git config --list
 ```
-![gitbash](./page1-gitbash.png "git bash")
+![gitbash](./page2-gitbash.png "git bash")
 
 
 
