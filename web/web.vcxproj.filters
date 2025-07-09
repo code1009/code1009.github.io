@@ -96,6 +96,9 @@
     <None Include="template\page.js">
       <Filter>template</Filter>
     </None>
+    <None Include="template\page.md">
+      <Filter>template</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\ref.txt">

@@ -43,6 +43,7 @@
     <None Include="template\page.css" />
     <None Include="template\page.html" />
     <None Include="template\page.js" />
+    <None Include="template\page.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\ref.txt" />
