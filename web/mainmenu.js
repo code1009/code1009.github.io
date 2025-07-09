@@ -20,8 +20,8 @@ class MainMenu {
 	registerMenuDataItem() {
 		//this._Menu.addDataItem("/예시" , "../example/page.html");
 
-		//this._Menu.addDataItem("/틀-단일"   , "../template-m/page.html");
-		//this._Menu.addDataItem("/틀-다중"   , "../template-s/page.html");
+		//this._Menu.addDataItem("/틀-단일"   , "../template-s/page.html");
+		//this._Menu.addDataItem("/틀-다중"   , "../template-m/page.html");
 
 		this._Menu.addDataItem("/셈말짓기", "../home-셈말짓기/page.html");
 		

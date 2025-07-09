@@ -8,8 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="../menu.css" />
 	<script type="text/javascript" src="../core.js"></script>
 	<script type="text/javascript" src="../menu.js"></script>
-	<script type="text/javascript" src="../mainmenu.js"></script>
-	<script type="text/javascript" src="../markdown.js"></script>
 
 </head>
 <body>
@@ -70,6 +68,28 @@
 	</div>
 
 	<script>
+
+		var _Menu = new Menu();
+
+		function registerMenuDataItem() {
+			_Menu.addDataItem("/예시" , "../data-example/page.html");
+
+			_Menu.addDataItem("/틀-단일"   , "../data-template-s/page.html");
+			_Menu.addDataItem("/틀-다중"   , "../data-template-m/page.html");
+		}
+		
+		function initializeMenu() {
+			_Menu.makeTreeItems();
+
+			_Menu.getRootItem().setExpanded(true);
+			
+			for (let child of _Menu.getRootItem().getChildren()) {
+				child.setExpanded(true);
+			}
+			
+			_Menu.render("mainMenu");
+		}
+	
 		initializePageResizer();
 		
 		window.addEventListener('resize', 
@@ -79,7 +99,9 @@
 			}
 		);
 	
-		initializeMainMenu();
+		registerMenuDataItem();
+		initializeMenu();
+
 	</script>
 	
 </body>
