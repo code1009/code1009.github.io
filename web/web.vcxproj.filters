@@ -10,9 +10,6 @@
     <Filter Include="example">
       <UniqueIdentifier>{bc78e45a-db54-4fdf-92c2-6e5ca7b975e0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="template">
-      <UniqueIdentifier>{349e66bb-7c2b-4e42-b55b-73535a86de8b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="home">
       <UniqueIdentifier>{fa65461d-19b2-448c-a9b5-1b494ad7c2f6}</UniqueIdentifier>
     </Filter>
@@ -86,18 +83,6 @@
     </None>
     <None Include="example\submenu.js">
       <Filter>example</Filter>
-    </None>
-    <None Include="template\page.css">
-      <Filter>template</Filter>
-    </None>
-    <None Include="template\page.html">
-      <Filter>template</Filter>
-    </None>
-    <None Include="template\page.js">
-      <Filter>template</Filter>
-    </None>
-    <None Include="template\page.md">
-      <Filter>template</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

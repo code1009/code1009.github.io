@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8" />
+	<title>code1009</title>
+	<link rel="stylesheet" type="text/css" href="../core.css" />
+	<link rel="stylesheet" type="text/css" href="../menu.css" />
+	<link rel="stylesheet" type="text/css" href="./page.css" />
+	<script type="text/javascript" src="../core.js"></script>
+	<script type="text/javascript" src="../menu.js"></script>
+	<script type="text/javascript" src="../mainmenu.js"></script>
+	<script type="text/javascript" src="../markdown.js"></script>
+	<script type="text/javascript" src="./submenu.js"></script>
+	<script type="text/javascript" src="./page.js"></script>
+
+</head>
+<body>
+
+	<div id="page-container">
+
+		<div id="page-information"></div>
+
+		<div id="page-resizer"></div>
+
+		<div id="page-contents">
+			<div id="subMenu" class="menu"></div>
+			<br />
+			<div id="page-markdown-view">
+			</div>
+		</div>
+
+	</div>
+
+	<script>
+		function getMarkDownFileURL() {
+			const params = new URLSearchParams(window.location.search);
+			const page = params.get("page");
+			return page ? `./${page}.md` : "./page1.md";
+		}
+
+		function initializeMarkdwonView() {
+			const view = document.getElementById("page-markdown-view");
+			if (!view) {
+				return;
+			}
+
+			const markdownFileURL = getMarkDownFileURL();
+
+			loadMarkDownScript(
+				function () {
+					renderMarkdwon("page-markdown-view", markdownFileURL);
+				}
+			);
+		}
+		
+		initializeMarkdwonView();
+	</script>
+</body>
+</html>
