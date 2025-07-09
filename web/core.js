@@ -169,7 +169,13 @@ function initializePageInformation() {
 	}
 
 	setupPageInformationInnerHtml();
-	//setPageInformationHeight();
+	
+	window.addEventListener('resize', 
+		function(event) {
+			// console.log('윈도우 크기가 변경되었습니다:', window.innerWidth, window.innerHeight);
+			setPageInformationHeight();
+		}
+	);
 }
 
 
