@@ -1,16 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="web">
-      <UniqueIdentifier>{b5ecf75f-a25a-4d69-a15d-42758bfc4ea5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="root">
       <UniqueIdentifier>{f701cd44-52b0-45c6-8872-527368efe374}</UniqueIdentifier>
     </Filter>
-    <Filter Include="home">
-      <UniqueIdentifier>{fa65461d-19b2-448c-a9b5-1b494ad7c2f6}</UniqueIdentifier>
+    <Filter Include="root\web">
+      <UniqueIdentifier>{b5ecf75f-a25a-4d69-a15d-42758bfc4ea5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="home\home-셈말짓기">
+    <Filter Include="root\web\home">
       <UniqueIdentifier>{dcb24f01-5f18-4b42-9f76-e397f1986e9f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -28,68 +25,63 @@
       <Filter>root</Filter>
     </None>
     <None Include="core.css">
-      <Filter>web</Filter>
+      <Filter>root\web</Filter>
     </None>
     <None Include="core.js">
-      <Filter>web</Filter>
+      <Filter>root\web</Filter>
     </None>
     <None Include="index.html">
-      <Filter>web</Filter>
+      <Filter>root\web</Filter>
     </None>
     <None Include="mainmenu.js">
-      <Filter>web</Filter>
+      <Filter>root\web</Filter>
     </None>
     <None Include="markdown.js">
-      <Filter>web</Filter>
+      <Filter>root\web</Filter>
     </None>
     <None Include="markdownview.js">
-      <Filter>web</Filter>
+      <Filter>root\web</Filter>
     </None>
     <None Include="menu.css">
-      <Filter>web</Filter>
+      <Filter>root\web</Filter>
     </None>
     <None Include="menu.js">
-      <Filter>web</Filter>
+      <Filter>root\web</Filter>
     </None>
     <None Include="home-셈말짓기\page(20살 때 작성한 버전).md">
-      <Filter>home\home-셈말짓기</Filter>
+      <Filter>root\web\home</Filter>
     </None>
     <None Include="home-셈말짓기\page.css">
-      <Filter>home\home-셈말짓기</Filter>
+      <Filter>root\web\home</Filter>
     </None>
     <None Include="home-셈말짓기\page.html">
-      <Filter>home\home-셈말짓기</Filter>
+      <Filter>root\web\home</Filter>
     </None>
     <None Include="home-셈말짓기\page.js">
-      <Filter>home\home-셈말짓기</Filter>
+      <Filter>root\web\home</Filter>
     </None>
     <None Include="home-셈말짓기\page.md">
-      <Filter>home\home-셈말짓기</Filter>
+      <Filter>root\web\home</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\ref.txt">
-      <Filter>root</Filter>
-    </Text>
   </ItemGroup>
   <ItemGroup>
     <Image Include="logo.png">
-      <Filter>web</Filter>
+      <Filter>root\web</Filter>
     </Image>
     <Image Include="home-셈말짓기\intro-hangul.jpg">
-      <Filter>home\home-셈말짓기</Filter>
+      <Filter>root\web\home</Filter>
     </Image>
     <Image Include="home-셈말짓기\intro-hello_no_ga_da_world.gif">
-      <Filter>home\home-셈말짓기</Filter>
+      <Filter>root\web\home</Filter>
     </Image>
     <Image Include="home-셈말짓기\intro-moo_roo.jpg">
-      <Filter>home\home-셈말짓기</Filter>
+      <Filter>root\web\home</Filter>
     </Image>
     <Image Include="home-셈말짓기\intro-moo_roo-s.jpg">
-      <Filter>home\home-셈말짓기</Filter>
+      <Filter>root\web\home</Filter>
     </Image>
     <Image Include="home-셈말짓기\훈민정음.jpg">
-      <Filter>home\home-셈말짓기</Filter>
+      <Filter>root\web\home</Filter>
     </Image>
   </ItemGroup>
 </Project>

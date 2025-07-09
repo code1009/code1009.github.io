@@ -38,9 +38,6 @@
     <None Include="menu.js" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\ref.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="home-셈말짓기\intro-hangul.jpg" />
     <Image Include="home-셈말짓기\intro-hello_no_ga_da_world.gif" />
     <Image Include="home-셈말짓기\intro-moo_roo-s.jpg" />
