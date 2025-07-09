@@ -8,6 +8,9 @@
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================
+// https://github.com/markedjs/marked
+//===========================================================================
+
 function loadMarkDownScript(callback) {
 	var script = document.createElement('script');
 	//script.src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js";
@@ -17,17 +20,17 @@ function loadMarkDownScript(callback) {
 	document.head.appendChild(script);
 }
 
-function renderMarkdwon(markdown_view_id, markdown_url) {
+function renderMarkdwon(markdownViewId, markdownFileURL) {
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.onreadystatechange =
 		function () {
 			if (this.readyState == 4 && this.status == 200) {
 				const markdown = this.responseText;
 				const html = marked.parse(markdown);
-				document.getElementById(markdown_view_id).innerHTML = html;
+				document.getElementById(markdownViewId).innerHTML = html;
 			}
 		}
 		;
-	xmlhttp.open("GET", markdown_url, true);
+	xmlhttp.open("GET", markdownFileURL, true);
 	xmlhttp.send();
 }
