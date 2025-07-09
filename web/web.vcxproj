@@ -40,6 +40,16 @@
     <None Include="markdownview.js" />
     <None Include="menu.css" />
     <None Include="menu.js" />
+    <None Include="template-m\page.css" />
+    <None Include="template-m\page.html" />
+    <None Include="template-m\page.js" />
+    <None Include="template-m\page1.md" />
+    <None Include="template-m\page2.md" />
+    <None Include="template-m\submenu.js" />
+    <None Include="template-s\page.css" />
+    <None Include="template-s\page.html" />
+    <None Include="template-s\page.js" />
+    <None Include="template-s\page.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\ref.txt" />

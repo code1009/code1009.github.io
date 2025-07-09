@@ -19,6 +19,12 @@
     <Filter Include="page">
       <UniqueIdentifier>{eead8b18-a051-4c97-8e35-55477e7ae0a4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="template-m">
+      <UniqueIdentifier>{b893d21d-4fa2-4b38-8d83-924b8ac63255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="template-s">
+      <UniqueIdentifier>{4639e103-c1b0-4895-a34e-94b88773bd10}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitattributes">
@@ -83,6 +89,36 @@
     </None>
     <None Include="example\submenu.js">
       <Filter>example</Filter>
+    </None>
+    <None Include="template-m\page.css">
+      <Filter>template-m</Filter>
+    </None>
+    <None Include="template-m\page.html">
+      <Filter>template-m</Filter>
+    </None>
+    <None Include="template-m\page.js">
+      <Filter>template-m</Filter>
+    </None>
+    <None Include="template-m\page1.md">
+      <Filter>template-m</Filter>
+    </None>
+    <None Include="template-m\submenu.js">
+      <Filter>template-m</Filter>
+    </None>
+    <None Include="template-m\page2.md">
+      <Filter>template-m</Filter>
+    </None>
+    <None Include="template-s\page.css">
+      <Filter>template-s</Filter>
+    </None>
+    <None Include="template-s\page.html">
+      <Filter>template-s</Filter>
+    </None>
+    <None Include="template-s\page.js">
+      <Filter>template-s</Filter>
+    </None>
+    <None Include="template-s\page.md">
+      <Filter>template-s</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
