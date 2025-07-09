@@ -27,8 +27,9 @@ class MainMenu {
 		this._Menu.addDataItem("/개발 노트/markdown"            , "../page-markdown/page.html");
 		this._Menu.addDataItem("/개발 노트/오픈소스 라이브러리" , "../page-open-source-lib/page.html");
 		this._Menu.addDataItem("/개발 노트/Visual Studio"       , "../page-vs/page.html");
-		this._Menu.addDataItem("/개발 노트/WinUI3"              , "../page-WinUI3/page.html");
 		this._Menu.addDataItem("/개발 노트/Code Composer Studio", "../page-ccs/page.html");
+
+		this._Menu.addDataItem("/윈도우즈 프로그래밍/WinUI3", "../page-WinUI3/page.html");
 	}
 	
 	initializeMenu() {

@@ -1,111 +1,29 @@
 ﻿# github 
 
-## 이슈 템플릿
+## 설정
 
-### 템플릿 파일 생성
+### 풀리퀘스트(PR:Pull Requests)
 
-* .git 이 있는 폴더에 .github\ISSUE_TEMPLATE 폴더 생성
+* `Settings/General`
+    - `Pull Requests`
 
-* md 파일 생성
+![Pull Requests](./github-settings-general-pull_requests.png "Pull Requests")
 
-> [!CAUTION]
-> **주의사항**: bom이 없어야 github에서 인식 함
+### master 브랜치 보호
 
+* `Settings/Branches`
 
-### 예시
+    - `Add classic branch protection rule`
 
-* 다운로드: [.github_ISSUE_TEMPLATE.zip](./.github_ISSUE_TEMPLATE.zip)
+* `Branch protection rule`
 
+    [!CAUTION]  
+    > 이 규칙은 **비공개 저장소**에서는 GitHub Team 또는 Enterprise 조직 계정으로 이동하기 전까지 적용되지 않습니다.  
+    > **비공개 저장소**에서 보호된 브랜치를 사용하려면, 저장소를 GitHub Team 조직 계정으로 이동해야 합니다.  
+    > GitHub Team은 **사용자당 월 $4**의 비용이 발생합니다.  
 
-#### feature_request.md
+![Move your work into an organization](./github-settings-branch-move_your_work_into_an_organization.png "Move your work into an organization")
 
-```
----
-name: 기능 요청
-about: 이 프로젝트에 대한 아이디어를 제안해 주세요
-title: ''
-labels: ''
-assignees: ''
+![Branch protection rule](./github-settings-branch-branch_protection_rule.png "Branch protection rule")
 
----
-
-**요청하는 기능이 어떤 문제와 관련이 있나요? 구체적으로 설명해 주세요.**
-문제가 무엇인지 명확하고 간결하게 설명해 주세요. 예: 항상 [...]할 때 불편합니다.
-
-**원하는 해결 방법을 설명해 주세요**
-원하는 결과에 대해 명확하고 간결하게 설명해 주세요.
-
-**고려해본 대안이 있다면 설명해 주세요**
-고려해본 다른 해결 방법이나 기능이 있다면 명확하고 간결하게 설명해 주세요.
-
-**추가 정보**
-기능 요청과 관련된 추가 정보나 스크린샷이 있다면 여기에 첨부해 주세요.
-
-```
-
-#### bug_report.md
-
-
-```
----
-name: 버그 리포트
-about: 개선을 위해 버그를 보고해 주세요
-title: ''
-labels: ''
-assignees: ''
-
----
-
-**버그 설명**
-버그가 무엇인지 명확하고 간결하게 설명해 주세요.
-
-**재현 방법**
-버그를 재현하는 단계:
-1. '...'로 이동
-2. '....' 클릭
-3. '....'까지 스크롤
-4. 오류 확인
-
-**예상 동작**
-예상했던 동작을 명확하고 간결하게 설명해 주세요.
-
-**스크린샷**
-해당되는 경우, 문제를 설명하는 데 도움이 되는 스크린샷을 첨부해 주세요.
-
-**데스크톱(아래 정보를 입력해 주세요):**
- - OS: [예: iOS]
- - 브라우저: [예: chrome, safari]
- - 버전: [예: 22]
-
-**스마트폰(아래 정보를 입력해 주세요):**
- - 기기: [예: iPhone6]
- - OS: [예: iOS8.1]
- - 브라우저: [예: 기본 브라우저, safari]
- - 버전: [예: 22]
-
-**추가 정보**
-문제에 대한 추가 정보를 입력해 주세요.
-
-```
-
-
-
-
-
-#### custom.md
-
-
-```
----
-name: 사용자 정의 이슈 템플릿
-about: 이 이슈 템플릿의 목적을 여기에 설명해 주세요.
-title: ''
-labels: ''
-assignees: ''
-
----
-
-```
-
-
-
+Move your work into an organization
