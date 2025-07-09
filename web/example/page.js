@@ -46,10 +46,7 @@ window.onload = function () {
 	initializePage();
 
 	initializePageInformation();
-
 	initializeMainMenu();
-
-	initializeMarkdwonView();
 
 	initializeSubMenu();
 }
