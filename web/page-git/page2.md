@@ -126,7 +126,7 @@ git pull origin {브랜치-이름} --allow-unrelated-histories
 ## 저장소 초기화
 
 ```
-{.git 폴더 삭제(`rmdir /s /q .git`}
+{.git 폴더 삭제(`rmdir /s /q .git`)}
 git init
 git add --all
 git commit -m "init"
