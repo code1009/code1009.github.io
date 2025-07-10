@@ -1,7 +1,7 @@
 ﻿# C++ 코드 조각
 
 
-## "Hello World!
+## Hello World!
 
 ### 설명
 
