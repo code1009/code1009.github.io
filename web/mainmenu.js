@@ -35,6 +35,8 @@ class MainMenu {
 
 		this._Menu.addDataItem("/윈도우즈 프로그래밍",        "../page-WinUI3/page.html");
 		this._Menu.addDataItem("/윈도우즈 프로그래밍/WinUI3", "../page-WinUI3/page.html");
+
+		this._Menu.addDataItem("/C++/문서", "../page-cpp-doc/page.html");
 	}
 	
 	initializeMenu() {
