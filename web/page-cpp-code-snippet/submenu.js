@@ -1,5 +1,4 @@
-﻿C++ 코드 조각코루틴
-  코드 조각조각use strict";
+﻿use strict";
 
 
 
