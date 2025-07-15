@@ -2,11 +2,7 @@
 
 ## 디버깅용 콘솔창
 
-### 설명서
-- https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app
-
-
-### 수정1
+### 코드
 ```C++
 
 #ifdef _DEBUG
