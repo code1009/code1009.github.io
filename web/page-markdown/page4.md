@@ -3,21 +3,19 @@
 ## 4. 코드
 * 예제
 
-<pre>
-<code>
-```c++
+<pre><code>
+```cpp
 int main() 
 {
     printf("Hello, Honeymon");
     return 0;
 }
 ```
-</code>
-</pre>
+</code></pre>
 
 * 미리보기
 
-> ```c++
+> ```cpp
 > int main() 
 > {
 >     printf("Hello, Honeymon");

@@ -45,7 +45,8 @@ function load_highlight_link_stylesheet() {
 	//link.href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css";
 	//link.href = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/default.min.css";
 	//link.href = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-dark.min.css";
-	link.href = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/github-dark.css";
+	//link.href = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/github-dark.css";
+	link.href = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/github.css";
 	link.rel  = "stylesheet";
 	document.head.appendChild(link);
 }
