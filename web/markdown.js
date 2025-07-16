@@ -23,7 +23,8 @@ function load_marked_script(callback) {
 function load_highlight_script(callback) {
 	var script = document.createElement('script');
 	//script.src = "https://cdn.jsdelivr.net/npm/highlight.js/lib/highlight.js";
-	script.src = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js";
+	//script.src = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js";
+	script.src = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/highlight.min.js";
 	script.type = "text/javascript";
 	script.onload = callback;
 	document.head.appendChild(script);
@@ -32,7 +33,8 @@ function load_highlight_script(callback) {
 function load_highlight_link_stylesheet() {
 	var link = document.createElement('link');
 	//link.href = "https://cdn.jsdelivr.net/npm/highlight.js/styles/github.css";
-	link.href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css";
+	//link.href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css";
+	link.href = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/default.min.css";
 	link.rel  = "stylesheet";
 	document.head.appendChild(link);
 }
