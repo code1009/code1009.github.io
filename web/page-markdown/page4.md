@@ -7,7 +7,7 @@
 ```cpp
 int main() 
 {
-    printf("Hello, Honeymon");
+    printf("Hello World!");
     return 0;
 }
 ```
@@ -18,7 +18,7 @@ int main()
 > ```cpp
 > int main() 
 > {
->     printf("Hello, Honeymon");
+>     printf("Hello World!");
 >     return 0;
 > }
 > ```
