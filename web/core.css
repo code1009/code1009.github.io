@@ -107,8 +107,8 @@ body {
 
 pre {
     background-color: #e4e6fa;
-    padding: 16px 16px;
-    border-radius: 5px;
+    padding: 0px 0px;
+    border-radius: 0px;
     font-size: 1.0em;
     font-family: "Nanum Gothic Coding", monospace;
     font-weight: 500;
