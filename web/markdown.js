@@ -44,12 +44,13 @@ function load_highlight_link_stylesheet() {
 	//link.href = "https://cdn.jsdelivr.net/npm/highlight.js/styles/github.css";
 	//link.href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css";
 	//link.href = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/default.min.css";
-	link.href = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-dark.min.css";
+	//link.href = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/atom-one-dark.min.css";
+	link.href = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/styles/github-dark.css";
 	link.rel  = "stylesheet";
 	document.head.appendChild(link);
 }
 
-function loadMarkDownScript(callback) {
+function loadMarkDownModule(callback) {
 	load_marked_script(
 		function () {
 			load_highlight_link_stylesheet();
