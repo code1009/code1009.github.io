@@ -38,7 +38,7 @@ function load_highlight_link_stylesheet() {
 function loadMarkDownScript(callback) {
 	load_marked_script(
 		function () {
-			load_highlight_stylesheet();
+			load_highlight_link_stylesheet();
 			load_highlight_script(callback);
 		}
 	);
