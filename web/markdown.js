@@ -29,6 +29,15 @@ function load_highlight_script(callback) {
 	script.onload = callback;
 	document.head.appendChild(script);
 }
+function load_highlight_cpp_script(callback) {
+	var script = document.createElement('script');
+	//script.src = "https://cdn.jsdelivr.net/npm/highlight.js/lib/highlight.js";
+	//script.src = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js";
+	script.src = "https://unpkg.com/@highlightjs/cdn-assets@11.11.1/languages/cpp.min.js";
+	script.type = "text/javascript";
+	script.onload = callback;
+	document.head.appendChild(script);
+}
 
 function load_highlight_link_stylesheet() {
 	var link = document.createElement('link');
@@ -43,7 +52,11 @@ function loadMarkDownScript(callback) {
 	load_marked_script(
 		function () {
 			load_highlight_link_stylesheet();
-			load_highlight_script(callback);
+			load_highlight_script(
+				function () {
+					load_highlight_cpp_script(callback);
+				}
+			);
 		}
 	);
 }
