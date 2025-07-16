@@ -12,7 +12,7 @@
 
 * 코드
 
-```C++
+```cpp
 
 #include <coroutine>
 #include <iostream>

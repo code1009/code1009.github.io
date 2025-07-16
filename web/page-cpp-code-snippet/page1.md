@@ -12,7 +12,7 @@
 
 * 코드
 
-```C++
+```cpp
 
 #include <iostream>
 using namespace std;
