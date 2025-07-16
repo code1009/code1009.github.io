@@ -50,6 +50,13 @@ function renderMarkdwon(markdownViewId, markdownFileURL) {
 		function () {
 			if (this.readyState == 4 && this.status == 200) {
 				const markdown = this.responseText;
+
+				marked.setOptions({
+					highlight: function (code, lang) {
+						return hljs.highlightAuto(code, [lang]).value;
+					}
+				});
+
 				const html = marked.parse(markdown);
 				document.getElementById(markdownViewId).innerHTML = html;
 			}
