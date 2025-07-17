@@ -45,8 +45,8 @@ class MainMenu {
 		for (let child of this._Menu.getRootItem().getChildren()) {
 			child.setExpanded(true);
 
-			for (let childOfChild of child.getChildren()) {
-				childOfChild.setExpanded(true);
+			for (let grandchild of child.getChildren()) {
+				grandchild.setExpanded(true);
 			}
 		}
 		
